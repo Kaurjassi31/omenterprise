@@ -30,24 +30,8 @@
     transition: 1s ease;
    
 }
-.iconn{
-    height: 70px;
-    width: 70px;
-    border-radius:50%;
-    background-color:#c4ecf3;
-    justify-content: center;
-}
-iconn:hover{
-    background-color:rgb(217, 235, 248) ;
-}
-.caard:hover{
-    background-color: rgb(129, 194, 240);
-    color: white; 
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 1s ease;
-}
+
+
 .plancard{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;

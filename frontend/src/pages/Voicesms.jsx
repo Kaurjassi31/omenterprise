@@ -18,45 +18,16 @@ const Voicesms = () => {
     <>
       <Cursor />
       <Nav />
-      <div className="container-fluid back">
-        <div
-          className="container text-center"
-          style={{
-            padding: "3%",
-          }}
-        >
-          <div className="row" style={{ fontSize: "18px", color: "black" }}>
-            <div className="col-sm-6 mt-5 ">
-              <h1
-                className="mt-5"
-                style={{ fontSize: "130px", marginLeft: "-100px" }}
-              >
-                VOICE
-              </h1>
-
-              <h1
-                className="mb-5"
-                style={{ fontSize: "130px", marginLeft: "46px" }}
-              >
-                SMS
-              </h1>
-
-              <h2 className="mx-5" style={{ color: "grey" }}>
-                {" "}
-                Top Voice Call Provider
-              </h2>
-            </div>
-
-            <div className="col-sm-6">
-              <img
-                src={voice}
-                className="img-fluid"
-              
-              />
-            </div>
+      <div className="container-fluid ">
+        <div className="container text-center mt-5" style={{ padding: "3%" }}>
+          <h1 className="mt-5" style={{ fontSize: "80px" }}>
+            Voice SMS
+          </h1>
           </div>
-        </div>
-      </div>
+        <div className="container">
+                    <img src={voice} className="img-fluid" />
+                    </div>
+                    </div>
 
       <div className="container">
         <div className="row">
@@ -70,7 +41,7 @@ const Voicesms = () => {
             <img
               src={clock}
               className="img-fluid mt-5"
-              style={{ height: "95px", width: "40%" }}
+              style={{ height: "75px", width: "35%" }}
             />
             <p className="mt-4">
               {" "}
@@ -82,7 +53,7 @@ const Voicesms = () => {
             <img
               src={chat}
               className="img-fluid mt-5"
-              style={{ height: "95px", width: "40%" }}
+              style={{ height: "75px", width: "35%" }}
             />
             <p className="mt-4">
               {" "}
@@ -94,7 +65,7 @@ const Voicesms = () => {
             <img
               src={laptop}
               className="img-fluid mt-5"
-              style={{ height: "100px", width: "40%" }}
+              style={{ height: "85px", width: "35%" }}
             />
             <p className="mt-3">
               Highly preferred channel to <br /> get in touch with customer{" "}
@@ -106,7 +77,7 @@ const Voicesms = () => {
             <img
               src={support}
               className="img-fluid mt-5"
-              style={{ height: "100px", width: "40%" }}
+              style={{ height: "85px", width: "35%" }}
             />
             <p className="mt-3">
               {" "}
@@ -117,7 +88,7 @@ const Voicesms = () => {
           </div>
         </div>
       </div>
-
+<div className="container-fluid"style={{backgroundColor:"#023368",color:"white"}}>
       <div className="container text-center">
         <h2 className="mt-5">WE PROVIDE BEST VOICE SMS SERVICE</h2>
         <p
@@ -125,7 +96,7 @@ const Voicesms = () => {
           style={{
             fontFamily: "Poppins', sans-serif",
             fontSize: "20px",
-            color: "black",
+            color: "white",
             width:"80%"
           }}
         >
@@ -139,9 +110,9 @@ const Voicesms = () => {
         </p>
       </div>
 
-      <div className="container text-center mt-5 mb-5">
+      <div className="container text-center mt-5">
         <h2>VOICE MESSAGING FEATURES</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-5">
           <div class="col">
             <div class="card h-100">
               <center>
@@ -153,14 +124,14 @@ const Voicesms = () => {
                 />
               </center>
               <div class="card-body">
-                <h5 class="card-title"> Easily message on-the-go</h5>
-                <p class="card-text">
+                <h4 class="card-title" style={{color:"#023368"}}> Easily message on-the-go</h4>
+                <h6 class="card-text">
                   People speak about four times faster than they type, making
                   voice messaging great for explaining longer or more complex
                   ideas without the time and involvement of typing and editing a
                   message. It’s also helpful for when you’re on the move and
                   don’t have time to stop and type.
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -175,14 +146,14 @@ const Voicesms = () => {
                 />
               </center>
               <div class="card-body">
-                <h5 class="card-title"> Get to it when you can</h5>
-                <p class="card-text">
+                <h4 class="card-title"  style={{color:"#023368"}}> Get to it when you can</h4>
+                <h6 class="card-text">
                   Leaving a voice message can often better for a recipient than
                   calling them since they can listen and respond when they have
                   a free moment.Voice messages allow the recipient to listen to
                   your message at their convenience. Voice messages provide
                   flexibility for both parties.
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -197,20 +168,20 @@ const Voicesms = () => {
                 />
               </center>
               <div class="card-body">
-                <h5 class="card-title">Better express yourself</h5>
-                <p class="card-text">
+                <h4 class="card-title"  style={{color:"#023368"}}>Better express yourself</h4>
+                <h6 class="card-text">
                   Speaking in your own voice allows you to build a more personal
                   connection and effectively communicate. It’s easier for your
                   tone and personality to come through, which can sometimes get
                   lost in translation in written communications.It allows for
                   immediate feedback through vocal.
-                </p>
+                </h6>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+      </div>
       <Footer />
     </>
   );

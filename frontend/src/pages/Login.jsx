@@ -16,7 +16,7 @@ const Login = () => {
 
           <div className="row">
         <div className="col-sm-6">
-        <img src={login} className="img-fluid"   />
+        <img src={login} className="img-fluid mt-5"   />
 
         </div>
             <div className="col-sm-5 login">

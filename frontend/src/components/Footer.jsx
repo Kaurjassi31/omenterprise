@@ -61,7 +61,7 @@ const Footer = () => {
                 href="voicesms"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                <li>Voice</li>
+                <li>Voice Messages</li>
               </a>
             </ul>
           </div>

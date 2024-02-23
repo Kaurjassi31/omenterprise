@@ -1,6 +1,6 @@
 import React from "react";
 
-import theme from "../assets/bulksms1.png";
+import theme from "../assets/digitalnew.jpg";
 import theme1 from "../assets/software1.png";
 import theme2 from "../assets/website.png";
 import Button from "../components/UI/Button";
@@ -17,7 +17,7 @@ const Slider = () => {
           <div class="carousel-item active">
             <div className="container">
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-6 mt-5">
                   <h1 className=" text-bold mt-5" style={{color:"#023368"}}>
                     <b>
                       India’s No. 1 <br /> Bulk SMS Platform
@@ -36,7 +36,7 @@ const Slider = () => {
                   <img
                     src={theme}
                     class="d-block w-100"
-                    style={{ height: "450px" }}
+                   className="img-fluid"
                     alt="..."
                   />
                 </div>
@@ -46,7 +46,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div className="container">
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-6 mt-5">
                   <h1 className=" text-bold mt-5" style={{color:"#023368"}}>
                     <b>
                       Best Website Design <br /> Services In India.
@@ -69,7 +69,7 @@ const Slider = () => {
           <div class="carousel-item">
             <div className="container">
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-6 mt-5">
                   <h1 className=" text-bold mt-5" style={{color:"#023368"}}>
                     <b>
                       WhatsApp Bulk <br /> SMS

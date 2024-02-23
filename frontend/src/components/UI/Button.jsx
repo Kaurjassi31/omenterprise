@@ -1,9 +1,16 @@
 import React from "react";
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <button className="bg-primary text-white  px-6 py-2 rounded-full">
-      Get Started
+    <button
+    className=" btn btn-primary mt-2"
+    style={{
+      backgroundColor:"#023368"
+    }}
+  
+    >  Know More
+    
+      {props.children}
     </button>
   );
 };

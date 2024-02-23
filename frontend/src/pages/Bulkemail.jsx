@@ -16,7 +16,7 @@ const Bulkemail = () => {
     <>
       <Cursor />
       <Nav />
-      <div className="container-fluid back">
+      <div className="container-fluid">
         <div
           className="container text-center"
           style={{

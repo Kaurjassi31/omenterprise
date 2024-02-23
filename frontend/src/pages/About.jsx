@@ -448,7 +448,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
+<Footer/>
     </>
   );
 };

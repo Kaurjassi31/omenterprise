@@ -1,22 +1,32 @@
 import React from "react";
 import "../App.css";
-import Cursor from "../components/Cursor";
-import Nav from "../components/Nav";
+
+import Card from "../components/UI/Card";
+import whatsapp from "../assets/chat1.svg";
+import email from "../assets/emailnew.png";
+import sms from "../assets/bulk.png";
+import voice from "../assets/voicenew.png";
+import website from "../assets/website2.jpg";
+import software from "../assets/bulb.png";
+import social from "../assets/social3.png";
+import digital from "../assets/chat2.svg";
 import read from "../assets/read.png";
 import clock1 from "../assets/clock1.png";
 import chat from "../assets/sms.png";
-import call from "../assets/call.png";
 import file from "../assets/files.png";
-import Card from "../components/UI/Card";
-import whatsapp from "../assets/card1.svg";
-import email from "../assets/card6.svg";
-import sms from "../assets/card2.svg";
-import voice from "../assets/card5.svg";
-import website from "../assets/card4.svg";
-import software from "../assets/card2.svg";
-import social from "../assets/card7.svg";
-import digital from "../assets/card3.svg";
+import sales1 from "../assets/sales1.svg";
+import sales2 from "../assets/sales2.svg";
+import sales3 from "../assets/sales3.svg";
+
+
+import call from "../assets/call.png";
+import Nav from "../components/Nav";
+import Button from "../components/UI/Button";
 import Footer from "../components/Footer";
+import Cursor from "../components/Cursor";
+
+
+
 
 
 const Services = () => {
@@ -131,90 +141,103 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="container-fluid mt-5" >
-        <div className="container-fluid cardglass">
-   
-        <div className="container mb-4">
-        <h1 className="text-center mt-3 mb-3 " style={{fontFamily:"Poppins', sans-serif"}}>Our services</h1>
-        <div className="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-5">
-          <Card img={sms} title={"Bulk Messages"} >
-            Sending of a large number of Bulk messages  to multiple
-            recipients.
-            <hr />
-            <a href="bulksms"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card
-            img={whatsapp}
-            className="img-fluid"
-            title={"Whatsapp Messages"}
-          >
-            Send large number of WhatsApp messages to
-            multiple recipients.
-            <hr />
-            <a href="whatsapp"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={email} title={"Bulk Emails"}>
-            Send a large number of Bulk emails to a group of people or
-            recipients. 
-            <hr />
-            <a href="bulkemail"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={voice} title={"Voice SMS"}>
-            Service given to individuals or businesses to send pre-recorded
-            voice messages.
-            <hr />
-            <a href="voicesms"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={website} title={"Website Development"}>
-            Developing a simple single static page of plain text to complex web
-            applications.
-            <hr />
-            <a href="website"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          
-          <Card img={social} title={"Socialmedia Management"}>
-            Strategies to maintain and grow a social presence,
-            on top of administrative.
-            <hr />
-            <a href="socialmedia"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-     
-          <Card img={digital} title={"Digital Marketing"} style={{height:"160px",width:"75%"}}>
-           defining software solutions to one or
-            more sets of problems.
-            <hr />
-            <a href="digitalmarketing"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={software} title={"Software Development"} style={{height:"160px",width:"75%"}}>
-           defining software solutions to one or
-            more sets of problems.
-            <hr />
-            <a href="software"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
+      <div
+        className="container-fluid mt-5"
+        style={{ backgroundColor: "#023368" }}
+      >
+        <div className="container-fluid ">
+          <div className="container">
+            <h1
+              className="text-center mt-3 mb-3 text-light"
+              style={{ fontFamily: "Poppins', sans-serif" }}
+            >
+              Our services
+            </h1>
+            <div className="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-5">
+              <Card img={sms} title={"Bulk Messages"}>
+                Sending of a large number of Bulk messages to multiple
+                recipients.
+                <hr />
+                <a href="bulksms">
+                  <Button />
+                </a>
+              </Card>
+              <Card
+                img={whatsapp}
+                className="img-fluid"
+                title={"Whatsapp Messages"}
+              >
+                Send large number of WhatsApp messages to multiple recipients.
+                <hr />
+                <a href="whatsapp">
+                  <Button />
+                </a>
+              </Card>
+              <Card img={email} title={"Bulk Emails"}>
+                Send a large number of Bulk emails to a group of people or
+                recipients.
+                <hr />
+                <a href="bulkemail">
+                  {" "}
+                  <Button />
+                </a>
+              </Card>
+              <Card img={voice} title={"Voice SMS"}>
+                Service given to individuals or businesses to send pre-recorded
+                voice messages.
+                <hr />
+                <a href="voicesms">
+                  {" "}
+                  <Button />
+                </a>
+              </Card>
+              <Card img={website} title={"Website Development"}>
+                Developing a simple single static page of plain text to complex
+                web applications.
+                <hr />
+                <a href="website">
+                  <Button />
+                </a>
+              </Card>
+
+              <Card img={social} title={"Socialmedia Management"}>
+                Strategies to maintain and grow a social presence, on top of
+                administrative.
+                <hr />
+                <a href="socialmedia">
+                  {" "}
+                  <Button />
+                </a>
+              </Card>
+
+              <Card
+                img={digital}
+                title={"Digital Marketing"}
+                style={{ height: "160px", width: "75%" }}
+              >
+                defining software solutions to one or more sets of problems.
+                <hr />
+                <a href="digitalmarketing">
+                  {" "}
+                  <Button />
+                </a>
+              </Card>
+              <Card
+                img={software}
+                title={"Software Development"}
+                style={{ height: "160px", width: "75%" }}
+              >
+                defining software solutions to one or more sets of problems.
+                <hr />
+                <a href="software">
+                  {" "}
+                  <Button />
+                </a>
+              </Card>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-      </div>
-
-
-     
-   
       <Footer />
       
     </>

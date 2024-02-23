@@ -11,6 +11,7 @@ import care from "../assets/care.png";
 import query from "../assets/query.png";
 import office from "../assets/office.png";
 import ms from "../assets/marketing.png";
+import Button from "../components/UI/Button";
 const Contact = () => {
   return (
     <>
@@ -102,7 +103,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid" style={{}}>
+      <div className="container-fluid"  style={{backgroundColor: "#023368"}}>
         <div className="row">
           <div className="col-sm-1"></div>
           <div className="col-sm-5 mt-3">
@@ -110,8 +111,8 @@ const Contact = () => {
           </div>
 
           <div
-            className="col-sm-4 mt-5 mb-3 text-light"
-            style={{ borderRadius: "12px", backgroundColor: "#3a4b5d" }}
+            className="col-sm-4 mt-5 mb-5"
+            style={{ borderRadius: "12px", backgroundColor:"white",color:"black" }}
           >
             <form
   action="https://formspree.io/f/mvoealkr"
@@ -133,7 +134,6 @@ const Contact = () => {
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">
-                  {" "}
                   Phone Number
                 </label>
                 <input
@@ -172,9 +172,10 @@ const Contact = () => {
               </div>
 
               <center>
-                <button type="submit" class="btn btn-light mb-4 mt-3">
-                  Submit
-                </button>
+               <button className=" btn btn-primary mt-2 mb-3"
+    style={{
+      backgroundColor:"#023368"
+    }}>Submit</button>
               </center>
             </form>
           </div>

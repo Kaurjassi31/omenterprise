@@ -37,14 +37,14 @@ const Digitalmarketing = () => {
         </div>
       </div>
 
-      <div className="container-fluid text-center mt-5 mb-5">
+      <div className="container-fluid text-center" style={{backgroundColor:"#023368",color:"white"}}>
         <div className="row">
-          <h1 className="mt-3 mb-1">Our Strategies</h1>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <h1 className="mt-5 mb-1">Our Strategies</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mt-4">
             <div class="col">
-              <div class="card scard" >
+              <div class="card" >
                 <div class="card-body">
-                  <h2 class="card-title">Strategic Digital<br/>Marketing:</h2>
+                  <h2 class="card-title" style={{color:"#023368"}}>Strategic Digital<br/>Marketing:</h2>
                  <ol>
                   <li>    Tailored strategies crafted to suit your unique business objectives.</li>
                   <li>    Comprehensive analysis and research to identify your target audience and market trends.</li>
@@ -54,9 +54,9 @@ const Digitalmarketing = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card scard" >
+              <div class="card" >
                 <div class="card-body">
-                  <h2 class="card-title"> Web Design and Development:</h2>
+                  <h2 class="card-title" style={{color:"#023368"}}> Web Design and <br/> Development:</h2>
                  <ol>
 <li>Stunning, responsive websites optimized for user experience and conversion.</li>           
 <li>Seamless integration of innovative design elements and cutting-edge technology.</li>
@@ -66,9 +66,9 @@ const Digitalmarketing = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card scard" >
+              <div class="card" >
                 <div class="card-body">
-                  <h2 class="card-title">. Social Media Management (SMM):</h2>
+                  <h2 class="card-title" style={{color:"#023368"}}>Social Media <br/>Management (SMM):</h2>
                  <ol>
 <li>Engage with your audience across popular social media platforms.</li>        
 <li>Create compelling content that sparks conversations and builds brand loyalty.</li>
