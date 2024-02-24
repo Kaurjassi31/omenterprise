@@ -1,0 +1,17 @@
+.btn{
+    background-color:#023368;
+    color: white;  
+    animation: zoomInOut 4s infinite;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1); /* Start with normal size */
+    }
+    50% {
+        transform: scale(1.1); /* Zoom in 1.5 times */
+    }
+    100% {
+        transform: scale(1); /* Return to normal size */
+    }
+}
