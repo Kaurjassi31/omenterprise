@@ -92,7 +92,7 @@ const Footer = () => {
               >
                 <li>Services</li>
               </a>
-              <li>Careers</li>
+              
               <a
                 href="contact"
                 style={{ textDecoration: "none", color: "white" }}
