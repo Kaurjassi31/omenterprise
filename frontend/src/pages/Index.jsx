@@ -21,7 +21,7 @@ import chat2 from "../assets/chat2.png";
 import star from "../assets/star.png";
 import verified from "../assets/verified.png";
 import pricetag from "../assets/price.png";
-import sender from "../assets/sender1.jpg";
+import sender from "../assets/sender1.png";
 import Feed from "../components/Feed";
 
 
@@ -94,7 +94,6 @@ const Index = () => {
         </center>
        </div>
 
-       <Swiperr />
 
 
        <div className="container-fluid text-center mt-5 mb-5" style={{backgroundColor:"#023368"}}>
@@ -202,6 +201,16 @@ const Index = () => {
 <Pricecard />
 </div>
        
+<div className="container">
+        <Feed/>
+      </div>
+      <Swiperr />
+
+      <div className="container-fluid text-center mt-5 mb-5">
+        <Accordion />
+      </div>
+
+
 <div className="container-fluid text-center">
         <h1 className="mt-5 mb-5">WHY CHOOSE US?</h1>
         <div className="row">
@@ -270,13 +279,8 @@ const Index = () => {
 
      
        
-      <div className="container-fluid text-center mt-5 mb-5">
-        <Accordion />
-      </div>
-
-      <div className="container">
-        <Feed/>
-      </div>
+    
+   
      
      <Footer />
     </>

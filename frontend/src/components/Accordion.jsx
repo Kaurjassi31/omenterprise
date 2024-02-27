@@ -3,10 +3,10 @@ import React from "react";
 const Accordion = () => {
   return (
     <>
-    <div className="container">
-      <h1 className="mt-4 mb-4" style={{color:"#023368"}}>Frequently Asked Questions</h1>
+    <div className="container " style={{backgroundColor:"#023368"}}>
+      <h1 className="mt-4 mb-4" style={{color:"white"}}>Frequently Asked Questions</h1>
         <div class="accordion mx-auto" id="accordionExample" style={{width:"60%"}}>
-        <div class="accordion-item">
+        <div class="accordion-item mt-2 mb-2">
           <h2 class="accordion-header">
             <button
               class="accordion-button"
@@ -33,7 +33,7 @@ const Accordion = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item mt-2 mb-2">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed"
@@ -58,7 +58,7 @@ const Accordion = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item mt-2 mb-2">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed"
@@ -82,7 +82,7 @@ const Accordion = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item mt-2 mb-5">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed"

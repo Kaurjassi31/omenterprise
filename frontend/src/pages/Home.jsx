@@ -25,7 +25,7 @@ import delivery from "../assets/delivery.png";
 import chat2 from "../assets/chat2.png";
 import verified from "../assets/verified.png";
 import pricetag from "../assets/price.png";
-import sender from "../assets/sender1.jpg";
+import sender from "../assets/sender1.png";
 import drip from "../assets/drip.png";
 import lead from "../assets/lead.png";
 import generation from "../assets/generation.png";
