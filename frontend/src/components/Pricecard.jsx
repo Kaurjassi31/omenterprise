@@ -13,7 +13,7 @@ function Pricecard() {
 
             
             <div class="price-card--cta">
-              <a class="price-card--cta--button btn bg-success text-light mt-3" href="/get-started-today">
+              <a class="price-card--cta--button btn  text-light mt-3" style={{backgroundColor:"#023368"}} href="/get-started-today">
                 Get Started
               </a>
             </div>
@@ -72,7 +72,7 @@ function Pricecard() {
           
 
             <div class="price-card--cta">
-            <a class="price-card--cta--button btn bg-success text-light mt-3" href="/get-started-today">
+            <a class="price-card--cta--button btn  text-light mt-3" style={{backgroundColor:"#023368"}} href="/get-started-today">
                 Get Started
               </a>
             </div>
@@ -126,12 +126,12 @@ function Pricecard() {
             <div class="price-card--header">
               <h4>Bulk SMS</h4>
             </div>
-            <div class="price-card--hero-text">Most Popular Plan</div>
+            <div class="price-card--hero-text" style={{backgroundColor:"#023368"}}>Most Popular Plan</div>
 
         
 
             <div class="price-card--cta">
-            <a class="price-card--cta--button btn bg-success text-light mt-3" href="/get-started-today">
+            <a class="price-card--cta--button btn  mt-3" style={{backgroundColor:"#023368",color:"white"}} href="/get-started-today">
                 Get Started
               </a>
             </div>
@@ -186,7 +186,7 @@ function Pricecard() {
             </div>
 
             <div class="price-card--cta">
-            <a class="price-card--cta--button btn bg-success text-light mt-3" href="/get-started-today">
+            <a class="price-card--cta--button btn   mt-3" style={{backgroundColor:"#023368",color:"white"}} href="/get-started-today">
                 Get Started
               </a>
             </div>
@@ -242,7 +242,7 @@ function Pricecard() {
             
 
             <div class="price-card--cta">
-            <a class="price-card--cta--button btn bg-success text-light mt-3" href="/get-started-today">
+            <a class="price-card--cta--button btn  mt-3" style={{backgroundColor:"#023368",color:"white"}} href="/get-started-today">
                 Get Started
               </a>
             </div>

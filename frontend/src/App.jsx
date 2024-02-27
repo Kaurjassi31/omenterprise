@@ -17,6 +17,9 @@ import Voicesms from "./pages/Voicesms";
 import Login from "./pages/Login";
 import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
+import Account from "./pages/Account";
+import Terms from "./pages/Terms";
+
 
 function App() {
   return (
@@ -36,9 +39,12 @@ function App() {
         <Route path="/voicesms" element={<Voicesms />} />
         <Route path="/software" element={<Software />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/account" element={<Account />} />
         <Route path="/digitalmarketing" element={<Digitalmarketing />} />
         <Route path="/Index" element={<Index />} />
         <Route path="/Privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+
       </Routes>
     </>
   );

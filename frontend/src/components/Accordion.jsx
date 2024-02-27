@@ -4,7 +4,7 @@ const Accordion = () => {
   return (
     <>
     <div className="container">
-      <h1 className="mt-4 mb-4">Frequently Asked Questions</h1>
+      <h1 className="mt-4 mb-4" style={{color:"#023368"}}>Frequently Asked Questions</h1>
         <div class="accordion mx-auto" id="accordionExample" style={{width:"60%"}}>
         <div class="accordion-item">
           <h2 class="accordion-header">

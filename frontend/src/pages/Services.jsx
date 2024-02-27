@@ -53,94 +53,7 @@ const Services = () => {
      
     
 
-      <div className="container-fluid text-center">
-        <div className="container">
-          <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
-          <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">
-            <div class="col">
-              <div class="card">
-                <center>
-                  <img
-                    src={chat}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
-                <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                  UNPARALLED OPEN RATE
-                  </p>
-                  <h1 class="card-title mt-3">98%</h1>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <center>
-                  <img
-                    src={file}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
-                <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                  HIGHEST CLICK <br/>RATE
-                  </p>
-                  <h1 class="card-title mt-3">20%</h1>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <center>
-                  <img
-                    src={clock1}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
-                <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                  FASTEST RESPONSE TIME
-                  </p>
-                  <h1 class="card-title mt-3">90s</h1>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <center>
-                  <img
-                    src={read}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
-                <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                 EXTREME READ <br/> RATE
-                  </p>
-                  <h1 class="card-title mt-3">90%</h1>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       <div
         className="container-fluid mt-5"
         style={{ backgroundColor: "#023368" }}
@@ -238,6 +151,95 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      <div className="container-fluid text-center">
+        <div className="container">
+          <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">
+            <div class="col">
+              <div class="card">
+                <center>
+                  <img
+                    src={chat}
+                    class="card-img-top"
+                    className="img-fluid mt-3"
+                    style={{ height: "60px", width: "60px" }}
+                    alt="..."
+                  />
+                </center>
+                <div class="card-body">
+                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
+                  UNPARALLED OPEN RATE
+                  </p>
+                  <h1 class="card-title mt-3">98%</h1>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <center>
+                  <img
+                    src={file}
+                    class="card-img-top"
+                    className="img-fluid mt-3"
+                    style={{ height: "60px", width: "60px" }}
+                    alt="..."
+                  />
+                </center>
+                <div class="card-body">
+                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
+                  HIGHEST CLICK <br/>RATE
+                  </p>
+                  <h1 class="card-title mt-3">20%</h1>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <center>
+                  <img
+                    src={clock1}
+                    class="card-img-top"
+                    className="img-fluid mt-3"
+                    style={{ height: "60px", width: "60px" }}
+                    alt="..."
+                  />
+                </center>
+                <div class="card-body">
+                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
+                  FASTEST RESPONSE TIME
+                  </p>
+                  <h1 class="card-title mt-3">90s</h1>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <center>
+                  <img
+                    src={read}
+                    class="card-img-top"
+                    className="img-fluid mt-3"
+                    style={{ height: "60px", width: "60px" }}
+                    alt="..."
+                  />
+                </center>
+                <div class="card-body">
+                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
+                 EXTREME READ <br/> RATE
+                  </p>
+                  <h1 class="card-title mt-3">90%</h1>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer />
       
     </>

@@ -15,7 +15,7 @@ const Nav = () => {
         }}
       >
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/index">
             <img
               src={logo}
               className="img-fluid"
@@ -36,7 +36,7 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item product">
-                <a className="nav-link active" aria-current="page" href="">
+                <a className="nav-link active" aria-current="page" href="index">
                   Products
                 </a>
               </li>
@@ -62,9 +62,9 @@ const Nav = () => {
                  <a
                   className="nav-link"
                 
-                  href="/login"
+                  href="/account"
                 >
-                Sign Up Free
+                Sign Up Now
                 </a>
               </button>
               
