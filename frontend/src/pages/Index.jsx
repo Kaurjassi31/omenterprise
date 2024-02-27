@@ -276,11 +276,6 @@ const Index = () => {
           <div className="col-sm-1"></div>
         </div>
       </div>
-
-     
-       
-    
-   
      
      <Footer />
     </>
