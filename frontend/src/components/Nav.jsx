@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from "../assets/logo.png";
+import "../pages/services.css";
+import ProductDropdown from "./ProductDropdown";
 
 
 import DropdownMenu from "../components/UI/DropdownMenu";
@@ -37,12 +39,12 @@ const Nav = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item product">
                 <a className="nav-link active" aria-current="page" href="index">
-                  Products
+                <ProductDropdown/>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-3 mx-2">
                 <a
-                  className="nav-link"
+                  className="nav-link "
                 
                   href="/login"
                 >
@@ -53,7 +55,7 @@ const Nav = () => {
             </ul>
             <form className="d-flex" role="search">
             <button
-    className=" btn btn-primary mt-1 mx-4"
+    className=" btn btn-primary  mx-3 mb-3"
     style={{
       backgroundColor:"#023368"
     }}

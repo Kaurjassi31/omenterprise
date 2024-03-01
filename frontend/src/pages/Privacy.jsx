@@ -21,6 +21,7 @@ const Privacy = () => {
           <img src={policy} className="img-fluid" />
         </div>
       </div>
+
       <div className="container">
         <h6>
           At Om Enterprises Group, accessible from
@@ -69,6 +70,7 @@ const Privacy = () => {
             alignItems: "Start",
           }}
         >
+          
           <h1>How we use your information</h1>
         </div>
         <ul>
@@ -88,21 +90,24 @@ const Privacy = () => {
           <li>Send you emails</li>
           <li>Find and prevent fraud</li>
         </ul>
-        </div>
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            justifyContent: "start",
-            alignItems: "Start",
-          }}
-        >
-          <h1>Types of Data Collected</h1>
-          </div>
+      </div>
 
-
-
-       
+      <div
+        className="container"
+        style={{
+          display: "flex",
+          justifyContent: "start",
+          alignItems: "Start",
+        }}
+      >
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          aperiam dicta rerum ex eos deserunt iste ullam suscipit voluptas
+          officia quam ipsum perferendis labore animi, iusto, tenetur
+          
+        </p>
+        <h1>Types of Data Collected</h1>
+      </div>
     </>
   );
 };
