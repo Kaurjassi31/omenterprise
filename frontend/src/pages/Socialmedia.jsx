@@ -7,7 +7,6 @@ import sc1 from "../assets/sc1.jpg";
 import sc2 from "../assets/sc2.jpg";
 import sc3 from "../assets/sc3.jpg";
 import Footer from "../components/Footer";
-import Socialprice from "../components/Socialprice";
 
 const Socialmedia = () => {
   return (
@@ -102,10 +101,7 @@ const Socialmedia = () => {
           </div>
         </div>
       </div>
-<div className="container-fluid mt-5">
-<Socialprice/>
 
-</div>
 
 
 
