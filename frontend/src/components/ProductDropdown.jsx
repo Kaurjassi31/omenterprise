@@ -6,7 +6,7 @@ import logo from "../assets/logo.png";
 function ProductDropdown() {
   return (
     <div className="product-dropdown">
-      <button className="dropbtn">
+      <button className="dropbtn" style={{fontSize:"20px"}}>
         Products<span className="arrow">&#11167;</span>
       </button>
       <div className="dropdown-content" style={{ textAlign: "left" }}>
@@ -17,7 +17,7 @@ function ProductDropdown() {
             <img
               src={logo}
               className="img-fluid mt-2"
-              style={{ height: "70px", width: "80px" }}
+              style={{ height: "80px", width: "80px" }}
             />
           </a>
             </div>

@@ -2,7 +2,6 @@ import React from "react";
 
 // import { StyleClass } from 'primereact/styleclass';
 
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import web3 from "../assets/web3.png";
 import people from "../assets/people.png";
@@ -16,7 +15,6 @@ import Footer from "../components/Footer";
 const Website = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid mt-5">
         <div

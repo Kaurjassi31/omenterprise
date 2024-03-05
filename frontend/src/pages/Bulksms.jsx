@@ -1,6 +1,5 @@
 import React from "react";
 import Bulk from "../assets/bulksms1.png";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import "../pages/services.css";
 import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
@@ -18,7 +17,6 @@ const Bulksms = () => {
   return (
     <>
       <Nav />
-      <Cursor />
       <div className="container-fluid ">
         <div className="container text-center mt-5" style={{ padding: "3%" }}>
           <h1 className="mt-5" style={{ fontSize: "80px" }}>

@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../components/Nav";
-import Cursor from "../components/Cursor";
 import "../pages/services.css";
 import voice from "../assets/voice4.png";
 import clock from "../assets/clock.png";
@@ -16,7 +15,6 @@ import next from "../assets/next.png";
 const Voicesms = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid ">
         <div className="container text-center mt-5" style={{ padding: "3%" }}>

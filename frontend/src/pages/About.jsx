@@ -13,7 +13,6 @@ import kavita from "../assets/kavita.png";
 import mission from "../assets/mission1.png";
 import Footer from "../components/Footer";
 import anilsir from "../assets/anilsir.png";
-import Cursor from "../components/Cursor";
 import ic1 from "../assets/ic1.png";
 import ic2 from "../assets/ic2.png";
 import ic3 from "../assets/ic3.png";
@@ -27,7 +26,6 @@ import Round from "../components/Round";
 const About = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div
         className="container-fluid"

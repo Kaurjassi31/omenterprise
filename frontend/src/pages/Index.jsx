@@ -1,5 +1,4 @@
 import React from "react";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import "../pages/indexnew.css";
 import New from "../assets/new.gif";
@@ -13,7 +12,7 @@ import read from "../assets/read.png";
 import clock1 from "../assets/clock1.png";
 import chat from "../assets/sms.png";
 import file from "../assets/files.png";
-import Pricecard from '../components/Pricecard';
+import Pricecard from "../components/Pricecard";
 import Accordion from "../components/Accordion";
 import Footer from "../components/Footer";
 import delivery from "../assets/delivery.png";
@@ -37,26 +36,148 @@ import search from "../assets/search.png";
 import goal from "../assets/goal.png";
 import desktop from "../assets/desktop.png";
 import profile from "../assets/profile.png";
+import Video from "../components/Video";
+import money from "../assets/money.png";
+import gold from "../assets/gold.png";
+import silver from "../assets/silver.png";
+import bronze from "../assets/bronze.png";
 
 const Index = () => {
   return (
     <>
-      <Cursor />
+      
       <Nav />
+      
       <div className="container mt-5">
-        <h1 className="mt-5 text-center" style={{ fontSize:"60px",color:"#023368",padding:"4%" }}>
+        <h1
+          className="text-center"
+          style={{ fontSize: "60px", color: "#023368" }}
+        >
           INDIA’S NO. 1 BULK SMS <br /> PLATFORM
         </h1>
-        </div>
-        <div className="container">
-        <img src={New} className="img-fluid " />
-        
       </div>
-      
+      <div className="container">
+        <img src={New} className="img-fluid" />
+      </div>
 
+      <Video />
 
+      <div className="container mt-5">
+        <h1 style={{ color: "#023368" }}>
+          <img
+            src={money}
+            className="img-fluid"
+            style={{ height: "60px", width: "60px" }}
+          />
+          <span className="mx-5">MONEY FLOW MATRIX</span>
+        </h1>
 
-       <div className="container text-center mt-5 mb-5" style={{backgroundColor:"#023368"}}>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-5">
+          <div class="col text-center">
+            <div class="card">
+              <center>
+                <img
+                  src={gold}
+                  className="img-fluid mt-4"
+                  style={{ height: "60px", width: "60px" }}
+                />
+                
+              </center>
+              <div class="card-body">
+              <h2 className="mx-3" style={{ color: "#023368" }}>GOLD</h2>
+                <ul class="price-card--features--list"  style={{textDecoration:"none",listStyle:"none"}} >
+                  <li  >
+                    Life Time Validity
+                  </li>
+                  <li >
+                    Instant Sender Id Approval
+                  </li>
+                  <li >
+                    Send SMS Multi Language Support
+                  </li>
+                  <li >
+                    Can send 24 x 7
+                  </li>
+                  <li >
+                    With Instant delivery report
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card">
+            <center>
+              <img
+                src={silver}
+                class="card-img-top mt-4"
+                style={{ height: "60px", width: "60px" }}
+                alt="..."
+              />
+                            </center>
+
+              <div class="card-body">
+              <h2 className="mx-3" style={{ color: "#023368" }}>SILVER</h2>
+                <ul class="price-card--features--list"  style={{textDecoration:"none",listStyle:"none"}} >
+                  <li  >
+                    Life Time Validity
+                  </li>
+                  <li >
+                    Instant Sender Id Approval
+                  </li>
+                  <li >
+                    Send SMS Multi Language Support
+                  </li>
+                  <li >
+                    Can send 24 x 7
+                  </li>
+                  <li >
+                    With Instant delivery report
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card">
+            <center>
+              <img
+                src={bronze}
+                class="card-img-top mt-4"
+                style={{ height: "60px", width: "60px" }}
+                alt="..."
+              />
+              </center>
+
+              <div class="card-body">
+              <h2 className="mx-3" style={{ color: "#023368" }}>BRONZE</h2>
+                <ul class="price-card--features--list"  style={{textDecoration:"none",listStyle:"none"}} >
+                  <li  >
+                    Life Time Validity
+                  </li>
+                  <li >
+                    Instant Sender Id Approval
+                  </li>
+                  <li >
+                    Send SMS Multi Language Support
+                  </li>
+                  <li >
+                    Can send 24 x 7
+                  </li>
+                  <li >
+                    With Instant delivery report
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="container text-center mt-5 mb-5"
+        style={{ backgroundColor: "#023368" }}
+      >
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center"
@@ -77,7 +198,10 @@ const Index = () => {
                   />
                 </center>
                 <div class="card-body">
-                  <p class="card-text mt-3" style={{ fontSize: "22px",color:"#023368" }}>
+                  <p
+                    class="card-text mt-3"
+                    style={{ fontSize: "22px", color: "#023368" }}
+                  >
                     UNPARALLED OPEN RATE
                   </p>
                   <h1 class="card-title mt-3" style={{ color: "#023368" }}>
@@ -98,7 +222,10 @@ const Index = () => {
                   />
                 </center>
                 <div class="card-body">
-                  <p class="card-text mt-3" style={{ fontSize: "22px",color:"#023368" }}>
+                  <p
+                    class="card-text mt-3"
+                    style={{ fontSize: "22px", color: "#023368" }}
+                  >
                     HIGHEST CLICK <br />
                     RATE
                   </p>
@@ -120,7 +247,10 @@ const Index = () => {
                   />
                 </center>
                 <div class="card-body">
-                  <p class="card-text mt-3" style={{ fontSize: "22px",color:"#023368" }}>
+                  <p
+                    class="card-text mt-3"
+                    style={{ fontSize: "22px", color: "#023368" }}
+                  >
                     FASTEST RESPONSE TIME
                   </p>
                   <h1 class="card-title mt-3" style={{ color: "#023368" }}>
@@ -141,7 +271,10 @@ const Index = () => {
                   />
                 </center>
                 <div class="card-body">
-                  <p class="card-text mt-3" style={{ fontSize: "22px",color:"#023368" }}>
+                  <p
+                    class="card-text mt-3"
+                    style={{ fontSize: "22px", color: "#023368" }}
+                  >
                     EXTREME READ <br /> RATE
                   </p>
                   <h1 class="card-title mt-3" style={{ color: "#023368" }}>
@@ -154,61 +287,89 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
-      <div
-        className="container mt-5 text-center">
-        <h1 className="mt-5" style={{color:"#023368"}}>Services We Provide</h1>
-        </div>
-        <div className="row mt-5 text-center"  style={{color:"#023368"}} >
-          <div className="col-sm-1"></div>
-          <div className="col-sm-2 mt-5" >
-          <a href="bulksms" style={{textDecoration:"none"}}>
-            <center>
-        <img src={chat4} className="img-fluid" style={{height:"60px",width:"60px"}}  />
-          </center>
-            <h4 className="mt-4" >Bulk SMS</h4>
-            </a>
-          </div>
-          <div className="col-sm-2 mt-5">
-          <a href="voicesms" style={{textDecoration:"none"}}>
-          <center>
-          <img src={voice} className="img-fluid" style={{height:"60px",width:"60px"}} />
-          </center>
-            <h4 className="mt-4">Voice SMS</h4>
-            </a>
-          </div>
-          <div className="col-sm-2 mt-5">
-          <a href="bulkemail" style={{textDecoration:"none"}}>
-          <center>
-          <img src={email4} className="img-fluid" style={{height:"60px",width:"60px"}}  />
-          </center>
-            <h4 className="mt-4">Bulk Email</h4>
-            </a>
-          </div>
-          <div className="col-sm-2 mt-5">
-          <a href="whatsapp" style={{textDecoration:"none"}}>
-          <center>
-            <img src={chat5} className="img-fluid" style={{height:"60px",width:"60px"}}  />
-            </center>
-            <h4 className="mt-4">WhatsApp Bulk</h4>
-            </a>
-          </div>
-          <div className="col-sm-2 mt-5">
-          <a href="website" style={{textDecoration:"none"}}>
-          <center>
-          <img src={coding} className="img-fluid" style={{height:"60px",width:"60px"}}  />
-          </center>
-            <h4 className="mt-4">Web Development</h4>
-            </a>
-          </div>
-          <div className="col-sm-1"></div>
-        </div> 
-        <center>
-       <a href="services"> <button type="button" class="btn btn-primary btn-lg mt-5 btn">Click to know more</button></a>
-        </center>
-       </div>
+      <div className="container"></div>
 
-       <div
+      <div className="container-fluid">
+        <div className="container text-center">
+          <h1 className="mt-3" style={{ color: "#023368" }}>
+            Services We Provide
+          </h1>
+        </div>
+        <div className="row mt-5 text-center" style={{ color: "#023368" }}>
+          <div className="col-sm-1"></div>
+          <div className="col-sm-2 mt-5">
+            <a href="bulksms" style={{ textDecoration: "none" }}>
+              <center>
+                <img
+                  src={chat4}
+                  className="img-fluid"
+                  style={{ height: "60px", width: "60px" }}
+                />
+              </center>
+              <h4 className="mt-4">Bulk SMS</h4>
+            </a>
+          </div>
+          <div className="col-sm-2 mt-5">
+            <a href="voicesms" style={{ textDecoration: "none" }}>
+              <center>
+                <img
+                  src={voice}
+                  className="img-fluid"
+                  style={{ height: "60px", width: "60px" }}
+                />
+              </center>
+              <h4 className="mt-4">Voice SMS</h4>
+            </a>
+          </div>
+          <div className="col-sm-2 mt-5">
+            <a href="bulkemail" style={{ textDecoration: "none" }}>
+              <center>
+                <img
+                  src={email4}
+                  className="img-fluid"
+                  style={{ height: "60px", width: "60px" }}
+                />
+              </center>
+              <h4 className="mt-4">Bulk Email</h4>
+            </a>
+          </div>
+          <div className="col-sm-2 mt-5">
+            <a href="whatsapp" style={{ textDecoration: "none" }}>
+              <center>
+                <img
+                  src={chat5}
+                  className="img-fluid"
+                  style={{ height: "60px", width: "60px" }}
+                />
+              </center>
+              <h4 className="mt-4">WhatsApp Bulk</h4>
+            </a>
+          </div>
+          <div className="col-sm-2 mt-5">
+            <a href="website" style={{ textDecoration: "none" }}>
+              <center>
+                <img
+                  src={coding}
+                  className="img-fluid"
+                  style={{ height: "60px", width: "60px" }}
+                />
+              </center>
+              <h4 className="mt-4">Web Development</h4>
+            </a>
+          </div>
+          <div className="col-sm-1"></div>
+        </div>
+        <center>
+          <a href="services">
+            {" "}
+            <button type="button" class="btn btn-primary btn-lg mt-5 btn">
+              Click to know more
+            </button>
+          </a>
+        </center>
+      </div>
+
+      <div
         className="container mt-5 mb-5"
         style={{ backgroundColor: "#023368" }}
       >
@@ -220,27 +381,27 @@ const Index = () => {
             Effective Digital Marketing Strategy
           </h1>
           <div className="row">
-            <div className="col-sm-2 zoom-in-out round mt-4 mb-5">
+            <div className="col-sm-2 zoom-in-out round mt-4 mb-5 mx-auto">
               <img src={search} className="img-fluid clogo" />
               <h4 className=" roundtext">RESEARCH</h4>
             </div>
 
-            <div className="col-sm-2 zoom-in-out round mt-4 mb-5">
+            <div className="col-sm-2 zoom-in-out round mt-4 mb-5 mx-auto">
               <img src={desktop} className="img-fluid clogo" />
               <h4 className=" roundtext"> BUSINESS</h4>
             </div>
 
-            <div className="col-sm-2 zoom-in-out round mt-4 mb-5">
+            <div className="col-sm-2 zoom-in-out round mt-4 mb-5 mx-auto ">
               <img src={profile} className="img-fluid clogo" />
               <h4 className=" roundtext">BUILD</h4>
             </div>
 
-            <div className="col-sm-2 zoom-in-out round mt-4 mb-5 ">
+            <div className="col-sm-2 zoom-in-out round mt-4 mb-5 mx-auto">
               <img src={win} className="img-fluid clogo" />
               <h4 className=" roundtext">IMPLEMENT</h4>
             </div>
 
-            <div className="col-sm-2 zoom-in-out round mt-4 mb-5">
+            <div className="col-sm-2 zoom-in-out round mt-4 mb-5 mx-auto">
               <img src={goal} className="img-fluid clogo" />
               <h4 className=" roundtext">RESULT</h4>
             </div>
@@ -248,17 +409,10 @@ const Index = () => {
         </div>
       </div>
 
+      
 
-
-<div className="container-fluid mt-5">
-<div className="container mt-5 mb-5">
-  <h1 style={{color:"#023368"}}>Our Plans</h1>
-  </div>
-<Pricecard />
-</div>
-       
-<div className="container">
-        <Feed/>
+      <div className="container">
+        <Feed />
       </div>
       <Swiperr />
 
@@ -266,8 +420,7 @@ const Index = () => {
         <Accordion />
       </div>
 
-
-<div className="container-fluid text-center mb-5 mt-5">
+      <div className="container-fluid text-center mb-5 mt-5">
         <h1 className="mt-5 mb-5">WHY CHOOSE US?</h1>
         <div className="row">
           <div className="col-sm-1"></div>
@@ -527,8 +680,8 @@ const Index = () => {
           </div>
         </div>
       </div>
-     
-     <Footer />
+
+      <Footer />
     </>
   );
 };

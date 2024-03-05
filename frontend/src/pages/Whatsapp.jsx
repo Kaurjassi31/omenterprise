@@ -5,7 +5,6 @@ import "../pages/services.css";
 
 
 import Nav from "../components/Nav";
-import Cursor from "../components/Cursor";
 import Accordion from "../components/Accordion";
 import process from "../assets/process.png";
 import Hovercard from "../components/Hovercard";
@@ -17,7 +16,6 @@ const Whatsapp = () => {
   return (
     <>
       <Nav />
-      <Cursor />
       <div
         className="container text-center"
         style={{ padding: "7%", backgroundColor: "#f7fbff" }}

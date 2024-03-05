@@ -1,5 +1,4 @@
 import React from "react";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import "../pages/services.css";
 import login from "../assets/pswd2.png";
@@ -7,10 +6,9 @@ import login from "../assets/pswd2.png";
 const Login = () => {
   return (
     <>
-      <Cursor />
       <Nav />
-      <div className="container-fluid mt-5" style={{padding:"5%"}}>
-        <div className="container text-center mt-5"
+      <div className="container-fluid" style={{padding:"5%"}}>
+        <div className="container text-center "
         >
 
 

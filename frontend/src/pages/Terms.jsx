@@ -1,11 +1,8 @@
 import React from "react";
-import Cursor from "../components/Cursor";
-import Nav from "../components/Nav";
 
 const Terms = () => {
   return (
     <>
-      <Cursor />
       
       <h2 className="mt-5" >
         Terms and Conditions for Customers Availing SMS Service

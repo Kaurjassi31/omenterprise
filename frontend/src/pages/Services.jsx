@@ -23,7 +23,6 @@ import call from "../assets/call.png";
 import Nav from "../components/Nav";
 import Button from "../components/UI/Button";
 import Footer from "../components/Footer";
-import Cursor from "../components/Cursor";
 
 
 
@@ -32,7 +31,6 @@ import Cursor from "../components/Cursor";
 const Services = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid mb-5">
         <div

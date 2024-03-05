@@ -1,6 +1,5 @@
 import React from "react";
 import "../pages/bulk.css";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 
 import "../App.css";
@@ -14,7 +13,6 @@ import sms from "../assets/sms.png";
 const Bulkemail = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid">
         <div

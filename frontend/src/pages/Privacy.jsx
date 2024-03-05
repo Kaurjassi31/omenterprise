@@ -1,12 +1,10 @@
 import React from "react";
 import policy from "../assets/digitalnew.jpg";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 
 const Privacy = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div
         className="container-fluid mt-5 "

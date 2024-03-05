@@ -1,6 +1,5 @@
 import React from "react";
 import "../components/Nav";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import contactus from "../assets/contactus.png";
 import contact from "../assets/support2.png";
@@ -16,7 +15,6 @@ import Button from "../components/UI/Button";
 const Contact = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid mb-5">
         <div

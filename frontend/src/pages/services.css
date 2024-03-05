@@ -244,6 +244,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 /* ProductDropdown.css */
 /* ProductDropdown.css */
 
+/* Adjustments for mobile view */
+/* ProductDropdown.css */
 .product-dropdown {
     position: relative;
     display: inline-block;
@@ -295,3 +297,37 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   .hvr:hover{
  background-color:#ebfdf8;
   }
+
+
+/* Add a media query for screens smaller than 600px */
+@media screen and (max-width: 1000px) {
+  .product-dropdown {
+      display: block;
+  }
+
+  .dropdown-content {
+      width: 80%;
+      left: 0;
+      transform: none;
+      overflow-y: scroll;
+  }
+
+  .dropbtn {
+      width: 80%;
+  }
+
+  .arrow {
+      display: none;
+  }
+
+  .product-dropdown:hover .dropdown-content {
+      display: block;
+      overflow-y: scroll;
+  }
+}
+.grad {
+    background-image: linear-gradient(to right, #4919F9,#6e29f9 , #9D3DFA);   
+    padding-bottom: 1px; 
+    margin-top: -1em;
+  }
+  

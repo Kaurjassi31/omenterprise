@@ -2,7 +2,6 @@ import React from "react";
 import "../pages/services.css";
 import "animate.css";
 import Nav from "../components/Nav";
-import Cursor from "../components/Cursor";
 import msg from "../assets/software.jpg";
 import Footer from "../components/Footer";
 import Card from "../components/UI/Card";
@@ -18,7 +17,6 @@ import digital from "../assets/card3.svg";
 const Software = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid">
         <div

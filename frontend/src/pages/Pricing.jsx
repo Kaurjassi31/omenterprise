@@ -1,6 +1,5 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import Cursor from '../components/Cursor'
 import "../pages/pricing.css"
 import msg from "../assets/contact1.png";
 import call from "../assets/call2.png";
@@ -14,7 +13,6 @@ import Pricecard from '../components/Pricecard';
 const Pricing = () => {
   return (
     <>
-    <Cursor/>
     <Nav />
     <div className="container-fluid">
         <div

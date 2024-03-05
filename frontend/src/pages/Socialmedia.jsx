@@ -1,5 +1,4 @@
 import React from "react";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import "../pages/services.css";
 import social from "../assets/social2.png";
@@ -13,7 +12,6 @@ import Socialprice from "../components/Socialprice";
 const Socialmedia = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid mt-5">
         <div

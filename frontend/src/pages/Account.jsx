@@ -1,15 +1,13 @@
 import React from "react";
 import "../pages/indexnew.css";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import login from "../assets/pswd.png";
 
 const Account = () => {
   return (
     <>
-      <Cursor />
       <Nav />
-      <div className="container-fluid mt-5" style={{ padding: "5%" }}>
+      <div className="container-fluid mt-5" style={{  }}>
         <div className="container text-center mt-3">
           <div className="row">
             <div className="col-sm-6">
@@ -24,7 +22,7 @@ const Account = () => {
   action="https://formspree.io/f/mvoerake"
   method="POST"
 >
-              <h1 className=" mt-5 text-primary">CREATE ACCOUNT</h1>
+              <h2 className=" mt-5 text-primary">CREATE ACCOUNT</h2>
 
               <input
                 type="text"
