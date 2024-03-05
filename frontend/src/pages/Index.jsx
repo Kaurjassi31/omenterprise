@@ -12,7 +12,6 @@ import read from "../assets/read.png";
 import clock1 from "../assets/clock1.png";
 import chat from "../assets/sms.png";
 import file from "../assets/files.png";
-import Pricecard from "../components/Pricecard";
 import Accordion from "../components/Accordion";
 import Footer from "../components/Footer";
 import delivery from "../assets/delivery.png";

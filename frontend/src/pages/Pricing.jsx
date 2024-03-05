@@ -1,13 +1,11 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import "../pages/pricing.css"
 import msg from "../assets/contact1.png";
 import call from "../assets/call2.png";
 import Swiperr from "../components/Swiperr";
 import Footer from '../components/Footer';
 import ic4 from "../assets/ic4.png";
 import ic2 from "../assets/ic2.png";
-import Pricecard from '../components/Pricecard';
 
 
 const Pricing = () => {
