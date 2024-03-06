@@ -17,7 +17,7 @@ import Footer from "../components/Footer";
 import delivery from "../assets/delivery.png";
 import chat2 from "../assets/chat2.png";
 import star from "../assets/star.png";
-import star5 from "../assets/star3.png"; 
+import star5 from "../assets/star3.png";
 import verified from "../assets/verified.png";
 import pricetag from "../assets/price.png";
 import sender from "../assets/sender1.png";
@@ -45,39 +45,152 @@ import bronze from "../assets/bronze.png";
 const Index = () => {
   return (
     <>
-      
       <Nav />
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-sm-1"></div>
-<div className="col-sm-3 text-center">
-<img src={star5} className="img-fluid" style={{height:"60px",width:"40%"}}  />
-<p style={{fontSize:"15px"}} > highly recommended,You exceeded our expectations.</p>
-</div>
-<div className="col-sm-3 text-center">
-<img src={star5} className="img-fluid" style={{height:"60px",width:"40%"}}  />
-<p style={{fontSize:"15px"}} >The services and support provided are highly professional. </p>
-</div>
-<div className="col-sm-3 text-center">
-<img src={star5} className="img-fluid" style={{height:"60px",width:"40%"}}   />
-<p style={{fontSize:"15px"}} >Best teams I’ve ever worked with  great experience.</p>
-</div>
-
+          <div className="col-sm-3 text-center">
+            <img
+              src={star5}
+              className="img-fluid"
+              style={{ height: "60px", width: "40%" }}
+            />
+            <p style={{ fontSize: "15px" }}>
+              {" "}
+              highly recommended,You exceeded our expectations.
+            </p>
+          </div>
+          <div className="col-sm-3 text-center">
+            <img
+              src={star5}
+              className="img-fluid"
+              style={{ height: "60px", width: "40%" }}
+            />
+            <p style={{ fontSize: "15px" }}>
+              The services and support provided are highly professional.{" "}
+            </p>
+          </div>
+          <div className="col-sm-3 text-center">
+            <img
+              src={star5}
+              className="img-fluid"
+              style={{ height: "60px", width: "40%" }}
+            />
+            <p style={{ fontSize: "15px" }}>
+              Best teams I’ve ever worked with great experience.
+            </p>
+          </div>
         </div>
       </div>
       <div className="container mt-2">
         <h1
           className="text-center"
-          style={{color: "#023368",fontSize:"50px" }}
+          style={{ color: "#023368", fontSize: "50px" }}
         >
-         <b> INDIA’S NO. 1 BULK SMS <br /> PLATFORM
-         </b></h1>
+          <b>
+            {" "}
+            INDIA’S NO. 1 BULK SMS <br /> PLATFORM
+          </b>
+        </h1>
+
       </div>
       <div className="container">
-        <img src={New} className="img-fluid" />
+        <img src={New} className="img-fluid mt-2" />
       </div>
-
-      <Video />
+      <div className="container-fluid">
+        <center>
+          <div className="row">
+            <div className="col-sm-2"></div>
+            <div className="col-sm-4 mt-3">
+              <ul>
+                <h6 style={{ fontSize: "18px" }}>
+                  <span>
+                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                  </span>
+                  No Technical Skills Required
+                </h6>
+                <h6 style={{ fontSize: "17px" }}>
+                  <span>
+                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                  </span>
+                  Intuitive Platform for All Users{" "}
+                </h6>
+                <h6 style={{ fontSize: "17px" }}>
+                  <span>
+                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                  </span>
+                  Secure and Reliable Structure{" "}
+                </h6>
+              </ul>
+            </div>
+            <div className="col-sm-4 mt-3">
+              <ul>
+                <h6 style={{ fontSize: "18px" }}>
+                  <span>
+                    <i class="fa-solid fa-check mx-1  p-1"  style={{ color: "#023368" }} ></i>
+                  </span>
+                  Advanced tool Features to Scale{" "}
+                </h6>
+                <h6 style={{ fontSize: "17px" }}>
+                  <span>
+                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                  </span>
+                  High Customer Satisfaction at 98%{" "}
+                </h6>
+                <h6 style={{ fontSize: "17px" }}>
+                  <span>
+                    <i class="fa-solid fa-check mx-2 p-1"    style={{ color: "#023368" }} ></i>
+                  </span>
+                  Supports 2 Factor Account Access{" "}
+                </h6>
+              </ul>
+            </div>
+            <div className="col-sm-2"></div>
+          </div>
+          <a href="services">
+            {" "}
+            <button type="button" class="btn btn-primary btn-lg mt-3 btn">
+              Click to know more
+            </button>
+          </a>
+          <div className="row mt-4">
+            <div className="col-sm-3"></div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>{" "}
+                </span>
+                Trusted 7,000+ Brands{" "}
+              </p>
+            </div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>{" "}
+                </span>
+                Serving from 16+ Year{" "}
+              </p>
+            </div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>
+                </span>
+                Over 15000+ Customer{" "}
+              </p>
+            </div>
+          </div>
+        </center>
+      </div>
 
       <div className="container mt-5">
         <h1 style={{ color: "#023368" }}>
@@ -98,92 +211,76 @@ const Index = () => {
                   className="img-fluid mt-4"
                   style={{ height: "60px", width: "60px" }}
                 />
-                
               </center>
               <div class="card-body">
-              <h2 className="mx-3" style={{ color: "#023368" }}>GOLD</h2>
-                <ul class="price-card--features--list"  style={{textDecoration:"none",listStyle:"none"}} >
-                  <li  >
-                    Life Time Validity
-                  </li>
-                  <li >
-                    Instant Sender Id Approval
-                  </li>
-                  <li >
-                    Send SMS Multi Language Support
-                  </li>
-                  <li >
-                    Can send 24 x 7
-                  </li>
-                  <li >
-                    With Instant delivery report
-                  </li>
+                <h2 className="mx-3" style={{ color: "#023368" }}>
+                  GOLD
+                </h2>
+                <ul
+                  class="price-card--features--list"
+                  style={{ textDecoration: "none", listStyle: "none" }}
+                >
+                  <li>Life Time Validity</li>
+                  <li>Instant Sender Id Approval</li>
+                  <li>Send SMS Multi Language Support</li>
+                  <li>Can send 24 x 7</li>
+                  <li>With Instant delivery report</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col text-center">
             <div class="card">
-            <center>
-              <img
-                src={silver}
-                class="card-img-top mt-4"
-                style={{ height: "60px", width: "60px" }}
-                alt="..."
-              />
-                            </center>
+              <center>
+                <img
+                  src={silver}
+                  class="card-img-top mt-4"
+                  style={{ height: "60px", width: "60px" }}
+                  alt="..."
+                />
+              </center>
 
               <div class="card-body">
-              <h2 className="mx-3" style={{ color: "#023368" }}>SILVER</h2>
-                <ul class="price-card--features--list"  style={{textDecoration:"none",listStyle:"none"}} >
-                  <li  >
-                    Life Time Validity
-                  </li>
-                  <li >
-                    Instant Sender Id Approval
-                  </li>
-                  <li >
-                    Send SMS Multi Language Support
-                  </li>
-                  <li >
-                    Can send 24 x 7
-                  </li>
-                  <li >
-                    With Instant delivery report
-                  </li>
+                <h2 className="mx-3" style={{ color: "#023368" }}>
+                  SILVER
+                </h2>
+                <ul
+                  class="price-card--features--list"
+                  style={{ textDecoration: "none", listStyle: "none" }}
+                >
+                  <li>Life Time Validity</li>
+                  <li>Instant Sender Id Approval</li>
+                  <li>Send SMS Multi Language Support</li>
+                  <li>Can send 24 x 7</li>
+                  <li>With Instant delivery report</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col text-center">
             <div class="card">
-            <center>
-              <img
-                src={bronze}
-                class="card-img-top mt-4"
-                style={{ height: "60px", width: "60px" }}
-                alt="..."
-              />
+              <center>
+                <img
+                  src={bronze}
+                  class="card-img-top mt-4"
+                  style={{ height: "60px", width: "60px" }}
+                  alt="..."
+                />
               </center>
 
               <div class="card-body">
-              <h2 className="mx-3" style={{ color: "#023368" }}>BRONZE</h2>
-                <ul class="price-card--features--list"  style={{textDecoration:"none",listStyle:"none"}} >
-                  <li  >
-                    Life Time Validity
-                  </li>
-                  <li >
-                    Instant Sender Id Approval
-                  </li>
-                  <li >
-                    Send SMS Multi Language Support
-                  </li>
-                  <li >
-                    Can send 24 x 7
-                  </li>
-                  <li >
-                    With Instant delivery report
-                  </li>
+                <h2 className="mx-3" style={{ color: "#023368" }}>
+                  BRONZE
+                </h2>
+                <ul
+                  class="price-card--features--list"
+                  style={{ textDecoration: "none", listStyle: "none" }}
+                >
+                  <li>Life Time Validity</li>
+                  <li>Instant Sender Id Approval</li>
+                  <li>Send SMS Multi Language Support</li>
+                  <li>Can send 24 x 7</li>
+                  <li>With Instant delivery report</li>
                 </ul>
               </div>
             </div>
@@ -425,8 +522,6 @@ const Index = () => {
           </div>
         </div>
       </div>
-
-      
 
       <div className="container">
         <Feed />

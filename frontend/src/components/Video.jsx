@@ -4,7 +4,7 @@ import video1 from "../assets/video2.MP4"
 function VideoPlayer() {
   return (
     <div className='container'>
-      <video className='mt-5' style={{height:"500px",width:"100%"}} controls>
+      <video className='mt-4' style={{height:"500px",width:"100%"}} controls>
         <source src={video1}  />
         Your browser does not support the video tag.
       </video>
