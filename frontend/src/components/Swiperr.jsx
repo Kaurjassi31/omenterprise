@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import "../pages/indexnew.css";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -56,16 +57,15 @@ const Swiperr = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={bmw} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={airtel} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={usha} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={radio} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={wonderland} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={skk} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={acc} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={mercedez} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={vodafone} className='img-fluid' /></SwiperSlide>
-        <SwiperSlide><img src={audi} className='img-fluid' /></SwiperSlide>
+        <SwiperSlide><img src={bmw} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={airtel} className='img-fluid brand ' /></SwiperSlide>
+        <SwiperSlide><img src={radio} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={wonderland} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={skk} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={acc} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={mercedez} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={vodafone} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={audi} className='img-fluid brand' /></SwiperSlide>
      
       </Swiper>
       </div>

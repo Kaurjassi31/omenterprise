@@ -31,7 +31,8 @@ import ic6 from "../assets/ic6.png";
 import ic7 from "../assets/ic7.png";
 import ic8 from "../assets/ic8.png";
 import check from "../assets/check.webp";
-import people from "../assets/people.png";
+import player from "../assets/player.webp";
+import text from "../assets/text.webp";
 import win from "../assets/win.png";
 import search from "../assets/search.png";
 import goal from "../assets/goal.png";
@@ -97,7 +98,7 @@ const Index = () => {
       <div className="container">
         <img src={New} className="img-fluid mt-2" />
       </div>
-      <div className="container-fluid mt-4 mb-5">
+      <div className="container-fluid mb-5">
         <center>
           <div className="row">
             <div className="col-sm-2"></div>
@@ -167,8 +168,8 @@ const Index = () => {
           </div>
           <a href="services">
             {" "}
-            <button type="button" class="btn btn-primary btn-lg mt-3 btn">
-              Click to know more
+            <button type="button" class="btn btn-primary btn-lg mt-3 mb-3 btn">
+               Know More About Us
             </button>
           </a>
           <div className="row mt-2 mb-5">
@@ -216,23 +217,28 @@ const Index = () => {
       >
         <div className="row mt-5">
           <div className="col-sm-3"></div>
-          <div className="col-sm-2 p-3 mx-3  block">
+          <div className="col-sm-2 p-1 mx-3 block">
             <p className="text-center" >
-              <span></span>
+           
+              <img src={check} className="img-fluid" style={{height:"40px",width:"40px",marginRight:"20px"}} />
+
+             
               Trusted 7,000+ Brands{" "}
             </p>
           </div>
 
-          <div className="col-sm-2 p-3 mx-3  block">
+          <div className="col-sm-2 p-1 mx-3   block">
             <p className="text-center" >
-              <span></span>
+            <img src={text} className="img-fluid" style={{height:"40px",width:"40px",marginRight:"20px"}} />
+
               Serving from 16+ Year
             </p>
           </div>
 
-          <div className="col-sm-2  p-3 mx-3  block">
+          <div className="col-sm-2  p-1 mx-3 block">
             <p className="text-center" >
-              <span></span>
+            <img src={player} className="img-fluid" style={{height:"40px",width:"40px",marginRight:"20px"}} />
+
               Over 15000+ Customer
             </p>
           </div>
@@ -260,6 +266,7 @@ const Index = () => {
           </center>
         </div>
       </div>
+      <Swiperr />
 
       <div className="container mt-5">
         <h1 style={{ color: "#023368" }}>
@@ -595,7 +602,6 @@ const Index = () => {
       <div className="container">
         <Feed />
       </div>
-      <Swiperr />
 
       <div className="container-fluid text-center mt-5 mb-5">
         <Accordion />
