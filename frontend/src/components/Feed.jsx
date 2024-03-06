@@ -89,7 +89,8 @@ const Feed = () => {
                   </center>
                   <p class="card-text mb-4">
                     They don’t just do what they’re told to do; they really
-                    think about the product, code, and solution.Totally satisfied with the services they provide.
+                    think about the product, code, and solution.Totally
+                    satisfied with the services they provide.
                   </p>
                 </div>
               </div>
@@ -113,7 +114,8 @@ const Feed = () => {
                   </center>
                   <p class="card-text mb-5">
                     Great Job! You exceeded our expectations and delivered more
-                    than you promised.Om Enterprises is Great company to do business.
+                    than you promised.Om Enterprises is Great company to do
+                    business.
                   </p>
                 </div>
               </div>
@@ -137,13 +139,14 @@ const Feed = () => {
                   </center>
                   <p class="card-text mb-4">
                     Picking OM ENTERPRISES is one of the best decisions I took
-                    ever to speed up our marketing their efforts are worthy for all of it really happy and satisfied.
+                    ever to speed up our marketing their efforts are worthy for
+                    all of it really happy and satisfied.
                   </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-        
+
           <SwiperSlide>
             <div
               className="container text-center"
@@ -259,8 +262,8 @@ const Feed = () => {
                     />
                   </center>
                   <p class="card-text mb-5">
-                    Their experience in the field and the speed at which they did great
-                    job we are impressed with the work.
+                    Their experience in the field and the speed at which they
+                    did great job we are impressed with the work.
                   </p>
                 </div>
               </div>
@@ -284,8 +287,8 @@ const Feed = () => {
                   </center>
                   <p class="card-text mb-4">
                     Om Enterprises did really excellent work under a time
-                    crunch.I really appreciated the extra work and extra effort they put in. I
-                    highly recommend.
+                    crunch.I really appreciated the extra work and extra effort
+                    they put in. I highly recommend.
                   </p>
                 </div>
               </div>

@@ -30,7 +30,8 @@ import ic5 from "../assets/ic5.png";
 import ic6 from "../assets/ic6.png";
 import ic7 from "../assets/ic7.png";
 import ic8 from "../assets/ic8.png";
-
+import check from "../assets/check.webp";
+import people from "../assets/people.png";
 import win from "../assets/win.png";
 import search from "../assets/search.png";
 import goal from "../assets/goal.png";
@@ -92,12 +93,11 @@ const Index = () => {
             INDIA’S NO. 1 BULK SMS <br /> PLATFORM
           </b>
         </h1>
-
       </div>
       <div className="container">
         <img src={New} className="img-fluid mt-2" />
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid mt-4 mb-5">
         <center>
           <div className="row">
             <div className="col-sm-2"></div>
@@ -105,19 +105,28 @@ const Index = () => {
               <ul>
                 <h6 style={{ fontSize: "18px" }}>
                   <span>
-                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                    <i
+                      class="fa-solid fa-check mx-2 p-1"
+                      style={{ color: "#023368" }}
+                    ></i>
                   </span>
                   No Technical Skills Required
                 </h6>
                 <h6 style={{ fontSize: "17px" }}>
                   <span>
-                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                    <i
+                      class="fa-solid fa-check mx-2 p-1"
+                      style={{ color: "#023368" }}
+                    ></i>
                   </span>
                   Intuitive Platform for All Users{" "}
                 </h6>
                 <h6 style={{ fontSize: "17px" }}>
                   <span>
-                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                    <i
+                      class="fa-solid fa-check mx-2 p-1"
+                      style={{ color: "#023368" }}
+                    ></i>
                   </span>
                   Secure and Reliable Structure{" "}
                 </h6>
@@ -127,19 +136,28 @@ const Index = () => {
               <ul>
                 <h6 style={{ fontSize: "18px" }}>
                   <span>
-                    <i class="fa-solid fa-check mx-1  p-1"  style={{ color: "#023368" }} ></i>
+                    <i
+                      class="fa-solid fa-check mx-1  p-1"
+                      style={{ color: "#023368" }}
+                    ></i>
                   </span>
                   Advanced tool Features to Scale{" "}
                 </h6>
                 <h6 style={{ fontSize: "17px" }}>
                   <span>
-                    <i class="fa-solid fa-check mx-2 p-1"  style={{ color: "#023368" }} ></i>
+                    <i
+                      class="fa-solid fa-check mx-2 p-1"
+                      style={{ color: "#023368" }}
+                    ></i>
                   </span>
                   High Customer Satisfaction at 98%{" "}
                 </h6>
                 <h6 style={{ fontSize: "17px" }}>
                   <span>
-                    <i class="fa-solid fa-check mx-2 p-1"    style={{ color: "#023368" }} ></i>
+                    <i
+                      class="fa-solid fa-check mx-2 p-1"
+                      style={{ color: "#023368" }}
+                    ></i>
                   </span>
                   Supports 2 Factor Account Access{" "}
                 </h6>
@@ -153,7 +171,7 @@ const Index = () => {
               Click to know more
             </button>
           </a>
-          <div className="row mt-4">
+          <div className="row mt-2 mb-5">
             <div className="col-sm-3"></div>
             <div className="col-sm-2">
               <p style={{ fontSize: "14px" }}>
@@ -190,6 +208,57 @@ const Index = () => {
             </div>
           </div>
         </center>
+      </div>
+
+      <div
+        className="container-fluid mt-5"
+        style={{ backgroundColor: "#142e91",marginTop:"40px" }}
+      >
+        <div className="row mt-5">
+          <div className="col-sm-3"></div>
+          <div className="col-sm-2 p-3 mx-3  block">
+            <p className="text-center" >
+              <span></span>
+              Trusted 7,000+ Brands{" "}
+            </p>
+          </div>
+
+          <div className="col-sm-2 p-3 mx-3  block">
+            <p className="text-center" >
+              <span></span>
+              Serving from 16+ Year
+            </p>
+          </div>
+
+          <div className="col-sm-2  p-3 mx-3  block">
+            <p className="text-center" >
+              <span></span>
+              Over 15000+ Customer
+            </p>
+          </div>
+          <div className="col-sm-3"></div>
+        </div>
+        <div className="container mt-5 mb-5" style={{ width: "60%" }}>
+          <center>
+            <p className="text-light mt-1">
+              Great company to do business. We have worked with him on numerous
+              projects-Bulk SMS,{" "}
+            </p>
+            <p className="text-light mt-1">
+              Digital Marketing, Whatsapp Promotions, etc. They don’t just do
+              what they’re told to do; they{" "}
+            </p>
+            <p className="text-light mt-1">
+              {" "}
+              really think about the product, code, and solution.Totally
+              satisfied with the services{" "}
+            </p>
+            <p className="text-light mt-1 mb-5">
+              they provide.Highly recommended.
+            </p>
+            <h2 className="text-light mb-5">Airtel Broadband</h2>
+          </center>
+        </div>
       </div>
 
       <div className="container mt-5">
