@@ -17,6 +17,7 @@ import Footer from "../components/Footer";
 import delivery from "../assets/delivery.png";
 import chat2 from "../assets/chat2.png";
 import star from "../assets/star.png";
+import star5 from "../assets/star3.png"; 
 import verified from "../assets/verified.png";
 import pricetag from "../assets/price.png";
 import sender from "../assets/sender1.png";
@@ -46,14 +47,31 @@ const Index = () => {
     <>
       
       <Nav />
-      
-      <div className="container mt-5">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-1"></div>
+<div className="col-sm-3 text-center">
+<img src={star5} className="img-fluid" style={{height:"60px",width:"40%"}}  />
+<p style={{fontSize:"15px"}} > highly recommended,You exceeded our expectations.</p>
+</div>
+<div className="col-sm-3 text-center">
+<img src={star5} className="img-fluid" style={{height:"60px",width:"40%"}}  />
+<p style={{fontSize:"15px"}} >The services and support provided are highly professional. </p>
+</div>
+<div className="col-sm-3 text-center">
+<img src={star5} className="img-fluid" style={{height:"60px",width:"40%"}}   />
+<p style={{fontSize:"15px"}} >Best teams I’ve ever worked with  great experience.</p>
+</div>
+
+        </div>
+      </div>
+      <div className="container mt-2">
         <h1
           className="text-center"
-          style={{ fontSize: "60px", color: "#023368" }}
+          style={{color: "#023368",fontSize:"50px" }}
         >
-          INDIA’S NO. 1 BULK SMS <br /> PLATFORM
-        </h1>
+         <b> INDIA’S NO. 1 BULK SMS <br /> PLATFORM
+         </b></h1>
       </div>
       <div className="container">
         <img src={New} className="img-fluid" />

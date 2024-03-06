@@ -113,10 +113,7 @@ const Pricing = () => {
           </div>
           </div>
 
-        <div className="container mt-5">
-        <Pricecard />
-
-        </div>
+       
     
 <div className='container-fluid' style={{backgroundColor:"#f7fbff"}}>
   <div className="row">

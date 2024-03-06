@@ -43,7 +43,6 @@ import Button from "../components/UI/Button";
 import Swiperr from "../components/Swiperr";
 import Footer from "../components/Footer";
 import Slider from "../components/Slider";
-import Cursor from "../components/Cursor";
 import ic1 from "../assets/ic1.png";
 import ic2 from "../assets/ic2.png";
 import ic3 from "../assets/ic3.png";
@@ -65,9 +64,8 @@ function App() {
 
   return (
     <>
-      <Cursor />
       <Nav />
-      {/* <Navbar /> */}
+     
       <Slider />
 
       <div className="container-fluid text-center">

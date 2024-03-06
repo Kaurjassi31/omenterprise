@@ -1,5 +1,4 @@
 import React from "react";
-import Cursor from "../components/Cursor";
 import Nav from "../components/Nav";
 import "../pages/services.css";
 import dm from "../assets/dm1.png";
@@ -8,7 +7,6 @@ import Footer from "../components/Footer";
 const Digitalmarketing = () => {
   return (
     <>
-      <Cursor />
       <Nav />
       <div className="container-fluid mt-5 text-center">
         <div

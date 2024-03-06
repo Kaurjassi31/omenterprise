@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    font-family: "Poppins", Sans-serif;
+        font-family: "Poppins", Sans-serif;
+: "Poppins", Sans-serif;
 }
 .sales_section {
     width: 100%;
@@ -21,7 +22,8 @@
 
 .sales_section_p {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: "Poppins", Sans-serif;
+: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 20px;
     padding: 0 10%;
 }
@@ -58,7 +60,8 @@
 }
 
 .col_body p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: "Poppins", Sans-serif;
+: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     margin-top: 20px;
     padding: 0 5%;
@@ -68,7 +71,8 @@
     font-size: 20px;
     font-weight: 700;
     opacity: 0.9;
-    font-family: Arial, Helvetica, sans-serif;
+        font-family: "Poppins", Sans-serif;
+: Arial, Helvetica, sans-serif;
 }
 .menu ul li
 {

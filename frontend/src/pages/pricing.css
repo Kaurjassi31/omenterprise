@@ -34,7 +34,8 @@ transition: .5s ease;
     }
     .lakh{
         font-size: 19px;
-        font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", Sans-serif;
+: 'Poppins', sans-serif;
         margin-top: px;
         color: black;
     }

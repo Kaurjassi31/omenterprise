@@ -8,8 +8,8 @@ import DropdownMenu from "../components/UI/DropdownMenu";
 const Nav = () => {
   return (
     <>
-   <div className="container-fluid grad text-center">
-<h4 className='p-3 text-light'>Promote Yor Business With Om Enterprises Group</h4>
+   <div className="container-fluid grad text-center p-2">
+<h4 className=' text-light mt-4'>Promote Yor Business With Om Enterprises Group</h4>
       </div>
       <nav
         className="navbar navbar-expand-lg sticky-top"
@@ -28,6 +28,7 @@ const Nav = () => {
               style={{ height: "70px", width: "70px" }}
             />
           </a>
+          
           <button
             className="navbar-toggler"
             type="button"
@@ -41,14 +42,14 @@ const Nav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item product">
+              <li className="nav-item product mt-1">
                 <a className="nav-link active" aria-current="page">
                 <ProductDropdown/>
                 </a>
               </li>
-              <li className="nav-item mt-3 mx-2" style={{fontSize:"20px"}}>
+              <li className="nav-item mt-2 mx-2" style={{fontSize:"20px"}}>
                 <a
-                  className="nav-link "
+                  className="nav-link"
                 
                   href="/login"
                 >
