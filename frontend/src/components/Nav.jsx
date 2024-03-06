@@ -14,6 +14,7 @@ const Nav = () => {
       <nav
         className="navbar navbar-expand-lg sticky-top"
         style={{
+          height:"85px",
           backgroundColor: " rgba(255, 255, 255, 0.2)",
           boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
           backdropFilter: "blur(25px)",
@@ -42,12 +43,12 @@ const Nav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item product mt-1">
+              <li className="nav-item product mt-2">
                 <a className="nav-link active" aria-current="page">
                 <ProductDropdown/>
                 </a>
               </li>
-              <li className="nav-item mt-2 mx-2" style={{fontSize:"20px"}}>
+              <li className="nav-item mt-3 mx-2" style={{fontSize:"18px",color:"black"}}>
                 <a
                   className="nav-link"
                 
