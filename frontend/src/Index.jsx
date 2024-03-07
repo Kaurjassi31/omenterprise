@@ -169,7 +169,7 @@ const Index = () => {
           <a href="services">
             {" "}
             <button type="button" class="btn btn-primary btn-lg mt-3 mb-3 btn">
-              Know More About Us
+               Know More About Us
             </button>
           </a>
           <div className="row mt-2 mb-5">
@@ -213,39 +213,32 @@ const Index = () => {
 
       <div
         className="container-fluid mt-5"
-        style={{ backgroundColor: "#142e91", marginTop: "40px" }}
+        style={{ backgroundColor: "#142e91",marginTop:"40px" }}
       >
         <div className="row mt-5 hidn">
           <div className="col-sm-2"></div>
           <div className="col-sm-2 p-1 mx-3 block">
-            <p className="text-center mt-2">
-              <img
-                src={check}
-                className="img-fluid mt-1"
-                style={{ height: "40px", width: "40px", marginRight: "20px" }}
-              />
+            <p className="text-center mt-2" >
+           
+              <img src={check} className="img-fluid mt-1" style={{height:"40px",width:"40px",marginRight:"20px"}} />
+
+             
               Trusted 7,000+ Brands{" "}
             </p>
           </div>
 
           <div className="col-sm-2 p-1 mx-3   block">
-            <p className="text-center mt-2">
-              <img
-                src={text}
-                className="img-fluid mt-1"
-                style={{ height: "40px", width: "40px", marginRight: "20px" }}
-              />
+            <p className="text-center mt-2" >
+            <img src={text} className="img-fluid mt-1" style={{height:"40px",width:"40px",marginRight:"20px"}} />
+
               Serving from 16+ Year
             </p>
           </div>
 
           <div className="col-sm-2  p-1 mx-3 block">
-            <p className="text-center mt-2">
-              <img
-                src={player}
-                className="img-fluid mt-1"
-                style={{ height: "40px", width: "40px", marginRight: "20px" }}
-              />
+            <p className="text-center mt-2" >
+            <img src={player} className="img-fluid mt-1" style={{height:"40px",width:"40px",marginRight:"20px"}} />
+
               Over 15000+ Customer
             </p>
           </div>
@@ -371,135 +364,6 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="container-fluid mt-5 mb-5" style={{ backgroundColor: "#f8fcff" }}>
-        <h1 className="text-center mt-5" style={{padding:"1%"}}>
-          👨‍💻 <b>Pabbly Caters to All Your Business Needs!</b>
-        </h1>
-        <center>
-                  <p className=" mb-5" style={{width:"70%"}}>
-          Pabbly Plus is a comprehensive business management bundle that
-          addresses all your sales and marketing needs, saving you the hassle of
-          using multiple applications. With Pabbly Plus, you can take care of
-          all your business needs in one place.
-        </p></center>
-
-        <div className="container text-center">
-          <div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    <b>
-                      Pabbly <br />
-                      Connect
-                    </b>
-                  </h6>
-                  <center>
-                    <p
-                      class="card-text"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Effortlessly create automated workflows and seamlessly
-                      transfer data between applications.
-                    </p>
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    <b>
-                      Pabbly <br /> Subscription Billing{" "}
-                    </b>
-                  </h6>
-
-                  <center>
-                    <p
-                      class="card-text"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Recurring billing and subscription to management solution
-                      with the built-in affiliate management.
-                    </p>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    <b>
-                      Pabbly Email <br /> Marketing
-                    </b>
-                  </h6>
-
-                  <center>
-                    <p
-                      class="card-text"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Experience a comprehensive email marketing solution that
-                      simplifies sending emails to customers.
-                    </p>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    <b>
-                      Pabbly Form
-                      <br />
-                      Builder
-                    </b>
-                  </h6>
-
-                  <center>
-                    <p
-                      class="card-text"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Harness power of online form builder to effortlessly
-                      collect payments, leads, surveys, and more.
-                    </p>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    <b>
-                      Pabbly Email <br /> Verification
-                    </b>
-                  </h6>
-                  <center>
-                    <p
-                      class="card-text"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Boost your delivery and open rates by verifying your email
-                      list to remove invalid email addresses.
-                    </p>
-                  </center>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div
         className="container text-center mt-5 mb-5"
         style={{ backgroundColor: "#023368" }}

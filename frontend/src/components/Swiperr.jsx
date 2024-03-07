@@ -57,15 +57,14 @@ const Swiperr = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={bmw} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={airtel} className='img-fluid brand ' /></SwiperSlide>
-        <SwiperSlide><img src={radio} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={wonderland} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={skk} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={acc} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={mercedez} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={vodafone} className='img-fluid brand' /></SwiperSlide>
-        <SwiperSlide><img src={audi} className='img-fluid brand' /></SwiperSlide>
+        <SwiperSlide><img src={bmw} className='img-fluid brand' style={{height:"130px",width:"140px"}} /></SwiperSlide>
+        <SwiperSlide><img src={airtel} className='img-fluid brand ' style={{height:"150px",width:"180px"}}  /></SwiperSlide>
+        <SwiperSlide><img src={radio} className='img-fluid brand' style={{height:"150px",width:"200px"}}  /></SwiperSlide>
+        <SwiperSlide><img src={skk} className='img-fluid brand' style={{height:"150px",width:"190px"}}  /></SwiperSlide>
+        <SwiperSlide><img src={acc} className='img-fluid brand' style={{height:"150px",width:"170px"}}  /></SwiperSlide>
+        {/* <SwiperSlide><img src={mercedez} className='img-fluid brand'style={{height:"150px"}}  /></SwiperSlide> */}
+        <SwiperSlide><img src={vodafone} className='img-fluid brand'style={{height:"150px",width:"180px"}}  /></SwiperSlide>
+        {/* <SwiperSlide><img src={audi} className='img-fluid brand' /></SwiperSlide> */}
      
       </Swiper>
       </div>
