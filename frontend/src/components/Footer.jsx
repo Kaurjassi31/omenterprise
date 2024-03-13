@@ -1,57 +1,142 @@
 import React from "react";
 import logo1 from "../assets/logo1.png";
 import "../pages/indexnew.css";
+import facebook from "../assets/facebook.png";
+import instagram from "../assets/insta.png";
+import youtube from "../assets/youtube.png";
+
 
 
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid" style={{backgroundColor:"#ffffff"}}>
-        <div className="row">
-        <div className="col-sm-3">
+      <div className="container-fluid mt-5" style={{backgroundColor:"#ffffff"}}>
+        <div className="row mt-5">
+          <div className="col-sm-1"></div>
+        <div className="col-sm-2 ">
         <ul style={{listStyle:"none"}}>
         <u><h5>Company</h5></u>
-        <li>About Us</li>
-        <li>Privacy Policy</li>
-        <li>Terms & Conditions</li>
-        <li>Careers</li>
+        <a
+                href="contact"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Contact -Us</li>
+              </a>
+              <a
+                href="about"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>About Us</li>
+              </a>
+              <li>Careers</li>
         <li>Security</li>
         <li>Brand Assets</li>
-        <u><h5>Developer</h5></u>
-        <li>API - Pabbly Subscription Billing</li>
-        <li>API - Pabbly Email Marketing </li>
         </ul>     
          </div>
-       <div className="col-sm-3">
-        <ul style={{listStyle:"none"}}>
-        <u><h5> Learn</h5></u>
-        <li>Pabbly Connect Videos</li>
-        <li>Pabbly Connect Community</li>
-        <li>Pabbly Subscription Billing Community</li>
-        <li>Careers</li>
-        <u><h5>Partners</h5></u>
-        <li>Affiliate Program</li>
-        <u><h5> Integrations</h5></u>
-        <li> Pabbly Connect Integrations</li>
-        <li> Integrate Your App</li>
-        </ul>   
-         </div>
-       <div className="col-sm-3">
-        <ul style={{listStyle:"none"}}>
-        <u><h5>Products </h5></u>
-        <li>Pabbly Plus</li>
-        <li>Pabbly Connect</li>
-        <li>Pabbly Email Marketing</li>
-        <li>Pabbly Form Builder</li>
-        <li>Pabbly Email Verification</li>
-        <li>Pabbly Subscription Billing</li>
-        <u><h5>Certification</h5></u>
-        <li>  SOC2 Type 1 </li>
-        <li> ISO 27001:2022</li>
+
+       <div className="col-sm-2 ">
+       <ul
+              style={{
+                fontFamily: "Poppins', sans-serif",
+                textDecoration: "none",
+                listStyle: "none",
+                textAlign: "left",
+              }}
+            >
+        <u>
+        <h5
+              style={{ fontFamily: "Poppins', sans-serif" }}
+            >
+              Quick Links
+            </h5></u>
+           
+             
+              <a
+                href="services"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Services</li>
+              </a>
+              
+            
+              <a 
+                href="privacy"
+                style={{ textDecoration: "none", color: "black" }}>
+              <li>Privacy Policy</li>
+              </a>
+
+              <a
+                href="pricing"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Plan & Pricing</li>
+              </a>
+              <a
+                href="services"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>DLT</li>
+              </a>
+              <a
+                href="services"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Become Reseller</li>
+              </a>
+            </ul>
+         </div>        
+       <div className="col-sm-2 ">
+        <ul
+              style={{
+                fontFamily: "Poppins', sans-serif",
+                textDecoration: "none",
+                listStyle: "none",
+                textAlign: "left",
+              }}
+            >
+           <u><h5>Products </h5></u>
+              <a
+                href="bulksms"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Bulk Messages</li>
+              </a>
+              <a
+                href="bulkemail"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Email Marketing</li>
+              </a>
+              <a
+                href="digitalmarketing"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Digital marketing</li>
+              </a>
+              <a
+                href="website"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Website Designing</li>
+              </a>
+              <a
+                href="voicesms"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Voice Messages</li>
+              </a>
+              <a
+                href="socialmedia"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <li>Social Media</li>
+              </a>
+            </ul>
   
-        </ul>      
          </div>
+
          <div className="col-sm-3">
+          
           <div className="row">
             <div className="col-sm-3">
             <img src={logo1} className="img-fluid mx-4" />
@@ -61,17 +146,14 @@ const Footer = () => {
             </div>
           </div>
         <ul style={{listStyle:"none"}}>
-          <li><b>Sales:</b> support@pabbly.com​</li>
-          <li>Contact Us</li>
-          <li>Support Forum</li>
-          <li>Enterprise</li>
+          <li><b>Queries:</b> @omenterprisesgroup.in, hrhead@omenterprisesgroup.in ​</li>
+          <li><b>Contact:</b>+91-1814603134 , +91-9872144408</li>
           <u><h5>Follow Us </h5></u>
+          <a href="https://www.facebook.com/omenterprisesgroup/"><img src={facebook} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
+          <a href="https://www.instagram.com/omenterprisesgroup/"><img src={instagram} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
+          <a href="https://www.youtube.com/@omenterprisesglobalgroup"><img src={youtube} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
         </ul>      
          </div>
-
-
-
-
         </div>
       </div>
     </>
