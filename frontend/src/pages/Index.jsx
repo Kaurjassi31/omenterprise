@@ -3,14 +3,19 @@ import Nav from "../components/Nav";
 import "../pages/indexnew.css";
 import New from "../assets/new.gif";
 import Swiperr from "../components/Swiperr";
+import Accordion from "../components/Accordion";
 import Footer from "../components/Footer";
+import star5 from "../assets/star3.png";
+import Feed from "../components/Feed";
 import check from "../assets/check.webp";
+import compare from "../assets/compare.png";
 import player from "../assets/player.webp";
 import text from "../assets/text.webp";
 import money from "../assets/money.png";
 import gold from "../assets/gold.png";
 import silver from "../assets/silver.png";
 import bronze from "../assets/bronze.png";
+import plan from "../assets/plan.png";
 import c1 from "../assets/c1.svg";
 import c2 from "../assets/c2.svg";
 import c3 from "../assets/c3.svg";
@@ -141,7 +146,10 @@ const Index = () => {
           </div>
           <a href="services">
             {" "}
-            <button type="button" class="btn btn-primary btn-lg mt-3 mb-3 btn">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg mt-3 mb-3 btn p-2"
+            >
               Know More About Us
             </button>
           </a>
@@ -248,272 +256,549 @@ const Index = () => {
       </div>
       <Swiperr />
 
-      <div className="container mt-5">
-        <h1 style={{ color: "#023368" }}>
-          <img
-            src={money}
-            className="img-fluid"
-            style={{ height: "60px", width: "60px" }}
-          />
-          <span className="mx-5">MONEY FLOW MATRIX</span>
-        </h1>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-5">
-          <div class="col text-center">
-            <div class="card">
-              <center>
-                <img
-                  src={gold}
-                  className="img-fluid mt-4"
-                  style={{ height: "60px", width: "60px" }}
-                />
-              </center>
-              <div class="card-body">
-                <h2 className="mx-3" style={{ color: "#023368" }}>
-                  GOLD
-                </h2>
-                <ul
-                  class="price-card--features--list"
-                  style={{ textDecoration: "none", listStyle: "none" }}
-                >
-                  <li>Life Time Validity</li>
-                  <li>Instant Sender Id Approval</li>
-                  <li>Send SMS Multi Language Support</li>
-                  <li>Can send 24 x 7</li>
-                  <li>With Instant delivery report</li>
-                </ul>
+      <div className="container-fluid" style={{ backgroundColor: "white" }}>
+        <div className="container">
+          <h2 className="text-center mt-5" style={{ padding: "1%" }}>
+            <b>
+              🤩 A Single Spend for Endless Possibilities with Om Enterprises{" "}
+            </b>
+          </h2>
+          <center>
+            <h6 className=" mb-5" style={{ width: "60%" }}>
+              Yes, that's correct! Get Om Enterprises plan and you will have
+              access to all applications of Pabbly without any feature
+              restrictions.
+            </h6>
+            <img src={compare} className="img-fluid imag" />
+            <a href="services">
+              {" "}
+              <button
+                type="button"
+                class="btn btn-primary btn-lg mt-3 mb-3 btn p-2"
+              >
+                Know More About Us
+              </button>
+            </a>
+            <div className="row mt-2 mb-5">
+              <div className="col-sm-3"></div>
+              <div className="col-sm-2">
+                <p style={{ fontSize: "14px" }}>
+                  <span>
+                    <i
+                      class="fa-solid fa-check mx-1 p-1"
+                      style={{ color: "#318e5b" }}
+                    ></i>{" "}
+                  </span>
+                  Trusted 7,000+ Brands{" "}
+                </p>
+              </div>
+              <div className="col-sm-2">
+                <p style={{ fontSize: "14px" }}>
+                  <span>
+                    <i
+                      class="fa-solid fa-check mx-1 p-1"
+                      style={{ color: "#318e5b" }}
+                    ></i>{" "}
+                  </span>
+                  Serving from 16+ Year{" "}
+                </p>
+              </div>
+              <div className="col-sm-2">
+                <p style={{ fontSize: "14px" }}>
+                  <span>
+                    <i
+                      class="fa-solid fa-check mx-1 p-1"
+                      style={{ color: "#318e5b" }}
+                    ></i>
+                  </span>
+                  Over 15000+ Customer{" "}
+                </p>
               </div>
             </div>
-          </div>
-          <div class="col text-center">
-            <div class="card">
-              <center>
-                <img
-                  src={silver}
-                  class="card-img-top mt-4"
-                  style={{ height: "60px", width: "60px" }}
-                  alt="..."
-                />
-              </center>
-
-              <div class="card-body">
-                <h2 className="mx-3" style={{ color: "#023368" }}>
-                  SILVER
-                </h2>
-                <ul
-                  class="price-card--features--list"
-                  style={{ textDecoration: "none", listStyle: "none" }}
-                >
-                  <li>Life Time Validity</li>
-                  <li>Instant Sender Id Approval</li>
-                  <li>Send SMS Multi Language Support</li>
-                  <li>Can send 24 x 7</li>
-                  <li>With Instant delivery report</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col text-center">
-            <div class="card">
-              <center>
-                <img
-                  src={bronze}
-                  class="card-img-top mt-4"
-                  style={{ height: "60px", width: "60px" }}
-                  alt="..."
-                />
-              </center>
-
-              <div class="card-body">
-                <h2 className="mx-3" style={{ color: "#023368" }}>
-                  BRONZE
-                </h2>
-                <ul
-                  class="price-card--features--list"
-                  style={{ textDecoration: "none", listStyle: "none" }}
-                >
-                  <li>Life Time Validity</li>
-                  <li>Instant Sender Id Approval</li>
-                  <li>Send SMS Multi Language Support</li>
-                  <li>Can send 24 x 7</li>
-                  <li>With Instant delivery report</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          </center>
         </div>
       </div>
 
       <div
-        className="container-fluid mt-5 mb-5"
+        className="container-fluid "
         style={{ backgroundColor: "#f8fcff" }}
       >
-        <h1 className="text-center mt-5" style={{ padding: "1%" }}>
-          👨‍💻 <b>Pabbly Caters to All Your Business Needs!</b>
+        <h1 className="text-center" style={{ padding: "1%" }}>
+          👨‍💻 <b>Money Flow Matrix</b>
         </h1>
+        <h6 className="text-center">
+          The Most Powerful Business Suite with No Feature Restriction....
+          Without the High Costs 👍
+        </h6>
         <center>
-          <p className=" mb-5" style={{ width: "70%" }}>
-            Pabbly Plus is a comprehensive business management bundle that
-            addresses all your sales and marketing needs, saving you the hassle
-            of using multiple applications. With Pabbly Plus, you can take care
-            of all your business needs in one place.
-          </p>
-        </center>
-
-        <div className="container text-center">
-          <div class="row row-cols-1 row-cols-md-5 g-1 mb-5">
-            <div class="col">
-              <div class="card bdr" style={{width:"90%"}}>
-                <center>
-                  <img
-                    src={c1}
-                    class="card-img-top mt-4"
-                    style={{ height: "40px", width: "40px" }}
-                    alt="..."
-                  />
+          <div className="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+              <div class="col">
+                <div class="card h-100">
+                  <center>
+                    <p className="mt-3">STANDARD</p>
+                    <img
+                      src={plan}
+                      class="card-img-top"
+                      className="img-fluid mt-1 mb-1"
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </center>
                   <div class="card-body">
-                    <h6 class="card-title">
-                      <b>
-                        Pabbly <br />
-                        Connect
-                      </b>
-                    </h6>
-
-                    <p
-                      class="card-text mt-3"
-                      style={{ fontSize: "15px", width: "60%" }}
+                    <h4 class="card-title">
+                      <b>PACKAGE 1</b>
+                    </h4>
+                    <strike>
+                      {" "}
+                      <p>normally @ ₹ 74,000</p>
+                    </strike>
+                    <h2>
+                      <b>₹ 47,999/-</b>
+                      <span>
+                        <h6>/month</h6>
+                      </span>
+                    </h2>
+                    <button
+                      type="button"
+                      class="btn btn-primary mb-2 mt-3"
+                      style={{ width: "90%", height: "45px" }}
                     >
-                      Effortlessly create automated workflows and seamlessly
-                      transfer data between applications.
-                    </p>
-                    <button type="button" class="btn btn-outline-primary mb-2">
-                      LEARN MORE
+                      BUY NOW
                     </button>
+                    <hr />
+                    <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c1} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           Bulk SMS @ 1000 / Daily ₹12,000 Monthly
+                     </p>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c2} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           WhatsApp SMS @ 1000/Daily ₹12,000 
+                     </p>
+                     </div>
+                     </div>
+                     
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c4} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         Social Media 10 Posts,10 Reels  ₹50,000
+                     </p>
+                     </div>
+                     </div>
+                     <strike>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          SEO @ 15 keywords/month ₹35,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          Website Analytical Scanning @ 2times /week ₹35,000
+                     </p>
+                     </div>
+                     </div>
+                  
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         Google Business Management 30 Posts/month ₹47,999 
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         QR Codes for all platforms one time provider ₹25,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                        Videography 4 visits in 9 months ₹40,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                        Ad Budget included ₹20,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row mb-5">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         A.P.I integration of SMS to company platforms/software ₹10,000
+                     </p>
+                     </div>
+                     </div>
+                     </strike>
+                     
+                     <strike> <p className="mt-5 text-dark">Total Price 74,000/-</p></strike>
+                     <p className="mt-1 text-primary">Buy In INR ₹47,999 / month</p>       
+                                  </div>
+                   
                   </div>
-                </center>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card bdr" style={{width:"90%"}}>
-                <center>
-                  <img
-                    src={c2}
-                    class="card-img-top mt-4"
-                    alt="..."
-                    style={{ height: "40px", width: "40px" }}
-                  />
-                  <div class="card-body">
-                    <h6 class="card-title">
-                      <b>
-                        Pabbly <br /> Subscription Billing{" "}
-                      </b>
-                    </h6>
-
-                    <p
-                      class="card-text mt-3"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Recurring billing and subscription management solution
-                      with the built-in affiliate management.
-                    </p>
-                    <button type="button" class="btn btn-outline-primary mb-2">
-                      LEARN MORE
-                    </button>
-                  </div>
-                </center>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card bdr" style={{width:"90%"}}>
-              <center>
-                <img
-                  src={c3}
-                  class="card-img-top mt-4"
-                  alt="..."
-                  style={{ height: "40px", width: "40px" }}
-                />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    <b>
-                      Pabbly Email <br /> Marketing
-                    </b>
-                  </h6>
-                    <p
-                      class="card-text mt-3"
-                      style={{ fontSize: "15px", width: "60%" }}
-                    >
-                      Experience a comprehensive email marketing solution that
-                      simplifies sending emails.
-                    </p>
-                    <button type="button" class="btn btn-outline-primary mb-2">
-                      LEARN MORE
-                    </button>
                 </div>
-                </center>
               </div>
-            </div>
-            <div class="col">
-              <div class="card bdr" style={{width:"90%"}}>
-                <center>
-                  <img
-                    src={c4}
-                    class="card-img-top mt-4"
-                    alt="..."
-                    style={{ height: "40px", width: "40px" }}
-                  />
+              <div class="col">
+                <div class="card h-100">
+                  <center>
+                    <p className="mt-3">PRO</p>
+                    <img
+                      src={plan}
+                      class="card-img-top"
+                      className="img-fluid mt-1 mb-1"
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </center>
                   <div class="card-body">
-                    <h6 class="card-title">
-                      <b>
-                        Pabbly Form
-                        <br />
-                        Builder
-                      </b>
-                    </h6>
- <p class="card-text mt-3" style={{ fontSize: "15px", width: "60%" }} >
-                      Harness power online form builder to effortlessly
-                      collect payments, leads, surveys and more.
-                    </p>
-                    <button type="button" class="btn btn-outline-primary mb-2">
-                      LEARN MORE
-                    </button>
-                  </div>
-                </center>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card bdr" style={{width:"90%"}}>
-                <center>
-                  <img
-                    src={c5}
-                    class="card-img-top mt-4 "
-                    alt="..."
-                    style={{ height: "40px", width: "40px" }}
-                  />
-                  <div class="card-body">
-                    <h6 class="card-title">
-                      <b>
-                        {" "}
-                        Pabbly Email <br /> Verification{" "}
-                      </b>{" "}
-                    </h6>
-                    <p
-                      class="card-text"
-                      style={{ fontSize: "15px", width: "60%" }}
+                    <h4 class="card-title">
+                      <b>PACKAGE 2</b>
+                    </h4>
+                    <strike>
+                      <p>normally @ ₹ 1,25,000</p>
+                    </strike>
+                    <h2>
+                      <b>₹ 65,999/-</b>
+                      <span>
+                        <h6>/month + G.S.T</h6>
+                      </span>
+                    </h2>
+                    <button
+                      type="button"
+                      class="btn btn-primary mb-2 mt-3"
+                      style={{ width: "90%", height: "45px" }}
                     >
-                      Boost your delivery and open rates by verifying your email
-                      list to remove invalid email addresses.
-                    </p>
-                    <button type="button" class="btn btn-outline-primary mt-1 mb-2">
-                      LEARN MORE
+                      BUY NOW
                     </button>
+                    <hr />
+                    <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c1} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           Bulk SMS @ 2000 / Daily ₹15,000 monthly
+                     </p>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c2} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           WhatsApp SMS @ 2000/Daily ₹15,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c3} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          Voice SMS @ 2000/Daily ₹30,000
+                     </p>
+                     </div>
+                     </div>
+                     
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c4} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         Social Media 15 Posts,15 Reels ₹65,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          SEO @ 15 keywords/month ₹35,000
+                     </p>
+                     </div>
+                     </div>
+                     <strike>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          Website Analytical Scanning @ 2times /week ₹35,000
+                     </p>
+                     </div>
+                     </div>
+                  
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         Google Business Management 30 Posts/month ₹47,999 
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         QR Codes for all platforms one time provider ₹25,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                        Videography 4 visits in 9 months ₹40,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                        Ad Budget included ₹20,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row mb-4">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         A.P.I integration of SMS to company platforms/software ₹10,000
+                     </p>
+                     </div>
+                     </div>
+                     </strike>
+                     <strike> <p className="mt-4 text-dark">Total Price 1,25,000/-</p></strike>
+                     <p className="mt-1 text-primary">Buy In INR ₹65,999 / month</p>
+                    </div>
                   </div>
-                </center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <center>
+                    <p className="mt-3">ULTIMATE</p>
+                    <img
+                      src={plan}
+                      class="card-img-top"
+                      className="img-fluid mt-1 mb-1"
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </center>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <b>PACKAGE 3</b>
+                    </h4>
+                    <strike>
+                      <p>normally @ ₹ 366,998</p>
+                    </strike>
+                    <h2>
+                      <b>₹ 1,99,999</b>
+                      <span>
+                        <h6>/month + TAX 18%</h6>
+                      </span>
+                    </h2>
+                    <button
+                      type="button"
+                      class="btn btn-primary mb-2 mt-3"
+                      style={{ width: "90%", height: "45px" }}
+                    >
+                      BUY NOW
+                    </button>
+                    <hr />
+                   
+                    <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c1} className="img-fluid" />
+                      </div>
+                     
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           Bulk SMS @ 5000/Daily  ₹30,000 monthly
+                     </p>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c2} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           WhatsApp SMS @ 5000/Daily ₹30,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c3} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                           Bulk Emails @ 5000/Daily ₹25,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c4} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         Social Media 30 Posts,15 Reels ₹47,999 
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          SEO @ 15 keywords/month ₹35,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                          Website Analytical Scanning @ 2times /week ₹35,000
+                     </p>
+                     </div>
+                     </div>
+                  
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         Google Business Management 30 Posts/month ₹47,999 
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         QR Codes for all platforms one time provider ₹25,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                        Videography 4 visits in 9 months ₹40,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                        Ad Budget included ₹20,000
+                     </p>
+                     </div>
+                     </div>
+                     <div className="row">
+                      <div className="col-sm-2 ">
+                      <img src={c5} className="img-fluid" />
+                      </div>
+                      <div className="col-sm-10">
+                      <p style={{ fontSize: "15px" }}>
+                         A.P.I integration of SMS to company platforms/software ₹10,000
+                     </p>
+                     </div>
+                     </div>
+                     <strike> <p className="mt-4 text-dark">Total Price 3,66,998/-</p></strike>
+                     <p className="mt-1 text-primary">Buy In INR ₹1,99,999 / month</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          <div className="row">
+            <h4 className="mt-5">😍<b>EXTRA BONUS OFFERS</b></h4>
+            <p className="mt-2 text-dark">12 Months together -- <b> 15% Extra Off</b></p>
+            <p className="mt-1 text-dark">6 Months together -- <b>5% Extra Off</b></p>
+            <p className="mt-1 mb-5 text-dark">3 Months together -- <b>No Extra Off</b></p>
+          </div>
+        </center>
       </div>
-          <Footer />
+    
+
+      <div className="container">
+        <Feed />
+      </div>
+
+      <div className="container-fluid text-center mt-5 mb-5">
+        <Accordion />
+      </div>
+
+      <Footer />
     </>
   );
 };

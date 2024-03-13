@@ -1,166 +1,80 @@
 import React from "react";
 import logo1 from "../assets/logo1.png";
+import "../pages/indexnew.css";
+
 
 const Footer = () => {
   return (
-    <div>
-      <div className="container-fluid bg-dark text-white">
+    <>
+      <div className="container-fluid" style={{backgroundColor:"#ffffff"}}>
         <div className="row">
-          <div className="col-sm-3 text-center">
-            <img
-              src={logo1}
-              className="img-fluid mt-5"
-              style={{ height: "5rem" }}
-            />
-            <h2 style={{ fontFamily: "Poppins', sans-serif" }} className="mt-4">
-              Om Enterprises
-              <br />
-              Group
-            </h2>
-          </div>
-          <div className="col-sm-2 mt-5">
-            <h2
-              style={{ fontFamily: "Poppins', sans-serif", marginLeft: "25px" }}
-            >
-              Products
-            </h2>
-            <ul
-              style={{
-                fontFamily: "Poppins', sans-serif",
-                textDecoration: "none",
-                listStyle: "none",
-                textAlign: "left",
-                fontSize: "19px",
-              }}
-            >
-              <a
-                href="bulksms"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Bulk Messages</li>
-              </a>
-              <a
-                href="bulkemail"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Email Marketing</li>
-              </a>
-              <a
-                href="digitalmarketing"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Digital marketing</li>
-              </a>
-              <a
-                href="website"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Website Designing</li>
-              </a>
-              <a
-                href="voicesms"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Voice Messages</li>
-              </a>
-            </ul>
-          </div>
-          <div className="col-sm-2 mt-5">
-            <h2
-              style={{ fontFamily: "Poppins', sans-serif", marginLeft: "23px" }}
-            >
-              Quick Links
-            </h2>
-            <ul
-              style={{
-                fontFamily: "Poppins', sans-serif",
-                textDecoration: "none",
-                listStyle: "none",
-                textAlign: "left",
-                fontSize: "19px",
-              }}
-            >
-              <a
-                href="about"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>About Us</li>
-              </a>
-              <a
-                href="services"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Services</li>
-              </a>
-              
-              <a
-                href="contact"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Contact -Us</li>
-              </a>
-              <a 
-                href="privacy"
-                style={{ textDecoration: "none", color: "white" }}>
-              <li>Privacy Policy</li>
-              </a>
-
-              <a
-                href="pricing"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <li>Plan & Pricing</li>
-              </a>
-            </ul>
-          </div>
-          <div className="col-sm-1"></div>
-
-          <div className="col-sm-3 mt-5">
-            <h2 style={{ fontFamily: "Poppins', sans-serif" }}>Contact Us</h2>
-            <div>
-              <form>
-                <div class="mb-3" style={{ border: "2px solid grey" }}>
-                  <label style={{ marginLeft: "10px" }} class="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    style={{ width: "70%", marginLeft: "10px" }}
-                  />
-                  <label style={{ marginLeft: "10px" }} class="form-label">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    style={{ width: "70%", marginLeft: "10px" }}
-                  />
-                  <div
-                    style={{ marginLeft: "10px" }}
-                    className="text-light mt-1"
-                  >
-                    We'll contact you soon.
-                  </div>
-                  <button
-                    type="submit"
-                    className="bt-2"
-                    style={{
-                      marginLeft: "10px",
-                      marginTop: "7px",
-                      marginBottom: "8px",
-                    }}
-                    class="btn btn-primary"
-                  >
-                    Submit
-                  </button>
-                </div>
-              </form>
+        <div className="col-sm-3">
+        <ul style={{listStyle:"none"}}>
+        <u><h5>Company</h5></u>
+        <li>About Us</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+        <li>Careers</li>
+        <li>Security</li>
+        <li>Brand Assets</li>
+        <u><h5>Developer</h5></u>
+        <li>API - Pabbly Subscription Billing</li>
+        <li>API - Pabbly Email Marketing </li>
+        </ul>     
+         </div>
+       <div className="col-sm-3">
+        <ul style={{listStyle:"none"}}>
+        <u><h5> Learn</h5></u>
+        <li>Pabbly Connect Videos</li>
+        <li>Pabbly Connect Community</li>
+        <li>Pabbly Subscription Billing Community</li>
+        <li>Careers</li>
+        <u><h5>Partners</h5></u>
+        <li>Affiliate Program</li>
+        <u><h5> Integrations</h5></u>
+        <li> Pabbly Connect Integrations</li>
+        <li> Integrate Your App</li>
+        </ul>   
+         </div>
+       <div className="col-sm-3">
+        <ul style={{listStyle:"none"}}>
+        <u><h5>Products </h5></u>
+        <li>Pabbly Plus</li>
+        <li>Pabbly Connect</li>
+        <li>Pabbly Email Marketing</li>
+        <li>Pabbly Form Builder</li>
+        <li>Pabbly Email Verification</li>
+        <li>Pabbly Subscription Billing</li>
+        <u><h5>Certification</h5></u>
+        <li>  SOC2 Type 1 </li>
+        <li> ISO 27001:2022</li>
+  
+        </ul>      
+         </div>
+         <div className="col-sm-3">
+          <div className="row">
+            <div className="col-sm-3">
+            <img src={logo1} className="img-fluid mx-4" />
+            </div>
+            <div className="col-sm-9">
+            <h4>Om Enterprises<span className=""> Group</span></h4>
             </div>
           </div>
+        <ul style={{listStyle:"none"}}>
+          <li><b>Sales:</b> support@pabbly.com​</li>
+          <li>Contact Us</li>
+          <li>Support Forum</li>
+          <li>Enterprise</li>
+          <u><h5>Follow Us </h5></u>
+        </ul>      
+         </div>
+
+
+
+
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

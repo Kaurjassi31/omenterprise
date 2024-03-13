@@ -19,7 +19,7 @@ import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
 import Account from "./pages/Account";
 import Terms from "./pages/Terms";
-
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -42,8 +42,10 @@ function App() {
         <Route path="/account" element={<Account />} />
         <Route path="/digitalmarketing" element={<Digitalmarketing />} />
         <Route path="/Index" element={<Index />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/Privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="*" element={<Error />} />
 
       </Routes>
     </>

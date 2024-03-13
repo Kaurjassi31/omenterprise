@@ -48,9 +48,9 @@ const Nav = () => {
                 <ProductDropdown/>
                 </a>
               </li>
-              <li className="nav-item mt-3 mx-2" style={{fontSize:"18px",color:"black"}}>
+              <li className="nav-item mt-3 mx-2 " style={{fontSize:"18px",color:"black"}}>
                 <a
-                  className="nav-link"
+                  className="nav-link text-dark"
                 
                   href="/login"
                 >
@@ -63,7 +63,8 @@ const Nav = () => {
             <button
     className=" btn btn-primary  mx-3 mb-3"
     style={{
-      backgroundColor:"#023368"
+      backgroundColor:"#023368",
+      border:"none"
     }}
   
     >  
