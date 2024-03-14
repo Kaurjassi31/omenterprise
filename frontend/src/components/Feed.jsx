@@ -10,12 +10,12 @@ const Feed = () => {
   return (
     <>
       <div
-        className="container mt-5 mb-5 text-center"
-        style={{ backgroundColor: "#023368" }}
+        className="container-fluid mb-5 text-center"
+        style={{ backgroundColor: "" }}
       >
         <div className="container mt-5 mb-5">
-          <h1 style={{ fontFamily: "Poppins', sans-serif", color: "white" }}>
-            WHAT OUR CLIENTS SAY
+          <h1 style={{ fontFamily: "Poppins', sans-serif", color: "black" }}>
+            WHAT OUR CLIENTS SAY ❤
           </h1>
         </div>
         <Swiper
@@ -49,7 +49,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -74,7 +73,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -99,7 +97,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -124,7 +121,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -150,7 +146,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -174,7 +169,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -199,7 +193,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -224,7 +217,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -248,7 +240,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">
@@ -272,7 +263,6 @@ const Feed = () => {
           <SwiperSlide>
             <div
               className="container text-center"
-              style={{ backgroundColor: "#023368" }}
             >
               <div class="card mb-5">
                 <div class="card-body">

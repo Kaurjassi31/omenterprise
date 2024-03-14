@@ -4,9 +4,7 @@ import "../pages/indexnew.css";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/insta.png";
 import youtube from "../assets/youtube.png";
-
-
-
+import linkedin from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <>
@@ -16,21 +14,17 @@ const Footer = () => {
         <div className="col-sm-2 ">
         <ul style={{listStyle:"none"}}>
         <u><h5>Company</h5></u>
-        <a
-                href="contact"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Contact -Us</li>
+        <a href="contact"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">Contact -Us</li>
               </a>
-              <a
-                href="about"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>About Us</li>
+              <a href="about"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">About Us</li>
               </a>
-              <li>Careers</li>
-        <li>Security</li>
-        <li>Brand Assets</li>
+              <li className="mt-2">Careers</li>
+        <li className="mt-2">Security</li>
+        <li className="mt-2">Brand Assets</li>
         </ul>     
          </div>
 
@@ -44,44 +38,29 @@ const Footer = () => {
               }}
             >
         <u>
-        <h5
-              style={{ fontFamily: "Poppins', sans-serif" }}
-            >
+        <h5 style={{ fontFamily: "Poppins', sans-serif" }} >
               Quick Links
             </h5></u>
-           
-             
-              <a
-                href="services"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Services</li>
+              <a href="services"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">Services</li>
               </a>
-              
-            
-              <a 
-                href="privacy"
+              <a  href="privacy"
                 style={{ textDecoration: "none", color: "black" }}>
-              <li>Privacy Policy</li>
+              <li className="mt-2">Privacy Policy</li>
               </a>
 
-              <a
-                href="pricing"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Plan & Pricing</li>
+              <a href="pricing"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">Plan & Pricing</li>
               </a>
-              <a
-                href="services"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>DLT</li>
+              <a href="services"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-2">DLT</li>
               </a>
-              <a
-                href="services"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Become Reseller</li>
+              <a href="services"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">Become Reseller</li>
               </a>
             </ul>
          </div>        
@@ -95,48 +74,33 @@ const Footer = () => {
               }}
             >
            <u><h5>Products </h5></u>
-              <a
-                href="bulksms"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Bulk Messages</li>
+              <a href="bulksms"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-2">Bulk Messages</li>
               </a>
-              <a
-                href="bulkemail"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Email Marketing</li>
+              <a href="bulkemail"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-2">Email Marketing</li>
               </a>
-              <a
-                href="digitalmarketing"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Digital marketing</li>
+              <a href="digitalmarketing"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-2">Digital marketing</li>
               </a>
-              <a
-                href="website"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Website Designing</li>
+              <a  href="website"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-2">Website Designing</li>
               </a>
-              <a
-                href="voicesms"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Voice Messages</li>
+              <a href="voicesms"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">Voice Messages</li>
               </a>
-              <a
-                href="socialmedia"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                <li>Social Media</li>
+              <a href="socialmedia"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-2">Social Media</li>
               </a>
             </ul>
-  
-         </div>
-
-         <div className="col-sm-3">
-          
+          </div>
+         <div className="col-sm-3">   
           <div className="row">
             <div className="col-sm-3">
             <img src={logo1} className="img-fluid mx-4" />
@@ -146,12 +110,13 @@ const Footer = () => {
             </div>
           </div>
         <ul style={{listStyle:"none"}}>
-          <li><b>Queries:</b> @omenterprisesgroup.in, hrhead@omenterprisesgroup.in ​</li>
-          <li><b>Contact:</b>+91-1814603134 , +91-9872144408</li>
-          <u><h5>Follow Us </h5></u>
+          <li className="mt-2"><b>Queries:</b> @omenterprisesgroup.in, hrhead@omenterprisesgroup.in ​</li>
+          <li className="mt-2"><b>Contact:</b>+91-1814603134 , +91-9872144408</li>
+          <u><h5 className="mt-2">Follow Us </h5></u>
           <a href="https://www.facebook.com/omenterprisesgroup/"><img src={facebook} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
           <a href="https://www.instagram.com/omenterprisesgroup/"><img src={instagram} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
           <a href="https://www.youtube.com/@omenterprisesglobalgroup"><img src={youtube} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
+          <a href="https://www.linkedin.com/company/om-enterprises-group/"><img src={linkedin} className="mx-2" style={{height:"30px",width:"30px"}} /></a>
         </ul>      
          </div>
         </div>
