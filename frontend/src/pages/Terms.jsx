@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Terms = () => {
   return (
@@ -325,6 +326,7 @@ const Terms = () => {
       <td>The name in which the SMS is sent</td>
 </tr>
 </table>
+<Footer/>
     </>
   );
 };

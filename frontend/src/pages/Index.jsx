@@ -260,7 +260,11 @@ const Index = () => {
           </center>
         </div>
       </div>
+      <div className="container-fluid text-center mb-5" >
+      <div className="container">
       <Swiperr />
+      </div>
+      </div>
       <div className="container-fluid" style={{ backgroundColor: "#f8fcff" }}>
         <div className="container mt-5 mb-5 text-center">
           <h2 className="mt-5">
@@ -440,7 +444,7 @@ const Index = () => {
 
       <div className="container-fluid" style={{ backgroundColor: "white" }}>
         <div className="container">
-          <h2 className="text-center mt-5" style={{ padding: "1%" }}>
+          <h2 className="text-center" style={{ padding: "1%" }}>
             <b>
               🤩 A Single Spend for Endless Possibilities with Om Enterprises{" "}
             </b>
@@ -448,7 +452,7 @@ const Index = () => {
           <center>
             <h6 className=" mb-5" style={{ width: "60%" }}>
               Yes, that's correct! Get Om Enterprises plan and you will have
-              access to all applications of Pabbly without any feature
+              access to all applications without any feature
               restrictions.
             </h6>
             <img src={compare} className="img-fluid imag" />
@@ -1003,12 +1007,61 @@ const Index = () => {
         </center>
       </div>
 
+      <div className="container-fluid text-center mt-5 mb-5">
       <div className="container">
         <Feed />
       </div>
+      <a href="services">
+            {" "}
+            <button
+              type="button"
+              class="btn btn-dark btn-lg  mb-3 btn p-2"
+            >
+              Know More About Us
+            </button>
+          </a>
+          <div className="row mt-2 mb-5">
+            <div className="col-sm-3"></div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>{" "}
+                </span>
+                Trusted 7,000+ Brands{" "}
+              </p>
+            </div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>{" "}
+                </span>
+                Serving from 16+ Year{" "}
+              </p>
+            </div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>
+                </span>
+                Over 15000+ Customer{" "}
+              </p>
+            </div>
+          </div>
+      </div>
 
-      <div className="container-fluid text-center mt-5 mb-5">
+      <div className="container-fluid text-center mt-5 mb-5" style={{backgroundColor:"#f8fcff"}}>
+        <div className="container">
         <Accordion />
+        </div>
       </div>
 
       <Footer />

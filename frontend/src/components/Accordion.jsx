@@ -1,12 +1,15 @@
 import React from "react";
+import "../pages/indexnew.css";
 
 const Accordion = () => {
   return (
     <>
-    <div className="container-fluid mt-5 mb-5 " style={{backgroundColor:"#f8fcff"}}>
-      <h1 className="mt-5" style={{color:"black"}}>Frequently Asked Questions</h1>
-        <div class="accordion mx-auto mt-5 mb-5" id="accordionExample" style={{width:"60%"}}>
-        <div class="accordion-item mt-2 mb-2">
+    <div className="container-fluid">
+      <div className="container">
+      <h1 className="text-dark mt-5">Frequently Asked Questions</h1>
+      </div>
+        <div class="accordion mx-auto mt-4 mb-5" id="accordionExample" style={{width:"60%",marginBottom:"70px"}}>
+        <div class="accordion-item mt-2">
           <h2 class="accordion-header">
             <button
               class="accordion-button"
@@ -22,8 +25,7 @@ const Accordion = () => {
           <div
             id="collapseOne"
             class="accordion-collapse collapse show"
-            data-bs-parent="#accordionExample"
-          >
+            data-bs-parent="#accordionExample">
             <div class="accordion-body">
             we are always dedicated
             to providing quality service. Thus, we always make use of high-end

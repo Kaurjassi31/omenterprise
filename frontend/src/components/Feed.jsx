@@ -10,10 +10,10 @@ const Feed = () => {
   return (
     <>
       <div
-        className="container-fluid mb-5 text-center"
+        className="container-fluid text-center"
         style={{ backgroundColor: "" }}
       >
-        <div className="container mt-5 mb-5">
+        <div className="container mt-5">
           <h1 style={{ fontFamily: "Poppins', sans-serif", color: "black" }}>
             WHAT OUR CLIENTS SAY ❤
           </h1>
@@ -50,7 +50,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Airtel Broadband</h2>
                   <center>
@@ -74,7 +74,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Vodafone</h2>
                   <center>
@@ -98,7 +98,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>PGI</h2>
                   <center>
@@ -122,7 +122,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Bulk SMS Client</h2>
                   <center>
@@ -147,7 +147,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Akal Hospital</h2>
                   <center>
@@ -170,7 +170,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>WWICS</h2>
                   <center>
@@ -194,7 +194,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>RS Global</h2>
                   <center>
@@ -218,7 +218,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Alpha Academy</h2>
                   <center>
@@ -241,7 +241,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Grover Shoes</h2>
                   <center>
@@ -264,7 +264,7 @@ const Feed = () => {
             <div
               className="container text-center"
             >
-              <div class="card mb-5">
+              <div class="card mb-5 mt-4">
                 <div class="card-body">
                   <h2>Lall’s Orthocare</h2>
                   <center>

@@ -23,7 +23,9 @@ const Footer = () => {
                 <li className="mt-2">About Us</li>
               </a>
               <li className="mt-2">Careers</li>
-        <li className="mt-2">Security</li>
+              <a href="terms"
+                style={{ textDecoration: "none", color: "black" }} >
+        <li className="mt-2">Terms & Conditions</li></a>
         <li className="mt-2">Brand Assets</li>
         </ul>     
          </div>
@@ -41,6 +43,10 @@ const Footer = () => {
         <h5 style={{ fontFamily: "Poppins', sans-serif" }} >
               Quick Links
             </h5></u>
+            <a href="services"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-2">DLT</li>
+              </a>
               <a href="services"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-2">Services</li>
@@ -54,10 +60,7 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-2">Plan & Pricing</li>
               </a>
-              <a href="services"
-                style={{ textDecoration: "none", color: "black" }}>
-                <li className="mt-2">DLT</li>
-              </a>
+             
               <a href="services"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-2">Become Reseller</li>
@@ -103,10 +106,10 @@ const Footer = () => {
          <div className="col-sm-3">   
           <div className="row">
             <div className="col-sm-3">
-            <img src={logo1} className="img-fluid mx-4" />
+            <img src={logo1} className="img-fluid mx-4" style={{height:"65px",width:"95px"}} />
             </div>
             <div className="col-sm-9">
-            <h4>Om Enterprises<span className=""> Group</span></h4>
+            <h4 className="mx-4">Om Enterprises<span className=""> Group</span></h4>
             </div>
           </div>
         <ul style={{listStyle:"none"}}>
