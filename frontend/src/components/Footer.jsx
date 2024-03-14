@@ -22,7 +22,10 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-2">About Us</li>
               </a>
-              <li className="mt-2">Careers</li>
+              <a href="career"
+                style={{ textDecoration: "none", color: "black" }} >
+              <li className="mt-2">Career</li>
+              </a>
               <a href="terms"
                 style={{ textDecoration: "none", color: "black" }} >
         <li className="mt-2">Terms & Conditions</li></a>
@@ -43,7 +46,7 @@ const Footer = () => {
         <h5 style={{ fontFamily: "Poppins', sans-serif" }} >
               Quick Links
             </h5></u>
-            <a href="services"
+            <a href="Dlt"
                 style={{ textDecoration: "none", color: "black" }}>
                 <li className="mt-2">DLT</li>
               </a>

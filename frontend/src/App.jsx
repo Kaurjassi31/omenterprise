@@ -4,7 +4,6 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
-// import Navbar from "./components/navbar/Navbar";
 import "./App.css";
 import Bulksms from "./pages/Bulksms";
 import Bulkemail from "./pages/Bulkemail";
@@ -20,11 +19,12 @@ import Privacy from "./pages/Privacy";
 import Account from "./pages/Account";
 import Terms from "./pages/Terms";
 import Error from "./pages/Error";
+import Dlt from "./pages/Dlt";
+import Career from "./pages/Career";
 
 function App() {
   return (
     <>
-    
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
@@ -46,6 +46,8 @@ function App() {
         <Route path="/Privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<Error />} />
+        <Route path="/dlt" element={<Dlt />} />
+        <Route path="/career" element={<Career />} />
 
       </Routes>
     </>
