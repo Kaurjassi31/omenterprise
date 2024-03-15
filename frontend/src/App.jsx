@@ -21,6 +21,7 @@ import Terms from "./pages/Terms";
 import Error from "./pages/Error";
 import Dlt from "./pages/Dlt";
 import Career from "./pages/Career";
+import Reseller from "./pages/Reseller";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="/dlt" element={<Dlt />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/reseller" element={<Reseller />} />
 
       </Routes>
     </>

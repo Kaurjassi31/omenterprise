@@ -359,7 +359,7 @@ const Index = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card mb-5 mt-4">
+              <div class="card mb-4 mt-4">
                 <center>
                   <img
                     src={sociall}
@@ -375,7 +375,7 @@ const Index = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card mb-5 mt-4">
+              <div class="card mb-4 mt-4">
                 <center>
                   <img
                     src={qrcode}
@@ -391,7 +391,7 @@ const Index = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card mb-5 mt-4">
+              <div class="card mb-4 mt-4">
                 <center>
                   <img
                     src={websitee}
@@ -407,7 +407,7 @@ const Index = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card mb-5 mt-4">
+              <div class="card mb-4 mt-4">
                 <center>
                   <img
                     src={businesss}
@@ -423,7 +423,7 @@ const Index = () => {
               </div>
             </div>
             <div class="col">
-              <div class="card mb-5 mt-4">
+              <div class="card mb-4 mt-4">
                 <center>
                   <img
                     src={seo}
@@ -439,6 +439,60 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <div className="container">
+          <a href="services">
+            {" "}
+            <button
+              type="button"
+              class="btn btn-primary btn-lg mb-3 btn p-2"
+            >
+              Know More About Us
+            </button>
+          </a>
+          </div>
+        <div className="container-fluid">
+        <div className="row mt-2 mb-5">
+          <div className="col-sm-3"></div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>{" "}
+                </span>
+                Trusted 7,000+ Brands{" "}
+              </p>
+            </div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>{" "}
+                </span>
+                Serving from 16+ Year{" "}
+              </p>
+            </div>
+            <div className="col-sm-2">
+              <p style={{ fontSize: "14px" }}>
+                <span>
+                  <i
+                    class="fa-solid fa-check mx-1 p-1"
+                    style={{ color: "#318e5b" }}
+                  ></i>
+                </span>
+                Over 15000+ Customer{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+      
+    
+      
+        
+    
         </div>
       </div>
 
@@ -460,7 +514,7 @@ const Index = () => {
               {" "}
               <button
                 type="button"
-                class="btn btn-primary btn-lg mt-3 mb-3 btn p-2"
+                class="btn btn-primary btn-lg mt-5 mb-3 btn p-2"
               >
                 Know More About Us
               </button>

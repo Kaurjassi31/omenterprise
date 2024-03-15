@@ -43,7 +43,7 @@ const Services = () => {
             className="row"
             style={{ fontFamily: "Poppins', sans-serif" }}
           >
-         <img src={call} className="img-fluid mt-5"  style={{height:"550px"}} />
+         <img src={call} className="img-fluid"  style={{height:"550px"}} />
             
           </div>
         </div>
@@ -70,8 +70,8 @@ const Services = () => {
                 recipients.
                 <hr />
                 <a href="bulksms">
-                  <Button />
-                </a>
+                <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+                                </a>
               </Card>
               <Card
                 img={whatsapp}
@@ -81,7 +81,8 @@ const Services = () => {
                 Send large number of WhatsApp messages to multiple recipients.
                 <hr />
                 <a href="whatsapp">
-                  <Button />
+                <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
               <Card img={email} title={"Bulk Emails"}>
@@ -90,7 +91,8 @@ const Services = () => {
                 <hr />
                 <a href="bulkemail">
                   {" "}
-                  <Button />
+                  <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
               <Card img={voice} title={"Voice SMS"}>
@@ -99,7 +101,8 @@ const Services = () => {
                 <hr />
                 <a href="voicesms">
                   {" "}
-                  <Button />
+                  <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
               <Card img={website} title={"Website Development"}>
@@ -107,7 +110,8 @@ const Services = () => {
                 web applications.
                 <hr />
                 <a href="website">
-                  <Button />
+                <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
 
@@ -117,7 +121,8 @@ const Services = () => {
                 <hr />
                 <a href="socialmedia">
                   {" "}
-                  <Button />
+                  <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
 
@@ -130,7 +135,8 @@ const Services = () => {
                 <hr />
                 <a href="digitalmarketing">
                   {" "}
-                  <Button />
+                  <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
               <Card
@@ -142,7 +148,8 @@ const Services = () => {
                 <hr />
                 <a href="software">
                   {" "}
-                  <Button />
+                  <button type="button" class="btn btn-primary" style={{backgroundColor:"#023368",color:"white"}}>Know More</button>
+
                 </a>
               </Card>
             </div>

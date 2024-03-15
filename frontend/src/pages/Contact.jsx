@@ -126,7 +126,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid" style={{ backgroundColor: "#023368" }}>
+      <div className="container-fluid" style={{ backgroundColor: "#f8fcff" }}>
         <div className="row">
           <div className="col-sm-1"></div>
           <div className="col-sm-5 mt-3">

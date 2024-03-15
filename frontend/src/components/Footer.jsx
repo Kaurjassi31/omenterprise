@@ -29,7 +29,6 @@ const Footer = () => {
               <a href="terms"
                 style={{ textDecoration: "none", color: "black" }} >
         <li className="mt-2">Terms & Conditions</li></a>
-        <li className="mt-2">Brand Assets</li>
         </ul>     
          </div>
 
@@ -64,7 +63,7 @@ const Footer = () => {
                 <li className="mt-2">Plan & Pricing</li>
               </a>
              
-              <a href="services"
+              <a href="Reseller"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-2">Become Reseller</li>
               </a>

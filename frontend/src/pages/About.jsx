@@ -70,7 +70,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid text-center" style={{backgroundColor:"#def7fb"}}>
+      <div className="container-fluid text-center" style={{ backgroundColor: "#f8fcff" }}>
         <div className="container">
           <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>OUR AWESOME FEATURES</h1>
           <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">

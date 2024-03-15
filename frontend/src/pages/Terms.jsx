@@ -298,8 +298,8 @@ const Terms = () => {
       <h2>Appendix</h2>
       <h6>The following table provides information on all the terminologies used in this agreement.</h6>
       <br/>
-      <table class="table">
-  <thead>
+      <table class="table" style={{ backgroundColor: "#f8fcff" }}>
+  <thead >
     <tr>
       <th scope="col">Abbreviation</th>
       <th scope="col">Description</th>

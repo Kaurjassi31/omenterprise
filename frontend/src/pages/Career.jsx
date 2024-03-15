@@ -2,6 +2,11 @@ import React from "react";
 import career from "../assets/career.jpg";
 import Nav from "../components/Nav";
 import support from "../assets/support.png";
+import motivation from "../assets/motivation.png";
+import reliability from "../assets/reliability.png";
+import peoplee from "../assets/peoplee.png";
+import trust from "../assets/trust.png";
+import Footer from "../components/Footer";
 
 
 const Career = () => {
@@ -34,60 +39,68 @@ const Career = () => {
             exciting work environment.
           </p>
         </center>
+        <div className="container">
         <div class="row row-cols-1 row-cols-md-5 mt-5 mb-5 g-4 text-center">
           <div class="col">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
+            <center>
+              <img src={peoplee} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
+              </center>              <div class="card-body">
                 <h5 class="card-title">PEOPLE</h5>
                 <p class="card-text">
                   Om Enterprises Group treats all employees like family;
-                  allowing them prosper and be appreciated and help them to grow.
+                  allowing them proper and be appreciated and help them to
+                  grow their business.
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
+            <center>
+              <img src={motivation} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
+              </center>              <div class="card-body">
                 <h5 class="card-title">PASSION</h5>
                 <p class="card-text">
-                  Om Enterprises Group promotes
-                  energetic, innovative, performance driven & fun environment to
-                  deliver high quality service to its customers.
+                  Om Enterprises Group promotes energetic, innovative,
+                  performance driven & fun environment to deliver high quality
+                  service to its customers.
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
+            <center>
+              <img src={trust} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
+              </center>              <div class="card-body">
                 <h5 class="card-title">TRUST</h5>
                 <p class="card-text">
                   Om Enterprises offering unparalleled customer services to
-                  encouraging employee curiosity & openness to learn new things
+                  encouraging employee curiosity & openness to learn new things and gain trust in us.
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
+              <center>
+              <img src={support} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
+              </center>
               <div class="card-body">
                 <h5 class="card-title">PARTNERSHIP</h5>
                 <p class="card-text">
                   Om Enterprises Group encourages working in collaboration with
-                  its customers, partners and suppliers to improve processes.
+                  its customers, partners,resellers and suppliers to improve processes.
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
+            <center>
+              <img src={reliability} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
+              </center>              <div class="card-body">
                 <h5 class="card-title">RELIABILITY</h5>
                 <p class="card-text">
                   Om Enterprises Group focuses on delivering effective solutions
@@ -98,13 +111,98 @@ const Career = () => {
             </div>
           </div>
         </div>
+        </div>
       </div>
+      <div className="container-fluid"style={{ backgroundColor: "#f8fcff" }}>
       <div className="container">
-        <h1>Find your ideal jobs with us.</h1>
+        <h1 className="mt-5">Find your ideal jobs with us.</h1>
         <h6>
-Explore an opportunity to work with a global team of industry experts, who are reshaping the future of mobile communication.
-</h6>
+          Explore an opportunity to work with a global team of industry experts,
+          who are reshaping the future of mobile communication.
+        </h6>
+        </div>
+        <div className="container" >
+        <div class="row row-cols-1 row-cols-md-3 mt-4 g-4 mb-5">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title text-center">Marketing Executives </h4>
+        <div className="row mt-3">
+          <div className="col-sm-5">
+          <h6>Qualification:</h6>
+            <h6>Gender: </h6>
+            <h6>Mandatory: </h6>
+            <h6>Skills Good: </h6>
+            <h6>Location: </h6>
+
+          </div>
+          <div className="col-sm-7">
+          <h6> Graduate</h6>
+          <h6> Male/Female</h6>
+          <h6> Computer Operating</h6>
+          <h6>Good Communication</h6>
+          <h6> Jalandhar</h6>
+
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title text-center">Customer Support Executives  </h4>
+        <div className="row mt-3">
+        <div className="col-sm-5">
+          <h6>Qualification:</h6>
+            <h6>Gender: </h6>
+            <h6>Mandatory: </h6>
+            <h6>Skills Good: </h6>
+            <h6>Location: </h6>
+
+          </div>
+          <div className="col-sm-7">
+          <h6>10+2 onwards </h6>
+          <h6> Male/Female</h6>
+          <h6> Computer Operating</h6>
+          <h6>Good Communication</h6>
+          <h6> Jalandhar</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title text-center">Marketing Executives </h4>
+        <div className="row mt-3">
+        <div className="col-sm-5">
+          <h6>Qualification:</h6>
+            <h6>Gender: </h6>
+            <h6>Mandatory: </h6>
+            <h6>Skills Good: </h6>
+            <h6>Location: </h6>
+
+          </div>
+          <div className="col-sm-7">
+          <h6> Graduate</h6>
+          <h6> Male</h6>
+          <h6> Computer Operating</h6>
+          <h6>Good Communication</h6>
+          <h6> Jalandhar</h6>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        </div>
+
+        <Footer />
+       
     </>
   );
 };
