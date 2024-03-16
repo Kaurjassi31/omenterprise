@@ -1,4 +1,5 @@
 import React from "react";
+import "../pages/indexnew.css";
 
 // import { StyleClass } from 'primereact/styleclass';
 
@@ -84,13 +85,13 @@ Website Designing Company in india |  Let’s Get to Work
         <img src={website1} className="img-fluid mt-4" style={{width:"70%"}} />
       </div>
 
-<div className="container-fluid" style={{backgroundColor:"#023368",color:"white"}}>
+<div className="container-fluid" style={{backgroundColor:"#f8fcff",color:"black"}}>
 
       <div className="container mt-5">
         
  <h2 className="mt-5">Website Designing Company in india | Best Web Design Services in india</h2>
 
-<p className="mt-3 text-light">Your website is a reflection of your company’s brand. It’s therefore important to invest proper effort into portraying a positive image online. Our web design company stands ready to help you accomplish this goal. As one of the most widely respected web design firms, our design expertise spans a wide spectrum ranging from on-page layout to custom logo creation. The quality and presentation of our designs will emphasize your brand and also increase engagement to drive more leads and deliver a greater return on investment.Consult To Website Designing Company in india & Best Web Design Services in india</p>
+<p className="mt-3">Your website is a reflection of your company’s brand. It’s therefore important to invest proper effort into portraying a positive image online. Our web design company stands ready to help you accomplish this goal. As one of the most widely respected web design firms, our design expertise spans a wide spectrum ranging from on-page layout to custom logo creation. The quality and presentation of our designs will emphasize your brand and also increase engagement to drive more leads and deliver a greater return on investment.Consult To Website Designing Company in india & Best Web Design Services in india</p>
 <h4 className="mt-4">Best Web Design Services in india | Customized Website Designing</h4>
 <ul>
 <li>Creative, talented graphic designers to deliver stand out, fresh, innovative looks</li>
@@ -107,14 +108,14 @@ Website Designing Company in india |  Let’s Get to Work
 
       <div className="container mt-5">
         <h4>Web Development Services | Website Development</h4>
-        <p className="mt-3 text-light">
+        <p className="mt-3 ">
           A website today powers your business and serves as the common platform
           for interaction between staff, customers, vendors and members of the
           general public. Underlying a visually stimulating interface is the
           programming aspect responsible for a variety of features and
           functions. Get Web Development Services From Us Today.
         </p>
-        <p className="text-light">Flexible, adaptable and aligned with our customers’ objectives we offer
+        <p className="">Flexible, adaptable and aligned with our customers’ objectives we offer
         website development based on </p>
         <ul>
         <li>Open source technologies like PHP/MySQL</li>
@@ -138,7 +139,7 @@ Website Designing Company in india |  Let’s Get to Work
         <li>CMS optionally included to allow for easy
         updates on your own We are </li>
         </ul>
-        <p className="text-light">established, have our offices and teams of
+        <p className="">established, have our offices and teams of
         competent staff and a global presence. When you entrust your web
         development to us you can have peace of mind knowing we will deliver the
         best and will be there in the future when you need support. Contact us
