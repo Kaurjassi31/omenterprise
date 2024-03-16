@@ -3,55 +3,27 @@ import "../pages/bulk.css";
 import Nav from "../components/Nav";
 
 import "../App.css";
-import email from "../assets/emailnew1.png";
+import email from "../assets/email5.gif";
 import Footer from "../components/Footer";
 import gmail from "../assets/gmail.png";
 import clock from "../assets/clock1.png";
 import upload from "../assets/upload.png";
 import sms from "../assets/sms.png";
+import email3 from "../assets/email3.png";
 
 const Bulkemail = () => {
   return (
     <>
       <Nav />
-      <div className="container-fluid">
-        <div
-          className="container text-center"
-          style={{
-            padding: "3%",
-          }}
-        >
-          <div className="row" style={{ fontSize: "18px", color: "black" }}>
-            <div className="col-sm-6 mt-5 ">
-              <h1
-                className="mt-5"
-                style={{ fontSize: "100px", marginLeft: "-100px" }}
-              >
-                BULK
-              </h1>
-
-              <h1
-                className="mb-5"
-                style={{ fontSize: "100px", marginLeft: "50px" }}
-              >
-                EMAIL
-              </h1>
-
-              <h2 className="mx-5" style={{ color: "grey" }}>
-                {" "}
-                Top Bulk Email Provider
-              </h2>
-            </div>
-
-            <div className="col-sm-6">
-              <img
-                src={email}
-                className="img-fluid"
-                
-              />
-            </div>
+      <div className="container-fluid ">
+        <div className="container text-center" style={{ padding: "1%" }}>
+          <h1 className="mt-1" style={{ fontSize: "60px" }}>
+            BULK EMAILS
+          </h1>
           </div>
-        </div>
+        <div className="container">
+                    <img src={email} className="img-fluid" style={{height:"500px"}} />
+                    </div>
       </div>
 
       <div className="container">
@@ -121,7 +93,7 @@ const Bulkemail = () => {
         <div className="row">
           <div className="col-sm-2"></div>
           <div className="col-sm-8">
-            <h2 className="mt-5">WE PROVIDE BEST BULK EMAIL SERVICE</h2>
+            <h2 className="mt-5">WE PROVIDE BEST BULK EMAIL SERVICE<img src={emailnew} className="img-fluid" style={{height:"80px"}} /></h2>
             <p
               className="mt-3"
               style={{
@@ -143,6 +115,11 @@ const Bulkemail = () => {
           </div>
           <div className="col-sm-2"></div>
         </div>
+      </div>
+
+      <div className="container">
+      <img src={email} className="img-fluid" style={{height:"500px"}} />
+
       </div>
 
       <div className="container-fluid  bg-light">

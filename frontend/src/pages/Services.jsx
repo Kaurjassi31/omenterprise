@@ -14,57 +14,39 @@ import read from "../assets/read.png";
 import clock1 from "../assets/clock1.png";
 import chat from "../assets/sms.png";
 import file from "../assets/files.png";
-import sales1 from "../assets/sales1.svg";
-import sales2 from "../assets/sales2.svg";
-import sales3 from "../assets/sales3.svg";
-
-
-import call from "../assets/call.png";
+import call from "../assets/services.gif";
 import Nav from "../components/Nav";
-import Button from "../components/UI/Button";
 import Footer from "../components/Footer";
-
-
-
-
 
 const Services = () => {
   return (
     <>
       <Nav />
-      <div className="container-fluid mb-5">
+      <div className="container-fluid mb-2">
+      <h1 className="text-center mt-3" style={{color:"#023368",fontSize:"60px"}}>Our Services</h1>
+
         <div
           className="container text-center"
           style={{
-            padding: "3%",  
+            padding: "2%",  
           }}
         >
           <div
             className="row"
             style={{ fontFamily: "Poppins', sans-serif" }}
           >
-         <img src={call} className="img-fluid"  style={{height:"550px"}} />
+         <img src={call} className="img-fluid"  style={{height:"500px"}} />
             
           </div>
-        </div>
+                  </div>
       </div>
-     
-    
-
-      
       <div
-        className="container-fluid mt-5"
-        style={{ backgroundColor: "#023368" }}
+        className="container-fluid"
+        style={{ backgroundColor: "" }}
       >
         <div className="container-fluid ">
           <div className="container">
-            <h1
-              className="text-center mt-3 mb-3 text-light"
-              style={{ fontFamily: "Poppins', sans-serif" }}
-            >
-              Our services
-            </h1>
-            <div className="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-5">
+            <div className="row row-cols-1 row-cols-md-4 g-4 mt-1 mb-5">
               <Card img={sms} title={"Bulk Messages"}>
                 Sending of a large number of Bulk messages to multiple
                 recipients.
@@ -159,8 +141,8 @@ const Services = () => {
 
       <div className="container-fluid text-center">
         <div className="container">
-          <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
-          <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">
+          <h1 className="mt-3 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif",color:"#023368"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-5">
             <div class="col">
               <div class="card">
                 <center>

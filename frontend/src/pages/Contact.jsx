@@ -26,14 +26,14 @@ const Contact = () => {
           <div className="row" style={{ fontFamily: "Poppins', sans-serif" }}>
             <img
               src={contactus}
-              className="img-fluid mt-5"
-              style={{ height: "450px" }}
+              className="img-fluid mt-2"
+              style={{ height: "500px" }}
             />
           </div>
         </div>
       </div>
 
-      <div className="container-fluid text-center mt-5 mb-5">
+      <div className="container-fluid text-center mt-2 mb-5">
         <h1 style={{ fontFamily: "Poppins', sans-serif" }}>Om Enterprises</h1>
         <h5 className="mt-3">
           (Our support team is happy to assist you regarding any query)
@@ -97,9 +97,9 @@ const Contact = () => {
               <div class="card-body">
                 <h4 class="card-title">For All Queries</h4>
                 <h6 class="card-text">
-                  info@omenterprisesgroup.in,
+                @omenterprisesgroup.in,
                   <br />
-                  hrhead@omenterprisesgroup.in
+                  Sales1@omenterprisesgroup.in ​
                 </h6>
               </div>
             </div>

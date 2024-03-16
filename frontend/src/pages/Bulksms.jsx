@@ -2,10 +2,6 @@ import React from "react";
 import Bulk from "../assets/bulksms1.png";
 import Nav from "../components/Nav";
 import "../pages/services.css";
-import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
-import MessageOutlinedIcon from "@mui/icons-material/MessageOutlined";
 import Footer from "../components/Footer";
 import "../pages/bulk.css";
 import comments from "../assets/comments.png";
@@ -18,38 +14,15 @@ const Bulksms = () => {
     <>
       <Nav />
       <div className="container-fluid ">
-        <div className="container text-center mt-5" style={{ padding: "3%" }}>
-          <h1 className="mt-5" style={{ fontSize: "80px" }}>
+        <div className="container text-center" style={{ padding: "1%" }}>
+          <h1 className="mt-1" style={{ fontSize: "60px" }}>
             BULK SMS
           </h1>
           </div>
         <div className="container">
-                    <img src={Bulk} className="img-fluid" />
+                    <img src={Bulk} className="img-fluid" style={{height:"420px"}} />
                     </div>
-
-     
       </div>
-
-<div className="container-fluid" style={{backgroundColor:"#023368",color:"white"}}>
-  <div className="row">
-    <div className="col-sm-2"></div>
-    <div className="col-sm-8 text-center">
-    <h2 className="mt-5">WE PROVIDE BEST BULK SMS SERVICE</h2>
-
-      <p className="text-light  mt-5 mb-5">  Bulk messages refer to the sending of a large number of messages
-          simultaneously to multiple recipients. This can be done through
-          various communication channels, including email, SMS (Short Message
-          Service), instant messaging platforms, or any other messaging system.
-          The purpose of sending bulk messages is often to reach a wide audience
-          efficiently and quickly.</p>
-    </div>
-    <div className="col-sm-2"></div>
-  </div>
-</div>
-
-
-      
-
       <div className="container">
         <div className="row">
           <h1
@@ -102,11 +75,30 @@ const Bulksms = () => {
           </div>
         </div>
       </div>
+      
+
+      <div className="container-fluid" style={{backgroundColor:"#f8fcff",color:"black"}}>
+  <div className="row">
+    <div className="col-sm-2"></div>
+    <div className="col-sm-8 text-center">
+    <h2 className="mt-5">WE PROVIDE BEST BULK SMS SERVICE</h2>
+
+      <p className="  mt-5 mb-5">  Bulk messages refer to the sending of a large number of messages
+          simultaneously to multiple recipients. This can be done through
+          various communication channels, including email, SMS (Short Message
+          Service), instant messaging platforms, or any other messaging system.
+          The purpose of sending bulk messages is often to reach a wide audience
+          efficiently and quickly.</p>
+    </div>
+    <div className="col-sm-2"></div>
+  </div>
+</div>
+
 
       
 
-      <div className="container-fluid mt-5"  style={{backgroundColor:"#023368",color:"white"}} >
-        <h1 className="mt-5 text-center">Our Bulk SMS Services</h1>
+      <div className="container-fluid "  style={{backgroundColor:"#f8fcff",color:"black"}} >
+        <h1 className=" text-center">Our Bulk SMS Services</h1>
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card mt-5 mb-5">

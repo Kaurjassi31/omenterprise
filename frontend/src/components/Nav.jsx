@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <>
    <div className="container-fluid grad text-center p-2">
-<h5 className=' text-light mt-4'>Promote Yor Business With Om Enterprises Group</h5>
+<h5 className=' text-light mt-4'>Promote Your Business With Om Enterprises Group</h5>
       </div>
       <nav
         className="navbar navbar-expand-lg sticky-top"

@@ -22,7 +22,7 @@ import Error from "./pages/Error";
 import Dlt from "./pages/Dlt";
 import Career from "./pages/Career";
 import Reseller from "./pages/Reseller";
-
+import Blog from "./pages/Blog";
 function App() {
   return (
     <>
@@ -50,6 +50,7 @@ function App() {
         <Route path="/dlt" element={<Dlt />} />
         <Route path="/career" element={<Career />} />
         <Route path="/reseller" element={<Reseller />} />
+        <Route path="/blog" element={<Blog />} />
 
       </Routes>
     </>

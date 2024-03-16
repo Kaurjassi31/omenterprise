@@ -1,24 +1,29 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 
 const Terms = () => {
   return (
     <>
-      
+    <Nav />
+      <div className="container">
       <h2 className="mt-5" >
         Terms and Conditions for Customers Availing SMS Service
       </h2>
-
-      <h4 className="mt-4 mb-4">Table of Contents</h4>
-      <h6>A. Illegal Use</h6>
-      <h6>B. Subscriber Conduct</h6>
-      <h6>C. System and Network Security</h6>
-      <h6>D. Indemnification</h6>
-      <h6>E. SMS</h6>
-      <h6>F.Cost poh6cy</h6>
-      <h6>G.Refund Poh6cy</h6>
-      <h6>H. Enforcement of Terms and Conditions for Company subscribers</h6>
-      <h6>Appendix</h6>
+<div className="container">
+<h4 className="mt-4 mb-4">Table of Contents</h4>
+</div>
+<ul>
+      <li>A. Illegal Use</li>
+      <li>B. Subscriber Conduct</li>
+      <li>C. System and Network Security</li>
+      <li>D. Indemnification</li>
+      <li>E. SMS</li>
+      <li>F.Cost poh6cy</li>
+      <li>G.Refund Poh6cy</li>
+      <li>H. Enforcement of Terms and Conditions for Company subscribers</li>
+      <li>Appendix</li>
+      </ul>
 
       <h6 className="mt-4 mb-4">
         The Terms and Conditions specify the actions permitted by Provider
@@ -115,7 +120,7 @@ const Terms = () => {
           so on.
         </li>
       </ul>
-      <h2>D. Indemnification</h2>
+      <h2 className="mt-4 mb-4">D. Indemnification</h2>
       <h6>
         Subscribers agree to defend, indemnify and hold harmless the Company,
         its affiliates and their respective directors, officers, employees and
@@ -123,7 +128,7 @@ const Terms = () => {
         fees, arising out of the use of Company Services by the subscriber or
         anybody else than the Subscriber, if any.
       </h6>
-      <h2>E. SMS</h2>
+      <h2  className="mt-4 mb-4">E. SMS</h2>
       <h6>
         It is a condition of use of Company services that subscriber does not
         post or transmit any unlawful, threatening, abusive, libelous,
@@ -195,7 +200,7 @@ const Terms = () => {
         delivery of the SMS messages so routed through its SMSC.
       </h6>
 
-      <h2>F. Cost policy</h2>
+      <h2  className="mt-4 mb-4">F. Cost policy</h2>
       <ol>
         <li>
           In consideration of Company forwarding the SMS through its SMSC, User
@@ -253,7 +258,7 @@ const Terms = () => {
           charges; these bulk SMS charges will be revised.{" "}
         </li>
       </ol>
-      <h2> G. Refund Policy </h2>
+      <h2  className="mt-4 mb-4"> G. Refund Policy </h2>
       <h6>
         Before starting any relationship with us. We advise you to test our
         services. We do not offer any refund of money at any stage or at any
@@ -266,7 +271,7 @@ const Terms = () => {
         charges like monthly fee (pro-rata basis), SMS charges, a 10% processing
         charges will be deducted from the refundable amount.
       </h6>
-      <h2> H. Enforcement of Terms and Conditions for Company subscribers</h2>
+      <h2  className="mt-4 mb-4"> H. Enforcement of Terms and Conditions for Company subscribers</h2>
       <h6>
         Indirect or attempted violations of the policy and actual or attempted
         violations by a third party on behalf of a Company subscriber or a
@@ -281,7 +286,7 @@ const Terms = () => {
         payment is received or, even if One SMS credit is consumed, the provider
         company will not be liable for a refund of the amount.
       </h6>
-      <h2> I. Company Responsibilities Over Website Activities: </h2>
+      <h2  className="mt-4 mb-4"> I. Company Responsibilities Over Website Activities: </h2>
       <h6>
         {" "}
         Company is responsible for its own re-sellers. Activities done by
@@ -295,8 +300,13 @@ const Terms = () => {
         not responsible for any fraud / cheating etc done by any re-seller /sub
         re-seller.{" "}
       </h6>
-      <h2>Appendix</h2>
+      <div className="container">
+        <div className="container">
+        <h2  className="mt-4 mb-4">Appendix</h2>
+        </div>
+      <div className="container">
       <h6>The following table provides information on all the terminologies used in this agreement.</h6>
+      </div>
       <br/>
       <table class="table" style={{ backgroundColor: "#f8fcff" }}>
   <thead >
@@ -326,6 +336,9 @@ const Terms = () => {
       <td>The name in which the SMS is sent</td>
 </tr>
 </table>
+      </div>
+      
+</div>
 <Footer/>
     </>
   );

@@ -8,16 +8,16 @@ const Privacy = () => {
     <>
       <Nav />
       <div
-        className="container-fluid mt-4 "
+        className="container-fluid  "
         style={{
-          padding: "3%",
+          padding: "2%",
         }}
       >
         <h1 className=" text-center" style={{ fontSize: "65px" }}>
           PRIVACY POLICY
         </h1>
         <div className="container text-center">
-          <img src={policy} className="img-fluid" />
+          <img src={policy} className="img-fluid" style={{height:"500px"}} />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const Privacy = () => {
             alignItems: "Start",
           }}
         >
-          <h1> CONSENT</h1>
+          <h2> CONSENT</h2>
         </div>
         <h6>
           By using our website, you hereby consent to our Privacy Policy and
@@ -69,7 +69,7 @@ const Privacy = () => {
             alignItems: "Start",
           }}
         >
-          <h1>How we use your information</h1>
+          <h2>How we use your information</h2>
         </div>
         <ul>
           <li>
@@ -98,7 +98,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Types of Data Collected</h1>
+        <h2>Types of Data Collected</h2>
       </div>
       <div
         className="container"
@@ -149,7 +149,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1> Use of Data</h1>
+        <h2> Use of Data</h2>
       </div>
 
       <div
@@ -194,7 +194,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Transfer Of Data </h1>
+        <h2>Transfer Of Data </h2>
         <h6>
           Your information, including Personal Data, may be transferred to — and
           maintained on — computers located outside of your state, province,
@@ -221,7 +221,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Disclosure Of Data</h1>
+        <h2>Disclosure Of Data</h2>
       </div>
       <div
         className="container"
@@ -286,7 +286,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Log Files </h1>
+        <h2>Log Files </h2>
         <h6>
           Om Enterprises Group follows a standard procedure of using log files.
           These files log visitors when they visit websites. All hosting
@@ -313,7 +313,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>GDPR Data Protection Rights </h1>
+        <h2>GDPR Data Protection Rights </h2>
         <h6>
           We would like to make sure you are fully aware of all of your data
           protection rights. Every user is entitled to the following: The right
@@ -343,7 +343,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Children’s Information </h1>
+        <h2>Children’s Information </h2>
         <h6>
           Another part of our priority is adding protection for children while
           using the internet. We encourage parents and guardians to observe,
@@ -367,7 +367,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Cookies and Web Beacons </h1>
+        <h2>Cookies and Web Beacons </h2>
         <h6>
           Like any other website, Om Enterprises Group uses ‘cookies’. These
           cookies are used to store information including visitors’ preferences,
@@ -386,7 +386,7 @@ const Privacy = () => {
           alignItems: "Start",
         }}
       >
-        <h1>Our Advertising Partners</h1>
+        <h2>Our Advertising Partners</h2>
         <h6>
         Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.
 <br/>
@@ -405,7 +405,7 @@ https://policies.google.com/technologies/ads
           alignItems: "Start",
         }}
       >
-        <h1>Advertising Partners Privacy Policies</h1>
+        <h2>Advertising Partners Privacy Policies</h2>
         <h6>
         You may consult this list to find the Privacy Policy for each of the advertising partners of Om Enterprises Group.
 
@@ -421,7 +421,7 @@ Note that Om Enterprises Group has no access to or control over these cookies th
           alignItems: "Start",
         }}
       >
-        <h1>Third Party Privacy Policies</h1>
+        <h2>Third Party Privacy Policies</h2>
         <h6>
         Om Enterprises Group’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
 

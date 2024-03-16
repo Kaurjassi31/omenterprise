@@ -1,5 +1,5 @@
 import React from "react";
-import career from "../assets/career.jpg";
+import career from "../assets/Careers.gif";
 import Nav from "../components/Nav";
 import support from "../assets/support.png";
 import motivation from "../assets/motivation.png";
@@ -21,7 +21,7 @@ const Career = () => {
           }}
         >
           <div className="row" style={{ fontFamily: "Poppins', sans-serif" }}>
-            <img src={career} className="img-fluid" />
+            <img src={career} className="img-fluid" style={{height:"500px"}} />
           </div>
         </div>
         <center>
@@ -40,18 +40,18 @@ const Career = () => {
           </p>
         </center>
         <div className="container">
-        <div class="row row-cols-1 row-cols-md-5 mt-5 mb-5 g-4 text-center">
+        <div class="row row-cols-1 row-cols-md-5 mt-2 mb-2 g-4 text-center">
           <div class="col">
             <div class="card">
             <center>
               <img src={peoplee} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
               </center>              <div class="card-body">
                 <h5 class="card-title">PEOPLE</h5>
-                <p class="card-text">
+                <h6 class="card-text">
                   Om Enterprises Group treats all employees like family;
-                  allowing them proper and be appreciated and help them to
+                  allowing them proper and be appreciated and help to
                   grow their business.
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -61,11 +61,11 @@ const Career = () => {
               <img src={motivation} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
               </center>              <div class="card-body">
                 <h5 class="card-title">PASSION</h5>
-                <p class="card-text">
+                <h6 class="card-text">
                   Om Enterprises Group promotes energetic, innovative,
                   performance driven & fun environment to deliver high quality
                   service to its customers.
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -75,10 +75,10 @@ const Career = () => {
               <img src={trust} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
               </center>              <div class="card-body">
                 <h5 class="card-title">TRUST</h5>
-                <p class="card-text">
+                <h6 class="card-text">
                   Om Enterprises offering unparalleled customer services to
-                  encouraging employee curiosity & openness to learn new things and gain trust in us.
-                </p>
+                  encouraging employee curiosity & openness to learn new things and gain trust.
+                </h6>
               </div>
             </div>
           </div>
@@ -89,10 +89,10 @@ const Career = () => {
               </center>
               <div class="card-body">
                 <h5 class="card-title">PARTNERSHIP</h5>
-                <p class="card-text">
+                <h6 class="card-text">
                   Om Enterprises Group encourages working in collaboration with
-                  its customers, partners,resellers and suppliers to improve processes.
-                </p>
+                  its customers, partners, and suppliers to improve processes.
+                </h6>
               </div>
             </div>
           </div>
@@ -102,11 +102,11 @@ const Career = () => {
               <img src={reliability} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
               </center>              <div class="card-body">
                 <h5 class="card-title">RELIABILITY</h5>
-                <p class="card-text">
+                <h6 class="card-text">
                   Om Enterprises Group focuses on delivering effective solutions
                   which fetches best results for businesses; showcasing its
                   creativity & reliability
-                </p>
+                </h6>
               </div>
             </div>
           </div>

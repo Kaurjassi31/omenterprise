@@ -68,7 +68,7 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }}>
                 <li className="mt-4">DLT</li>
               </a>
-              <a  href="#"
+              <a  href="blog"
                 style={{ textDecoration: "none", color: "black" }}>
                 <li className="mt-3">Blog</li>
               </a>
@@ -91,11 +91,11 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }}>
                 <h5 className="mt-5"><b>Website Designing</b></h5>
               </a></u>
-              <a href="#"
+              <a href="website"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Web Designing</li>
               </a>
-              <a href="#"
+              <a href="website"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Web Development</li>
               </a>

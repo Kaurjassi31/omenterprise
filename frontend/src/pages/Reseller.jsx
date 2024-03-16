@@ -125,6 +125,9 @@ const Reseller = () => {
           Get Reseller Account
         </button>
       </div>
+      
+
+
       <div className="container-fluid mt-3" style={{backgroundColor: "#f8fcff"}}>
         <div className="container">
         <h1 className="mt-4">FAQ</h1>

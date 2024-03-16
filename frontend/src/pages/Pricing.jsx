@@ -1,11 +1,12 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import msg from "../assets/contact1.png";
+import msg from "../assets/price.gif";
 import call from "../assets/call2.png";
 import Swiperr from "../components/Swiperr";
 import Footer from '../components/Footer';
 import ic4 from "../assets/ic4.png";
 import ic2 from "../assets/ic2.png";
+import Moneyflow from './Moneyflow';
 
 
 const Pricing = () => {
@@ -16,7 +17,7 @@ const Pricing = () => {
         <div
           className="container text-center"
           style={{
-            padding: "3%",
+            padding: "1%",
            
           }}
         >
@@ -24,15 +25,18 @@ const Pricing = () => {
             className="row"
             style={{ fontFamily: "Poppins', sans-serif" }}
           >
-            <h1 className='mt-5'> PLAN & PRICING</h1>
-         <img src={msg} className="img-fluid"  />
-            
+            <h1 className='mt-2' style={{fontSize:"50px"}}> PLAN & PRICING</h1>
+            <center>
+            <img src={msg} className="img-fluid" style={{height:"500px"}}  />
+            </center>
           </div>
         </div>
       </div>
 
+      <Moneyflow />
+
       <div className="container">
-        <div className="row">
+        <div className="row mt-5">
           <div className="col-sm-6 bg-dark text-light">
             <h1 className='mt-4 mx-2'>GET A FREE DEMO </h1>
 
@@ -46,10 +50,10 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="container-fluid text-center bg-light mt-5 mb-5">
+      <div className="container-fluid text-center">
         <div className="container mb-5">
           <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>SHORT MESSAGING TOOLS FOR YOUR BUSINESS </h1>
-          <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-3">
             <div class="col">
               <div class="card ">
                 <center>
