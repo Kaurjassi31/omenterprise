@@ -8,6 +8,7 @@ import comments from "../assets/comments.png";
 import global from "../assets/global.png";
 import people from "../assets/people.png";
 import computer from "../assets/computer.png";
+import bulksms2 from "../assets/mobile2.png";
 
 const Bulksms = () => {
   return (
@@ -98,7 +99,7 @@ const Bulksms = () => {
       
 
       <div className="container-fluid "  style={{backgroundColor:"#f8fcff",color:"black"}} >
-        <h1 className=" text-center">Our Bulk SMS Services</h1>
+        <h1 className=" text-center">Our Bulk SMS Services<img src={bulksms2} className="img-fluid mx-3" style={{height:"70px"}} /></h1>
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card mt-5 mb-5">

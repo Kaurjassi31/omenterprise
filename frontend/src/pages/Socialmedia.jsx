@@ -6,21 +6,22 @@ import sc from "../assets/sc.jpg";
 import sc1 from "../assets/sc1.jpg";
 import sc2 from "../assets/sc2.jpg";
 import sc3 from "../assets/sc3.jpg";
+import sociall from "../assets/sociall.png";
 import Footer from "../components/Footer";
 
 const Socialmedia = () => {
   return (
     <>
       <Nav />
-      <div className="container-fluid mt-5">
+      <div className="container-fluid">
         <div
-          className="container text-center mt-5 mb-5"
-          style={{ padding: "3%" }}
+          className="container text-center mt-2 mb-5"
+          style={{ padding: "1%" }}
         >
-          <h1 className="mt-5 mb-5" style={{ fontSize: "60px" }}>
+          <h1 className="mt-2 mb-5" style={{ fontSize: "50px" }}>
             SOCIAL MEDIA MANAGEMENT
           </h1>
-          <img src={social} className="img-fluid mt-5" />
+          <img src={social} className="img-fluid mt-3" />
         </div>
       </div>
       <div className="container text-center" style={{ width: "70%" }}>
@@ -48,7 +49,7 @@ const Socialmedia = () => {
           </p>
         </div>
         <div className="row">
-          <h4 className="text-center">Our Approach: </h4>
+          <h4 className="text-center"> <img src={sociall} className="img-fluid mx-3" style={{height:"40px"}} />Our Approach:</h4>
           <p className="mb-5">
             At OM Enterprises, we offer comprehensive social media management
             solutions tailored to your business needs. Our approach is rooted in

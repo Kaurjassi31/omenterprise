@@ -35,15 +35,15 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }} >
         <li className="mt-3">Terms & Conditions</li></a>
         <u><h5 className="mt-5"><b> Money Flow Matrix </b></h5></u>
-              <a href="#"
+              <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Pro</li>
               </a>
-              <a href="#"
+              <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Standard</li>
               </a>
-              <a href="#"
+              <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Ultimate</li>
               </a>

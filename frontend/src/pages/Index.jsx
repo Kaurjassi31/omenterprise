@@ -11,12 +11,6 @@ import check from "../assets/check.webp";
 import compare from "../assets/compare.png";
 import player from "../assets/player.webp";
 import text from "../assets/text.webp";
-import plan from "../assets/plan.png";
-import c1 from "../assets/c1.svg";
-import c2 from "../assets/c2.svg";
-import c3 from "../assets/c3.svg";
-import c4 from "../assets/c4.svg";
-import c5 from "../assets/c5.svg";
 import bulk from "../assets/mobile2.png";
 import emaill from "../assets/emaill.png";
 import voicee from "../assets/voicee.png";
@@ -151,13 +145,14 @@ const Index = () => {
             </div>
             <div className="col-sm-2"></div>
           </div>
-          <a href="services">
+          <a href="pricing">
             {" "}
             <button
               type="button"
-              class="btn btn-primary btn-lg mt-3 mb-3 btn p-2"
+              class="btn btn-primary mt-3 mb-3 btn p-2"
+              style={{height:"50px",width:"16%"}}
             >
-              Know More About Us
+            Buy Your Plan Now
             </button>
           </a>
           <div className="row mt-2 mb-5">
@@ -449,13 +444,14 @@ const Index = () => {
           </div>
        
           <div className="container">
-          <a href="services">
+          <a href="pricing">
             {" "}
             <button
               type="button"
-              class="btn btn-primary btn-lg mb-3 btn p-2"
+              class="btn btn-primary mt-3 mb-3 btn p-2"
+              style={{height:"50px",width:"100%"}}
             >
-              Know More About Us
+            Buy Your Plan Now
             </button>
           </a>
           </div>
@@ -519,15 +515,16 @@ const Index = () => {
               restrictions.
             </h6>
             <img src={compare} className="img-fluid imag" />
-            <a href="services">
-              {" "}
-              <button
-                type="button"
-                class="btn btn-primary btn-lg mt-5 mb-3 btn p-2"
-              >
-                Know More About Us
-              </button>
-            </a>
+            <a href="pricing">
+            {" "}
+            <button
+              type="button"
+              class="btn btn-primary mt-3 mb-3 btn p-2"
+              style={{height:"50px",width:"16%"}}
+            >
+            Buy Your Plan Now
+            </button>
+          </a>
             <div className="row mt-2 mb-5">
               <div className="col-sm-3"></div>
               <div className="col-sm-2">
@@ -573,13 +570,15 @@ const Index = () => {
       <div className="container">
         <Feed />
       </div>
-      <a href="services">
+      
+           <a href="pricing">
             {" "}
             <button
               type="button"
-              class="btn btn-dark btn-lg  mb-3 btn p-2"
+              class="btn btn-dark mt-3 mb-3 btn p-2"
+              style={{height:"50px",width:"16%"}}
             >
-              Know More About Us
+            Buy Your Plan Now
             </button>
           </a>
           <div className="row mt-2 mb-5">

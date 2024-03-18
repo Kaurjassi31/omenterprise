@@ -7,18 +7,19 @@ import chat from "../assets/chat.png";
 import laptop from "../assets/laptop.png";
 import support from "../assets/support1.png";
 import Footer from "../components/Footer";
-import sms from "../assets/sms.png";
+import voice2 from "../assets/voice2.png";
 import comments from "../assets/comments.png";
 import user2 from "../assets/user2.png";
 import next from "../assets/next.png";
+import voicee from "../assets/voicee.png";
 
 const Voicesms = () => {
   return (
     <>
       <Nav />
       <div className="container-fluid ">
-        <div className="container text-center mt-5" style={{ padding: "3%" }}>
-          <h1 className="mt-5" style={{ fontSize: "80px" }}>
+        <div className="container text-center mt-2" style={{ padding: "1%" }}>
+          <h1 className="mt-2" style={{ fontSize: "60px" }}>
             Voice SMS
           </h1>
           </div>
@@ -86,15 +87,15 @@ const Voicesms = () => {
           </div>
         </div>
       </div>
-<div className="container-fluid"style={{backgroundColor:"#023368",color:"white"}}>
+<div className="container-fluid"style={{backgroundColor:"",color:"black"}}>
       <div className="container text-center">
-        <h2 className="mt-5">WE PROVIDE BEST VOICE SMS SERVICE</h2>
+        <h2 className="mt-5">WE PROVIDE BEST VOICE SMS SERVICE<img src={voicee} className="img-fluid mx-3" style={{height:"60px"}} /></h2>
         <p
           className="mt-2"
           style={{
             fontFamily: "Poppins', sans-serif",
             fontSize: "20px",
-            color: "white",
+            color: "black",
             width:"80%"
           }}
         >
@@ -122,7 +123,7 @@ const Voicesms = () => {
                 />
               </center>
               <div class="card-body">
-                <h4 class="card-title" style={{color:"#023368"}}> Easily message on-the-go</h4>
+                <h4 class="card-title" >Easily message on-the-go</h4>
                 <h6 class="card-text">
                   People speak about four times faster than they type, making
                   voice messaging great for explaining longer or more complex
@@ -144,7 +145,7 @@ const Voicesms = () => {
                 />
               </center>
               <div class="card-body">
-                <h4 class="card-title"  style={{color:"#023368"}}> Get to it when you can</h4>
+                <h4 class="card-title" > Get to it when you can</h4>
                 <h6 class="card-text">
                   Leaving a voice message can often better for a recipient than
                   calling them since they can listen and respond when they have
@@ -166,7 +167,7 @@ const Voicesms = () => {
                 />
               </center>
               <div class="card-body">
-                <h4 class="card-title"  style={{color:"#023368"}}>Better express yourself</h4>
+                <h4 class="card-title"  >Better express yourself</h4>
                 <h6 class="card-text">
                   Speaking in your own voice allows you to build a more personal
                   connection and effectively communicate. It’s easier for your

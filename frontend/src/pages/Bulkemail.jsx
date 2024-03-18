@@ -10,6 +10,7 @@ import clock from "../assets/clock1.png";
 import upload from "../assets/upload.png";
 import sms from "../assets/sms.png";
 import email3 from "../assets/email3.png";
+import emailnew from "../assets/emailnew1.png";
 
 const Bulkemail = () => {
   return (
@@ -93,7 +94,7 @@ const Bulkemail = () => {
         <div className="row">
           <div className="col-sm-2"></div>
           <div className="col-sm-8">
-            <h2 className="mt-5">WE PROVIDE BEST BULK EMAIL SERVICE<img src={emailnew} className="img-fluid" style={{height:"80px"}} /></h2>
+            <h2 className="mt-5">WE PROVIDE BEST BULK EMAIL SERVICE<img src={email3} className="img-fluid" style={{height:"80px"}} /></h2>
             <p
               className="mt-3"
               style={{
@@ -116,11 +117,11 @@ const Bulkemail = () => {
           <div className="col-sm-2"></div>
         </div>
       </div>
-
-      <div className="container">
-      <img src={email} className="img-fluid" style={{height:"500px"}} />
-
+<center>
+      <div className="container-fluid bg-light">
+      <img src={emailnew} className="img-fluid" style={{height:"250px"}} />
       </div>
+      </center>
 
       <div className="container-fluid  bg-light">
         <div className="row">
