@@ -56,14 +56,14 @@ transition: .5s ease;
 }
 .lakh{
     font-size: 19px;
-        font-family: "Poppins", Sans-serif;
+        font-family: "Inter", Sans-serif ;
 
     margin-top: px;
     color: black;
 }
 .header{
     font-size: 25px;
-        font-family: "Poppins", Sans-serif;
+        font-family: "Inter", Sans-serif ;
 
     margin-top: 0px;
     background-color: #ebf8f9;
@@ -83,7 +83,7 @@ transition: .5s ease;
         color: white;
     }
     .textt{
-            font-family: "Poppins", Sans-serif;
+            font-family: "Inter", Sans-serif ;
         font-size:18px;
         color:black;
     }
