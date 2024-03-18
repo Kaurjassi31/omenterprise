@@ -131,19 +131,16 @@ const Footer = () => {
                 <li className="mt-3">Social Media</li>
               </a>
            
-              <a href="voicesms"
+              <a href="#"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Voice Messages</li>
               </a>
               <u><h5 className="mt-5"><b>Certification </b></h5></u>
-              <a href="#"
-                style={{ textDecoration: "none", color: "black" }} >
+            
                 <li className="mt-3">ISO 9001:2008</li>
-              </a>
-              <a href="#"
-                style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">ISO 9001:2008</li>
-              </a>
+             
+                <li className="mt-3">Marketing Conference</li>
+              
 
 
             </ul>

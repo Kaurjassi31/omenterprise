@@ -150,7 +150,7 @@ const Index = () => {
             <button
               type="button"
               class="btn btn-primary mt-3 mb-3 btn p-2"
-              style={{height:"50px",width:"16%"}}
+              style={{height:"50px"}}
             >
             Buy Your Plan Now
             </button>
@@ -576,7 +576,7 @@ const Index = () => {
             <button
               type="button"
               class="btn btn-dark mt-3 mb-3 btn p-2"
-              style={{height:"50px",width:"16%"}}
+              style={{height:"50px"}}
             >
             Buy Your Plan Now
             </button>

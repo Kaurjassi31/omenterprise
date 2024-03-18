@@ -6,6 +6,7 @@ import c3 from "../assets/c3.svg";
 import c4 from "../assets/c4.svg";
 import c5 from "../assets/c5.svg";
 import plan from "../assets/plan.png";
+import cross1 from "../assets/cross1.png";
 
 const Moneyflow = () => {
   return (
@@ -47,6 +48,7 @@ const Moneyflow = () => {
                         <h6>/month</h6>
                       </span>
                     </h2>
+                    <a href='account'>
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-3"
@@ -54,6 +56,8 @@ const Moneyflow = () => {
                     >
                       BUY NOW
                     </button>
+                    </a>
+                    
                     <hr />
                     <div className="row">
                       <div className="col-sm-2">
@@ -88,7 +92,7 @@ const Moneyflow = () => {
                       <strike>
                         <div className="row">
                           <div className="col-sm-2">
-                            <img src={c5} className="img-fluid" />
+                            <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -98,7 +102,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -109,7 +113,7 @@ const Moneyflow = () => {
 
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -119,7 +123,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -130,7 +134,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -140,7 +144,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -150,7 +154,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row mb-5">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -165,9 +169,10 @@ const Moneyflow = () => {
                         {" "}
                         <p className="mt-5 text-dark">Total Price 74,000/-</p>
                       </strike>
+                      <a href='account' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹47,999 / month
-                      </p>
+                      </p></a>
                     </div>
                   </div>
                 </div>
@@ -196,13 +201,14 @@ const Moneyflow = () => {
                         <h6>/month + G.S.T</h6>
                       </span>
                     </h2>
+                    <a href='account'>
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-3"
                       style={{ width: "90%", height: "45px" }}
                     >
                       BUY NOW
-                    </button>
+                    </button></a>
                     <hr />
                     <div className="row">
                       <div className="col-sm-2">
@@ -257,7 +263,7 @@ const Moneyflow = () => {
                       <strike>
                         <div className="row">
                           <div className="col-sm-2">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -268,7 +274,7 @@ const Moneyflow = () => {
 
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -278,7 +284,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -289,7 +295,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -299,7 +305,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -309,7 +315,7 @@ const Moneyflow = () => {
                         </div>
                         <div className="row mb-4">
                           <div className="col-sm-2 ">
-                            <img src={c5} className="img-fluid" />
+                          <img src={cross1} className="img-fluid" style={{height:"25px"}} />
                           </div>
                           <div className="col-sm-10">
                             <p style={{ fontSize: "15px" }}>
@@ -323,9 +329,10 @@ const Moneyflow = () => {
                         {" "}
                         <p className="mt-4 text-dark">Total Price 1,25,000/-</p>
                       </strike>
+                      <a href='account' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹65,999 / month
-                      </p>
+                      </p></a>
                     </div>
                   </div>
                 </div>
@@ -354,13 +361,14 @@ const Moneyflow = () => {
                         <h6>/month + TAX 18%</h6>
                       </span>
                     </h2>
+                    <a href='account'>
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-3"
                       style={{ width: "90%", height: "45px" }}
                     >
                       BUY NOW
-                    </button>
+                    </button></a>
                     <hr />
 
                     <div className="row">
@@ -479,9 +487,12 @@ const Moneyflow = () => {
                         {" "}
                         <p className="mt-4 text-dark">Total Price 3,66,998/-</p>
                       </strike>
+                      <a href='account' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹1,99,999 / month
                       </p>
+                      </a>
+                      
                     </div>
                   </div>
                 </div>
