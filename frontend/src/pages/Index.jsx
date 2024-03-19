@@ -145,14 +145,14 @@ const Index = () => {
             </div>
             <div className="col-sm-2"></div>
           </div>
-          <a href="pricing">
+          <a href="services">
             {" "}
             <button
               type="button"
-              class="btn btn-primary mt-3 mb-3 btn p-2"
+              class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
               style={{height:"50px"}}
             >
-            Buy Your Plan Now
+            Know More About Us
             </button>
           </a>
           <div className="row mt-2 mb-5">
@@ -448,7 +448,7 @@ const Index = () => {
             {" "}
             <button
               type="button"
-              class="btn btn-primary mt-3 mb-3 btn p-2"
+              class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
               style={{height:"50px",width:"100%"}}
             >
             Buy Your Plan Now
@@ -519,7 +519,7 @@ const Index = () => {
             {" "}
             <button
               type="button"
-              class="btn btn-primary mt-3 mb-3 btn p-2"
+              class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
               style={{height:"50px",width:"16%"}}
             >
             Buy Your Plan Now
@@ -575,7 +575,7 @@ const Index = () => {
             {" "}
             <button
               type="button"
-              class="btn btn-dark mt-3 mb-3 btn p-2"
+              class="btn btn-dark  btn-lg mt-3 mb-3 btn p-2"
               style={{height:"50px"}}
             >
             Buy Your Plan Now

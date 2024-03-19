@@ -1,5 +1,5 @@
 import React from "react";
-import Bulk from "../assets/bulksms1.png";
+import Bulk from "../assets/bulk4.avif";
 import Nav from "../components/Nav";
 import "../pages/services.css";
 import Footer from "../components/Footer";
@@ -21,7 +21,7 @@ const Bulksms = () => {
           </h1>
           </div>
         <div className="container">
-                    <img src={Bulk} className="img-fluid" style={{height:"420px"}} />
+                    <img src={Bulk} className="img-fluid" style={{height:"500px"}} />
                     </div>
       </div>
       <div className="container">
