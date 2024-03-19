@@ -3,7 +3,7 @@ import "../App.css";
 import "animate.css";
 
 import Nav from "../components/Nav";
-import about from "../assets/team.png";
+import about from "../assets/about.gif";
 import sunaina from "../assets/sunaina.png";
 import kamal from "../assets/kamal.png";
 import khushi from "../assets/khushi.png";
@@ -28,17 +28,17 @@ const About = () => {
     <>
       <Nav />
       <div
-        className="container-fluid"
-        
-      >
-        <div className="container">
-          <div
-            className=" mb-5 text-center"
-            
-          >
-            <img src={about} className="img-fluid mt-5 " style={{height:"500px"}} />
+        className="container-fluid">
+        <div className="container text-center" style={{ padding: "1%" }}>
+          <h1 className="mt-1" style={{ fontSize: "60px" }}>
+            ABOUT US
+          </h1>
           </div>
-        </div>
+          <div
+            className=" mb-5 text-center" >
+            <img src={about} className="img-fluid" style={{height:"500px"}} />
+          </div>
+        
       </div>
       
       <div className="container ">
@@ -74,8 +74,8 @@ const About = () => {
 
       <div className="container-fluid text-center" style={{ backgroundColor: "#f8fcff" }}>
         <div className="container">
-          <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>OUR AWESOME FEATURES</h1>
-          <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">
+          <h1 className="mt-5 text-center">OUR AWESOME FEATURES</h1>
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-4 mb-4">
             <div class="col">
               <div class="card choose">
                 <center>

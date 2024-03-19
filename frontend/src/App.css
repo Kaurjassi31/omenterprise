@@ -113,8 +113,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     transition: 1s ease;
     }
     .roundd{
-        height: 170px;
-        width: 170px;
+        height: 140px;
+        width: 140px;
         border-radius: 50%;
         color: white;  
         animation: zoomInOut 4s infinite;
@@ -132,7 +132,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
         }
     }
     .rounddtext{
-        margin-top: 60px;
+        margin-top: 56px;
+        font-size: 22px;
     }
     .choose{
       height: 300px;

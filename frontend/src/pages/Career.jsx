@@ -20,7 +20,7 @@ const Career = () => {
             padding: "3%",
           }}
         >
-          <div className="row" style={{ fontFamily: "Poppins', sans-serif" }}>
+          <div className="row" >
             <img src={career} className="img-fluid" style={{height:"500px"}} />
           </div>
         </div>

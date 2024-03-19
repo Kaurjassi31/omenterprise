@@ -16,7 +16,7 @@ const Blog = () => {
             padding: "1%",
           }}
         >
-          <div className="row" style={{ fontFamily: "Poppins', sans-serif" }}>
+          <div className="row">
             <img
               src={Bulk4}
               className="img-fluid"

@@ -25,7 +25,7 @@ const Software = () => {
             padding: "3%",
           }}
         >
-          <div className="row" style={{ fontFamily: "Poppins', sans-serif" }}>
+          <div className="row" >
             <h1 className="mt-5"> SOFTWARE DEVELOPMENT</h1>
             <img src={msg} className="img-fluid" />
           </div>
