@@ -34,11 +34,11 @@ const Website = () => {
         </div>
       </div>
 
-      <div className="container" style={{ fontFamily: "Poppins', sans-serif" }}>
+      <div className="container" >
         <div className="row">
           <h1
             className="text-center mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+          
           >
             Website Designing Company in india | Let’s Get to Work
           </h1>

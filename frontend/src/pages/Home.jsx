@@ -72,7 +72,7 @@ function App() {
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center"
-            style={{ fontFamily: "Poppins', sans-serif", color: "#023368" }}
+            style={{  color: "#023368" }}
           >
             BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?
           </h1>
@@ -173,7 +173,7 @@ function App() {
         <div className="container text-center mt-5 mb-5">
           <h1
             className="text-center mb-5 text-light mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+          
           >
             Effective Digital Marketing Strategy
           </h1>
@@ -209,7 +209,7 @@ function App() {
       <div
         className="container-fluid"
         style={{
-          fontFamily: "Poppins', sans-serif",
+     
           backgroundColor: "white",
           color: "#023368",
         }}
@@ -217,7 +217,7 @@ function App() {
         <div className="row">
           <h1
             className="text-center mt-5 mb-3"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+           
           >
             OUR CAMPAIGN MANAGEMENT
           </h1>
@@ -294,7 +294,7 @@ function App() {
           <div className="container mb-4">
             <h1
               className="text-center mt-3 mb-3 text-light"
-              style={{ fontFamily: "Poppins', sans-serif" }}
+              
             >
               Our services
             </h1>
@@ -390,7 +390,7 @@ function App() {
       >
         <h1
           className="text-center mt-5"
-          style={{ fontFamily: "Poppins', sans-serif" }}
+       
         >
           Enhance Your Customers Journey
         </h1>
@@ -423,7 +423,7 @@ function App() {
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center text-light"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+          
           >
             OUR AWESOME FEATURES
           </h1>
@@ -687,7 +687,7 @@ function App() {
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center"
-            style={{ fontFamily: "Poppins', sans-serif", color: "white" }}
+            style={{ color: "white" }}
           >
             BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?
           </h1>
@@ -882,7 +882,7 @@ function App() {
         <div className="container text-center mt-5 mb-5">
           <h1
             className="text-center mb-5 text-light mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+           
           >
             Effective Digital Marketing Strategy
           </h1>
@@ -996,7 +996,7 @@ function App() {
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center text-light"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+            
           >
             OUR AWESOME FEATURES
           </h1>

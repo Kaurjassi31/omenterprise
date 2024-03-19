@@ -14,7 +14,7 @@ const Feed = () => {
         style={{ backgroundColor: "" }}
       >
         <div className="container mt-5">
-          <h1 style={{ fontFamily: "Poppins', sans-serif", color: "black" }}>
+          <h1 style={{ color: "black" }}>
             WHAT OUR CLIENTS SAY ❤
           </h1>
         </div>

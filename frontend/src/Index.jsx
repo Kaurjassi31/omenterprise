@@ -373,7 +373,7 @@ const Index = () => {
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center"
-            style={{ fontFamily: "Poppins', sans-serif", color: "white" }}
+            style={{ color: "white" }}
           >
             BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?
           </h1>
@@ -568,7 +568,7 @@ const Index = () => {
         <div className="container text-center mt-5 mb-5">
           <h1
             className="text-center mb-5 text-light mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+            
           >
             Effective Digital Marketing Strategy
           </h1>
@@ -682,7 +682,7 @@ const Index = () => {
         <div className="container">
           <h1
             className="mt-5 mb-2 text-center text-light"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+            
           >
             OUR AWESOME FEATURES
           </h1>

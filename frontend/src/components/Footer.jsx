@@ -54,14 +54,14 @@ const Footer = () => {
        <div className="col-sm-2 ">
        <ul
               style={{
-                fontFamily: "Poppins', sans-serif",
+        
                 textDecoration: "none",
                 listStyle: "none",
                 textAlign: "left",
               }}
             >
         <u>
-        <h5 style={{ fontFamily: "Poppins', sans-serif" }} >
+        <h5  >
              <b> Quick Links</b>
             </h5></u>
             <a href="Dlt"
@@ -107,7 +107,7 @@ const Footer = () => {
        <div className="col-sm-2 ">
         <ul
               style={{
-                fontFamily: "Poppins', sans-serif",
+            
                 textDecoration: "none",
                 listStyle: "none",
                 textAlign: "left",
@@ -131,7 +131,7 @@ const Footer = () => {
                 <li className="mt-3">Social Media</li>
               </a>
            
-              <a href="#"
+              <a href="voicesms"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3">Voice Messages</li>
               </a>

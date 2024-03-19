@@ -28,7 +28,7 @@ const Bulksms = () => {
         <div className="row">
           <h1
             className="text-center mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+           
           >
             Send and Receive Bulk SMS Instantly in just 1 Click
           </h1>

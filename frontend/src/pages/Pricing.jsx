@@ -23,7 +23,7 @@ const Pricing = () => {
         >
           <div
             className="row"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+           
           >
             <h1 className='mt-2' style={{fontSize:"50px"}}> PLAN & PRICING</h1>
             <center>

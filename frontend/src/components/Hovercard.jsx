@@ -6,7 +6,7 @@ const Hovercard = () => {
     <div className="row mt-4">
       <h1
         className="mt-2"
-        style={{ fontFamily: "Poppins', sans-serif", fontSize: "50px" }}
+        style={{ fontSize: "50px" }}
       >
         The Om Enterprises Corner
       </h1>

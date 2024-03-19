@@ -31,7 +31,7 @@ const Bulkemail = () => {
         <div className="row">
           <h1
             className="text-center mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+          
           >
             Powerful Web Panel & Functions
           </h1>
@@ -98,7 +98,8 @@ const Bulkemail = () => {
             <p
               className="mt-3"
               style={{
-                fontFamily: "Poppins', sans-serif",
+              
+                
                 fontSize: "20px",
                 color: "black",
               }}

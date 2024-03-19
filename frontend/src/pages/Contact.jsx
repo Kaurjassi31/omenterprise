@@ -23,7 +23,7 @@ const Contact = () => {
             padding: "3%",
           }}
         >
-          <div className="row" style={{ fontFamily: "Poppins', sans-serif" }}>
+          <div className="row">
             <img
               src={contactus}
               className="img-fluid mt-2"
@@ -34,7 +34,7 @@ const Contact = () => {
       </div>
 
       <div className="container-fluid text-center mt-2 mb-5">
-        <h1 style={{ fontFamily: "Poppins', sans-serif" }}>Om Enterprises</h1>
+        <h1 >Om Enterprises</h1>
         <h5 className="mt-3">
           (Our support team is happy to assist you regarding any query)
         </h5>

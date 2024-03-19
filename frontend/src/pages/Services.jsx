@@ -33,7 +33,7 @@ const Services = () => {
         >
           <div
             className="row"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+           
           >
          <img src={call} className="img-fluid"  style={{height:"500px"}} />
             

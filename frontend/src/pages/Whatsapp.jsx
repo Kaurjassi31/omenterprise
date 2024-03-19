@@ -22,12 +22,12 @@ const Whatsapp = () => {
       >
        
         
-        <h1 className="mt-4" style={{ fontFamily: "Poppins', sans-serif", fontSize: "50px" }}>
+        <h1 className="mt-4" style={{  fontSize: "50px" }}>
           Bulk WhatsApp SMS
         </h1>
       
         <img src={whatsApp} className="img-fluid" style={{ height: "500px" }} />
-        <p className="mt-3" style={{ fontFamily: "Poppins', sans-serif", fontSize: "18px" }}>
+        <p className="mt-3" style={{ fontSize: "18px" }}>
           Using bulk WhatsApp sender has become increasingly popular among
           businesses and organizations as an efficient communication tool. With
           WhatsApp boasting more than 2 billion monthly active users, it’s
@@ -37,7 +37,7 @@ const Whatsapp = () => {
           bulk WhatsApp sender to maximize your messaging efficiency and reach.
         </p>
         <div className="mt-5 mb-5 green" >
-        <h1 style={{ fontFamily: "Poppins', sans-serif", fontSize: "50px" }} className="mt-3">
+        <h1 style={{  fontSize: "50px" }} className="mt-3">
           How it works?
         </h1>
         <img
@@ -60,7 +60,7 @@ const Whatsapp = () => {
           }}>
           <h1
             className="mt-5 me-auto"
-            style={{ fontFamily: "Poppins', sans-serif", fontSize: "50px" }}
+            style={{  fontSize: "50px" }}
           >
             WhatsApp Business API
           </h1>
@@ -70,7 +70,7 @@ const Whatsapp = () => {
             style={{ height: "500px" }}
           />
           <p
-            style={{ fontFamily: "Poppins', sans-serif", fontSize: "18px" }}
+            style={{  fontSize: "18px" }}
             className="mt-5"
             
           >

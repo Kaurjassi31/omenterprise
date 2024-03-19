@@ -268,12 +268,12 @@ const About = () => {
               />
             </div>
             <div className="col-sm-6">
-              <h1 className="" style={{ fontFamily: "Poppins', sans-serif" }}>
+              <h1 className="" style={{ }}>
                 MR. ANIL VERMA (CEO)
               </h1>
               <p
                 className=""
-                style={{ fontSize: "17px", fontFamily: "Poppins', sans-serif" }}
+                style={{ fontSize: "17px" }}
               >
                 An important aspect of entrepreneurship is the ability to manage
                 and lead a team. As an entrepreneur, Mr. Anil Verma often is
@@ -326,9 +326,9 @@ const About = () => {
           
         </div>
       </div>
-      <div className="container-fluid" style={{ backgroundColor: "#f7fbff" }}>
+      <div className="container-fluid" style={{ backgroundColor: "#f7fbff"}}>
         <div className="container">
-          <h1 className="text-center mt-5" style={{ fontFamily: "Poppins', sans-serif" }}>
+          <h1 className="text-center mt-5" >
             {" "}
             Meet Our Team
           </h1>

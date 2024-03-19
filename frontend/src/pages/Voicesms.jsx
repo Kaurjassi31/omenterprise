@@ -32,7 +32,7 @@ const Voicesms = () => {
         <div className="row">
           <h1
             className="text-center mt-5"
-            style={{ fontFamily: "Poppins', sans-serif" }}
+           
           >
             Why Voice Calls Are Important
           </h1>
@@ -93,7 +93,7 @@ const Voicesms = () => {
         <p
           className="mt-2"
           style={{
-            fontFamily: "Poppins', sans-serif",
+          
             fontSize: "20px",
             color: "black",
             width:"80%"
