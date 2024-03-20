@@ -237,7 +237,7 @@ const About = () => {
                     src={ic5}
                     class="card-img-top"
                     className="img-fluid mt-3"
-                    style={{ height: "40px", width: "40px" }}
+                    style={{ height: "40px", width: "40px"}}
                     alt="..."
                   />
                 </center>

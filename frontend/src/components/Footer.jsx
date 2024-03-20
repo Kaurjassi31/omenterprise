@@ -16,36 +16,36 @@ const Footer = () => {
         <u><h5><b>Company</b></h5></u>
         <a href="career"
                 style={{ textDecoration: "none", color: "black" }} >
-              <li className="mt-4">Career</li>
+              <li className="mt-4 fotr">Career</li>
               </a>
         <a href="services"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Services</li>
+                <li className="mt-3 fotr">Services</li>
               </a>
        
               <a href="about"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">About Us</li>
+                <li className="mt-3 fotr" >About Us</li>
               </a>
               <a href="contact"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Contact -Us</li>
+                <li className="mt-3 fotr">Contact -Us</li>
               </a>
               <a href="terms"
                 style={{ textDecoration: "none", color: "black" }} >
-        <li className="mt-3">Terms & Conditions</li></a>
+        <li className="mt-3 fotr">Terms & Conditions</li></a>
         <u><h5 className="mt-5"><b> Money Flow Matrix </b></h5></u>
               <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Pro</li>
+                <li className="mt-3 fotr">Pro</li>
               </a>
               <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Standard</li>
+                <li className="mt-3 fotr">Standard</li>
               </a>
               <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Ultimate</li>
+                <li className="mt-3 fotr">Ultimate</li>
               </a>
 
         </ul>     
@@ -66,26 +66,26 @@ const Footer = () => {
             </h5></u>
             <a href="Dlt"
                 style={{ textDecoration: "none", color: "black" }}>
-                <li className="mt-4">DLT</li>
+                <li className="mt-4 fotr">DLT</li>
               </a>
               <a  href="blog"
                 style={{ textDecoration: "none", color: "black" }}>
-                <li className="mt-3">Blog</li>
+                <li className="mt-3 fotr">Blog</li>
               </a>
               
               <a  href="privacy"
                 style={{ textDecoration: "none", color: "black" }}>
-              <li className="mt-3">Privacy Policy</li>
+              <li className="mt-3 fotr">Privacy Policy</li>
               </a>
 
               <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Plan & Pricing</li>
+                <li className="mt-3 fotr">Plan & Pricing</li>
               </a>
              
               <a href="Reseller"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Become Reseller</li>
+                <li className="mt-3 fotr">Become Reseller</li>
               </a>
               <u> <a  href="website"
                 style={{ textDecoration: "none", color: "black" }}>
@@ -93,11 +93,11 @@ const Footer = () => {
               </a></u>
               <a href="website"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Web Designing</li>
+                <li className="mt-3 fotr">Web Designing</li>
               </a>
               <a href="website"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Web Development</li>
+                <li className="mt-3 fotr">Web Development</li>
               </a>
 
               
@@ -116,30 +116,30 @@ const Footer = () => {
            <u><h5><b>Products </b></h5></u>
               <a href="bulksms"
                 style={{ textDecoration: "none", color: "black" }}>
-                <li className="mt-4">Bulk Messages</li>
+                <li className="mt-4 fotr">Bulk Messages</li>
               </a>
               <a href="bulkemail"
                 style={{ textDecoration: "none", color: "black" }}>
-                <li className="mt-3">Email Marketing</li>
+                <li className="mt-3 fotr">Email Marketing</li>
               </a>
               <a href="digitalmarketing"
                 style={{ textDecoration: "none", color: "black" }}>
-                <li className="mt-3">Digital marketing</li>
+                <li className="mt-3 fotr">Digital marketing</li>
               </a>
               <a href="socialmedia"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Social Media</li>
+                <li className="mt-3 fotr">Social Media</li>
               </a>
            
               <a href="voicesms"
                 style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3">Voice Messages</li>
+                <li className="mt-3 fotr">Voice Messages</li>
               </a>
               <u><h5 className="mt-5"><b>Certification </b></h5></u>
             
-                <li className="mt-3">ISO 9001:2008</li>
+                <li className="mt-3 fotr">ISO 9001:2008</li>
              
-                <li className="mt-3">Marketing Conference</li>
+                <li className="mt-3 fotr">Marketing Conference</li>
               
 
 
@@ -155,8 +155,8 @@ const Footer = () => {
             </div>
           </div>
         <ul style={{listStyle:"none"}}>
-          <li className="mt-4"><b>Queries:</b> @omenterprisesgroup.in, </li> <li className="mt-3">Sales1@omenterprisesgroup.in ​</li>
-          <li className="mt-3"><b>Contact:</b>+91-1814603134 ,</li> <li className="mt-3"> +91-9872144408</li>
+          <li className="mt-4 fotr"><b>Queries:</b> @omenterprisesgroup.in, </li> <li className="mt-3 fotr">Sales1@omenterprisesgroup.in ​</li>
+          <li className="mt-3 fotr"><b>Contact:</b>+91-1814603134 ,</li> <li className="mt-3 fotr"> +91-9872144408</li>
           <u><h5 className="mt-5"><b>Follow Us</b> </h5></u>
           <a href="https://www.facebook.com/omenterprisesgroup/"><img src={facebook} className="mx-2 mt-3" style={{height:"30px",width:"30px"}} /></a>
           <a href="https://www.instagram.com/omenterprisesgroup/"><img src={instagram} className="mx-2 mt-3" style={{height:"30px",width:"30px"}} /></a>

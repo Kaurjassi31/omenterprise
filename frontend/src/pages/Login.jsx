@@ -8,14 +8,10 @@ const Login = () => {
     <>
       <Nav />
       <div className="container-fluid" style={{padding:"5%"}}>
-        <div className="container text-center "
-        >
-
-
+        <div className="container text-center ">
           <div className="row">
         <div className="col-sm-6">
         <img src={login} className="img-fluid" style={{height:"450px"}}  />
-
         </div>
             <div className="col-sm-5 login">
             <form
@@ -28,7 +24,6 @@ const Login = () => {
          
           <input type="password" placeholder="Password" className="mt-4" name="password" style={{height:"50px"}} />
           <br/>
-          {/* <h6 className="mt-4">Unable to get login? <a href=""  style={{textDecoration:"none"}}>Forget Password</a></h6> */}
 
           <button type="submit" className=" btn btn-primary mt-4 mb-3"
     style={{
@@ -39,10 +34,7 @@ const Login = () => {
     <hr style={{width:"80%"}} />
     </center>
     <h6 className="mt-4">Don't have Account? <a href="account" style={{textDecoration:"none"}}>Create Account</a> </h6>
-
             </div>
-            
-         
           </div>
         </div>
       </div>

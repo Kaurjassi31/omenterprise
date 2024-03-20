@@ -1,5 +1,5 @@
 *{
-        font-family: "Inter", Sans-serif ;
+        font-family: "Inter", Sans-serif;
 }
 .block{
     background-color: white;
@@ -47,4 +47,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .acord{
     height: 500px;
     background-color: #f8fcff;
+}
+.fotr{
+    color: black;
+}
+.fotr:hover{
+    color:#006df9;
 }
