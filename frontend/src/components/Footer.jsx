@@ -54,14 +54,13 @@ const Footer = () => {
        <div className="col-sm-2 ">
        <ul
               style={{
-        
                 textDecoration: "none",
                 listStyle: "none",
                 textAlign: "left",
               }}
             >
         <u>
-        <h5  >
+        <h5>
              <b> Quick Links</b>
             </h5></u>
             <a href="Dlt"
@@ -99,9 +98,6 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3 fotr">Web Development</li>
               </a>
-
-              
-
             </ul>
          </div>        
        <div className="col-sm-2 ">
@@ -140,8 +136,6 @@ const Footer = () => {
                 <li className="mt-3 fotr">ISO 9001:2008</li>
              
                 <li className="mt-3 fotr">Marketing Conference</li>
-              
-
 
             </ul>
           </div>

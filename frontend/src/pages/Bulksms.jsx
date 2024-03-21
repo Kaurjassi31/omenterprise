@@ -111,7 +111,7 @@ const Bulksms = () => {
               </h4>
               <h6 class="card-text">
                
-              Bulk SMS sent to customers to provide information necessary
+              Bulk SMS sent to provide  necessary information
                   for using product or service to keep customers informed. Such
                   SMS can be sent to both DND & Non-DND Numbers along with a 06
                   alpbhabets sender ID.
