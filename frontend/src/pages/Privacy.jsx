@@ -17,7 +17,7 @@ const Privacy = () => {
           PRIVACY POLICY
         </h1>
         <div className="container text-center">
-          <img src={policy} className="img-fluid" style={{height:"500px"}} />
+          <img src={policy} className="img-fluid" style={{height:"450px"}} />
         </div>
       </div>
 
@@ -419,8 +419,7 @@ Note that Om Enterprises Group has no access to or control over these cookies th
           display: "flex",
           justifyContent: "start",
           alignItems: "Start",
-        }}
-      >
+        }} >
         <h2>Third Party Privacy Policies</h2>
         <h6>
         Om Enterprises Group’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.

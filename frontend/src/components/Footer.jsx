@@ -149,7 +149,8 @@ const Footer = () => {
             </div>
           </div>
         <ul style={{listStyle:"none"}}>
-          <li className="mt-4 fotr"><b>Queries:</b> @omenterprisesgroup.in, </li> <li className="mt-3 fotr">Sales1@omenterprisesgroup.in ​</li>
+          <li className="mt-4 fotr"><b>Queries:</b>  support@omenterprisesgroup.in
+, </li> <li className="mt-3 fotr">anil@omenterprisesgroup.in ​</li>
           <li className="mt-3 fotr"><b>Contact:</b>+91-1814603134 ,</li> <li className="mt-3 fotr"> +91-9872144408</li>
           <u><h5 className="mt-5"><b>Follow Us</b> </h5></u>
           <a href="https://www.facebook.com/omenterprisesgroup/"><img src={facebook} className="mx-2 mt-3" style={{height:"30px",width:"30px"}} /></a>

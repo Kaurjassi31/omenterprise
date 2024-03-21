@@ -42,7 +42,7 @@ const Services = () => {
       </div>
       <div
         className="container-fluid"
-        style={{ backgroundColor: "" }}
+        style={{ backgroundColor:"#f8fcff"}}
       >
         <div className="container-fluid ">
           <div className="container">
@@ -88,7 +88,7 @@ const Services = () => {
                 </a>
               </Card>
               <Card img={website} title={"Website Development"}>
-                Developing a simple single static page of plain text to complex
+                Developing a simple  static page  to complex
                 web applications.
                 <hr />
                 <a href="website">
@@ -98,8 +98,8 @@ const Services = () => {
               </Card>
 
               <Card img={social} title={"Socialmedia Management"}>
-                Strategies to maintain and grow a social presence, on top of
-                administrative.
+                Strategies to maintain and grow a social presence.
+               
                 <hr />
                 <a href="socialmedia">
                   {" "}
@@ -139,7 +139,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="container-fluid text-center">
+      <div className="container-fluid text-center" style={{backgroundColor:"#f8fcff"}}>
         <div className="container">
           <h1 className="mt-3 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif",color:"#023368"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
           <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-5">

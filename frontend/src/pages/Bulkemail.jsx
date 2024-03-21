@@ -23,83 +23,86 @@ const Bulkemail = () => {
           </h1>
           </div>
         <div className="container">
-                    <img src={email} className="img-fluid" style={{height:"500px"}} />
+                    <img src={email} className="img-fluid" style={{height:"450px"}} />
                     </div>
       </div>
 
       <div className="container">
+       
         <div className="row">
           <h1
-            className="text-center mt-5"
-          
+            className="text-center mt-2 mb-2"
           >
             Powerful Web Panel & Functions
           </h1>
-          <div className="col-sm-3 text-center bodr mb-5">
+          <div className="col-sm-3 text-center bodr mb-3">
             <img
               src={sms}
-              className="img-fluid mt-5"
-              style={{ height: "50px", width: "50px" }}
+              className="img-fluid mt-3"
+              style={{ height: "40px", width: "40px" }}
             />
             <h4 className="mt-2">Email Template</h4>
-            <p className="mt-2">
+            <center>
+                          <p className="mt-2" style={{fontSize:"15px",width:"70%"}}>
               Email Template Advancement of technology is a reality of this
               ultra modern world and thus its outcome does not seem an unreal
               too.
-            </p>
+            </p></center>
+
           </div>
 
-          <div className="col-sm-3 text-center bodr mb-5">
+          <div className="col-sm-3 text-center bodr mb-3">
             <img
               src={clock}
-              className="img-fluid mt-5"
-              style={{ height: "50px", width: "50px" }}
+              className="img-fluid mt-2"
+              style={{ height: "45px", width: "45px" }}
             />
             <h4 className="mt-2">Schedule Email</h4>
-            <p className="mt-2">
+            <center>
+            <p className="mt-2" style={{fontSize:"15px",width:"70%"}}>
               No Matter what you doing right now, just schedule your sms
               according to your preferable time, SMS auto blast according to
               schedule time.
-            </p>
+            </p></center>
           </div>
-          <div className="col-sm-3 text-center bodr mb-5">
+          <div className="col-sm-3 text-center bodr mb-3">
             <img
               src={upload}
-              className="img-fluid mt-5"
-              style={{ height: "50px", width: "50px" }}
+              className="img-fluid mt-2"
+              style={{ height: "45px", width: "45px" }}
             />
             <h4 className="mt-2">Easily Upload Images</h4>
-            <p className="mt-2">
+            <center>
+            <p className="mt-2" style={{fontSize:"15px",width:"70%"}}>
               The auto shwicher functions manage SMPP from backend, when any
               SMPP have heavy load/Down then its auto shwitch to another.
-            </p>
+            </p></center>
           </div>
-          <div className="col-sm-3 text-center bodr mb-5">
+          <div className="col-sm-3 text-center bodr mb-3">
             <img
               src={gmail}
-              className="img-fluid mt-5"
-              style={{ height: "50px", width: "50px" }}
+              className="img-fluid mt-2"
+              style={{ height: "45px", width: "45px" }}
             />
             <h4 className="mt-2">Email Personalization</h4>
-            <p className="mt-2">
+            <center>
+            <p className="mt-2" style={{fontSize:"15px",width:"70%"}}>
               Email Personalization That Days gone when reseller was appoint
               A-Record. Now you can direct login from your website, No need to
               appoint A-Record.
-            </p>
+            </p></center>
           </div>
         </div>
       </div>
 
-      <div className="container-fluid text-center bg-light">
+      <div className="container-fluid text-center"style={{backgroundColor:"#f8fcff"}}>
         <div className="row">
           <div className="col-sm-2"></div>
           <div className="col-sm-8">
-            <h2 className="mt-5">WE PROVIDE BEST BULK EMAIL SERVICE<img src={email3} className="img-fluid" style={{height:"80px"}} /></h2>
+            <h2 className="mt-2">WE PROVIDE BEST BULK EMAIL SERVICE<img src={email3} className="img-fluid" style={{height:"80px"}} /></h2>
             <p
-              className="mt-3"
+              className="mt-1"
               style={{
-              
-                
                 fontSize: "20px",
                 color: "black",
               }}
@@ -118,20 +121,15 @@ const Bulkemail = () => {
           <div className="col-sm-2"></div>
         </div>
       </div>
-<center>
-      <div className="container-fluid bg-light">
-      <img src={emailnew} className="img-fluid" style={{height:"250px"}} />
-      </div>
-      </center>
 
-      <div className="container-fluid  bg-light">
+      <div className="container-fluid" style={{backgroundColor:"#f8fcff"}}>
         <div className="row">
           <div className="col-sm-1"></div>
-          <div className="col-sm-5 mt-5">
-            <h2 className="mx-3">
+          <div className="col-sm-5 mt-2">
+            <h4 className="mx-3">
               Bulk Email Marketing Software/ <br />
               Application Features:
-            </h2>
+            </h4>
             <br />
             <ol>
               <li>SPAM FREE Emails, 90% Inbox Delivery</li>
@@ -143,7 +141,7 @@ const Bulkemail = () => {
               <li>View Sent Report by Date Search</li>
               <li>
                 {" "}
-                Viewer Report: In this section, we can track, how many users
+                Viewer Report: we can track, how many users
                 view promotional emails.
               </li>
               <li>With incoming IP address details.</li>
@@ -159,10 +157,10 @@ const Bulkemail = () => {
               </li>
             </ol>
           </div>
-          <div className="col-sm-5 mt-5">
-            <h2 className="mx-3">
+          <div className="col-sm-5 mt-2">
+            <h4 className="mx-3">
               Email Marketing Service <br /> Advantages:
-            </h2>
+            </h4>
             <br />
             <ol>
               <li>

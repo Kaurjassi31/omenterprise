@@ -61,12 +61,12 @@ const Pricing = () => {
                     src={ic2}
                     class="card-img-top"
                     className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
+                    style={{ height: "40px", width: "40px" }}
                     alt="..."
                   />
                 </center>
                 <div class="card-body">
-                  <h4 class="card-title mt-4">Transactional SMS</h4>
+                  <h4 class="card-title mt-2">Transactional SMS</h4>
                   <p class="card-text mt-3" style={{ fontSize: "17px" }}>
                   Send regular informational updates and alerts to your existing clients to both DND and non-DND Mobile Numbers.
                   </p>
@@ -81,12 +81,12 @@ const Pricing = () => {
                     src={ic4}
                     class="card-img-top"
                     className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
+                    style={{ height: "40px", width: "40px" }}
                     alt="..."
                   />
                 </center>
                 <div class="card-body">
-                  <h4 class="card-title mt-4">API SMS</h4>
+                  <h4 class="card-title mt-2">API SMS</h4>
                   <p class="card-text mt-3" style={{ fontSize: "17px" }}>
                   Connect your PC or web based softwares , websites to our SMS server using our robust API connectivity solutions.
                   </p>
@@ -100,12 +100,12 @@ const Pricing = () => {
                     src={ic2}
                     class="card-img-top"
                     className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
+                    style={{ height: "40px", width: "40px" }}
                     alt="..."
                   />
                 </center>
                 <div class="card-body">
-                  <h4 class="card-title mt-4">Promotional SMS</h4>
+                  <h4 class="card-title mt-2">Promotional SMS</h4>
                   <p class="card-text mt-3" style={{ fontSize: "17px" }}>
                   Run promotional messaging campaigns to promote your business / services anywhere in India with peace of mind.
                   </p>

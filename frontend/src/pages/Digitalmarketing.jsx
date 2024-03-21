@@ -17,9 +17,16 @@ const Digitalmarketing = () => {
           <img
             src={dm}
             className="img-fluid mt-1"
-            style={{ height: "450px" }}
+            style={{ height: "400px" }}
           />
-          <p className="mt-3" style={{ width: "80%" }}>
+          </div>
+          </div>
+        <div className="container-fluid mt-5" style={{ backgroundColor: "#f8fcff"}}>
+        <div
+            className="container mt-5"
+            style={{ width: "80%", textAlign: "left" }}
+          >
+              <p className="mt-3" >
             Are you ready to take your business to the next level? Look no
             further than Om Enterprises Group - your trusted partner in digital
             marketing excellence. As a premier digital marketing company, we
@@ -29,19 +36,9 @@ const Digitalmarketing = () => {
             Let's embark on a journey towards digital success together. Contact
             us to schedule a consultation and discover how we can transform your
             digital presence!
+            
           </p>
-          <h4>
-            <b>
-              Here's a brief overview of some key components of digital
-              marketing:
-            </b>
-          </h4>
-
-          <div
-            className="container"
-            style={{ width: "70%", textAlign: "left" }}
-          >
-            <ul></ul>
+            <ul>
             <li>
               <b>Search Engine Optimization (SEO): </b>SEO involves optimizing
               your website and content to rank higher in search engine results
@@ -60,26 +57,24 @@ const Digitalmarketing = () => {
               products, share updates, nurture leads, and build relationships
               with customers.
             </li>
+            </ul>
           </div>
-        </div>
-      </div>
-      <div className="container" style={{ width: "80%" }}></div>
-
+       
       <div
-        className="container-fluid text-center"
-        style={{ backgroundColor: "", color: "black" }}
+        className="container-fluid text-center mb-5"
+        style={{  color: "black" }}
       >
         <div className="row">
-          <h1 className="mt-2 mb-1">
+          <h1 className=" mb-1">
             OUR STRATEGIES
             <img
               src={digital}
               style={{ height: "60px" }}
-              className="img-fluid mx-3"
+              className="img-fluid"
             />
           </h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+            <div class="col mb-5">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title"> Strategic Digital Marketing:</h4>
@@ -92,7 +87,7 @@ const Digitalmarketing = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col mb-5">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Web Design and Development:</h4>
@@ -105,7 +100,7 @@ const Digitalmarketing = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col mb-5">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">  Social Media Management (SMM):</h4>
@@ -120,6 +115,7 @@ const Digitalmarketing = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       <Footer />

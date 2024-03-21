@@ -16,7 +16,11 @@ const Dlt = () => {
           <div className="row">
             <img src={dlt} className="img-fluid" style={{ height: "450px" }} />
           </div>
-          <p>
+          </div>
+          <div className="container-fluid mb-5" style={{backgroundColor:"#f8fcff"}}>
+<div className="container">
+
+          <p className="mt-5 mb-5">
             is a digital system for keeping and managing the record of sender
             IDs and template.
             <b>
@@ -50,6 +54,7 @@ const Dlt = () => {
             Note: All request will be received at Operator and post KYC request
             will be approve on DLT.
           </p>
+        </div>
         </div>
       </div>
       <Footer />

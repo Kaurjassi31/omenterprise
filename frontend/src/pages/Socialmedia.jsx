@@ -27,15 +27,10 @@ const Socialmedia = () => {
       <div className="container text-center" style={{ width: "70%" }}>
         <div className="row text-center">
           <p>
-            Welcome to OM Enterprises Social Media Management Services At OM
-            Enterprises, we understand the pivotal role that social media plays
-            in today's digital landscape. With billions of active users across
-            various platforms, social media has become a powerhouse for
-            businesses to connect, engage, and convert their audience into loyal
-            customers. That's where we come in.
+           
           </p>
           <br />
-          <p>
+          {/* <p>
             
             In today's digital age, social media has emerged as a powerful tool
             for businesses to engage with their audience, build brand awareness,
@@ -46,7 +41,7 @@ const Socialmedia = () => {
             reels to designing eye-catching creatives, we ensure that your brand
             stays relevant and resonates with your audience in the ever-evolving
             social media landscape.
-          </p>
+          </p> */}
         </div>
         <div className="row">
           <h4 className="text-center"> <img src={sociall} className="img-fluid mx-3" style={{height:"40px"}} />Our Approach:</h4>
@@ -54,7 +49,12 @@ const Socialmedia = () => {
             At OM Enterprises, we offer comprehensive social media management
             solutions tailored to your business needs. Our approach is rooted in
             creativity, strategy, and data-driven insights to ensure that your
-            brand stands out in the crowded digital space.
+            brand stands out in the crowded digital space. Welcome to OM Enterprises Social Media Management Services At OM
+            Enterprises, we understand the pivotal role that social media plays
+            in today's digital landscape. With billions of active users across
+            various platforms, social media has become a powerhouse for
+            businesses to connect, engage, and convert their audience into loyal
+            customers. That's where we come in.
           </p>
         </div>
       </div>
@@ -108,9 +108,9 @@ const Socialmedia = () => {
 
 
 
-      <div className="container">
-       
-        <div className="row">
+      <div className="container-fluid mb-5"  style={{ backgroundColor: "#f8fcff"}}>
+        <div className="container">
+        <div className="row mb-5">
           <div className="col-sm-6 mt-5">
           <h1>Terms & Conditions</h1>
         <ol>
@@ -148,6 +148,9 @@ we will treat it as a 3 Videos shooted.</li>
 
           </div>
         </div>
+        </div>
+       
+        
       </div>
       <Footer />
     </>

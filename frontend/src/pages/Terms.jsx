@@ -300,7 +300,7 @@ const Terms = () => {
         not responsible for any fraud / cheating etc done by any re-seller /sub
         re-seller.{" "}
       </h6>
-      <div className="container">
+      <div className="container-fluid" style={{backgroundColor:"#f8fcff"}}>
         <div className="container">
         <h2  className="mt-4 mb-4">Appendix</h2>
         </div>

@@ -87,7 +87,7 @@ const Voicesms = () => {
           </div>
         </div>
       </div>
-<div className="container-fluid"style={{backgroundColor:"",color:"black"}}>
+<div className="container-fluid"style={{backgroundColor:"#f8fcff",color:"black"}}>
       <div className="container text-center">
         <h2 className="mt-5">WE PROVIDE BEST VOICE SMS SERVICE<img src={voicee} className="img-fluid mx-3" style={{height:"60px"}} /></h2>
         <p

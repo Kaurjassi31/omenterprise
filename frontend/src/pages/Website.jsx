@@ -90,31 +90,24 @@ const Website = () => {
       </div>
       <br />
       <br />
-      <div className="container-fluid text-center mt-4">
-        <h1>OUR PORTFOLIO</h1>
+      <div className="container-fluid text-center " style={{ backgroundColor: "#f8fcff"}}>
+        <h1 className="mt-5">OUR PORTFOLIO</h1>
         <h4 className="mt-3">WEBSITE</h4>
         <img
           src={website1}
           className="img-fluid mt-4"
           style={{ width: "70%" }}
         />
-      </div>
 
-      <div
+<div
         className="container-fluid"
         style={{ backgroundColor: "#f8fcff", color: "black" }}
       >
         <div className="container mt-2">
           <h2 className="mt-4">
-            Website Designing Company in india | Best Web Design Services in
-            india
-          </h2>
-
-         
-          <h4 className="mt-2">
-            Best Web Design Services in india | Customized Website Designing
-          </h4>
-          <ul>
+          Best Web Design Services  |  Web Development Services </h2>
+        
+          <ul style={{textAlign:"left"}}>
             <li>
               Creative, talented graphic designers to deliver stand out, fresh,
               innovative looks
@@ -137,47 +130,11 @@ const Website = () => {
           </ul>
         </div>
         <br />
-        <div className="container text-center">
-          <img
-            src={website}
-            className="img-fluid mt-2"
-            style={{ height: "300px" }}
-          />
-        </div>
-
-        <div className="container mt-5">
-          <h4>Web Development Services | Website Development</h4>
-          <p className="mt-3 ">
-            A website today powers your business and serves as the common
-            platform for interaction between staff, customers, vendors and
-            members of the general public. Underlying a visually stimulating
-            interface is the programming aspect responsible for a variety of
-            features and functions. Get Web Development Services From Us Today.
-          </p>
-          <p className="">
-            Flexible, adaptable and aligned with our customers’ objectives we
-            offer website development based on{" "}
-          </p>
-          <div className="row">
-            <div className="col-sm-6">
-              <img src={w2} className="img-fluid mt-3" style={{height:"220px"}} />
-
-            </div>
-            <div className="col-sm-6 mt-5">
-            <ul>
-            <li>Open source technologies like PHP/MySQL</li>
-            <li>Asp.NET development </li>
-            <li>Responsive, mobile website development </li>
-            <li>WordPress</li>
-          </ul>
-            </div>
-          </div>
-        
-        </div>
-        <br />
-        <br />
-       
       </div>
+
+        
+      </div>
+
 
       <Footer />
     </>
