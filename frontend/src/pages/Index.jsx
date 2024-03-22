@@ -519,7 +519,7 @@ const Index = () => {
             {" "}
             <button
               type="button"
-              class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
+              class="btn btn-primary  btn-lg mt-5 mb-3 btn p-2"
               style={{height:"50px",width:"16%"}}
             >
             Buy Your Plan Now

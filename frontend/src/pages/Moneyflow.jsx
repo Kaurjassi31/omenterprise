@@ -38,12 +38,15 @@ const Moneyflow = () => {
                     <h4 class="card-title">
                       <b>PACKAGE 1</b>
                     </h4>
+                    <button style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
+                      TIER 1
+                    </button>
                     <strike>
                       {" "}
-                      <p>normally @ ₹ 74,000</p>
+                      <p className='mt-3'>normally $887</p>
                     </strike>
                     <h2>
-                      <b>₹ 47,999/-</b>
+                      <b>$575/-</b>
                       <span>
                         <h6>/month</h6>
                       </span>
@@ -51,13 +54,16 @@ const Moneyflow = () => {
                     <a href='account'>
                     <button
                       type="button"
-                      class="btn btn-primary mb-2 mt-3"
-                      style={{ width: "90%", height: "45px" }}
+                      class="btn btn-primary mb-2 mt-2"
+                      style={{ width: "70%", height: "45px" }}
                     >
                       BUY NOW
                     </button>
                     </a>
-                    
+                    <a href='account' style={{textDecoration:"none"}}>
+                      <p className="mt-1 text-primary">
+                        Buy In INR ₹47,999 / month
+                      </p></a>
                     <hr />
                     <div className="row">
                       <div className="col-sm-2">
@@ -167,7 +173,7 @@ const Moneyflow = () => {
 
                       <strike>
                         {" "}
-                        <p className="mt-5 text-dark">Total Price 74,000/-</p>
+                        <p className="mt-3 text-dark">Total Price 74,000/-</p>
                       </strike>
                       <a href='account' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
@@ -192,11 +198,15 @@ const Moneyflow = () => {
                     <h4 class="card-title">
                       <b>PACKAGE 2</b>
                     </h4>
+                    <button style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
+                      TIER 2
+                      
+                    </button>
                     <strike>
-                      <p>normally @ ₹ 1,25,000</p>
+                      <p className='mt-3'>normally $1499</p>
                     </strike>
                     <h2>
-                      <b>₹ 65,999/-</b>
+                      <b>$791/-</b>
                       <span>
                         <h6>/month + G.S.T</h6>
                       </span>
@@ -204,11 +214,15 @@ const Moneyflow = () => {
                     <a href='account'>
                     <button
                       type="button"
-                      class="btn btn-primary mb-2 mt-3"
-                      style={{ width: "90%", height: "45px" }}
+                      class="btn btn-primary mb-2 mt-2"
+                      style={{ width: "70%", height: "45px" }}
                     >
                       BUY NOW
                     </button></a>
+                    <a href='account' style={{textDecoration:"none"}}>
+                      <p className="mt-1 text-primary">
+                        Buy In INR ₹65,999 / month
+                      </p></a>
                     <hr />
                     <div className="row">
                       <div className="col-sm-2">
@@ -327,7 +341,7 @@ const Moneyflow = () => {
                       </strike>
                       <strike>
                         {" "}
-                        <p className="mt-4 text-dark">Total Price 1,25,000/-</p>
+                        <p className="mt-2 text-dark">Total Price 1,25,000/-</p>
                       </strike>
                       <a href='account' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
@@ -352,11 +366,18 @@ const Moneyflow = () => {
                     <h4 class="card-title">
                       <b>PACKAGE 3</b>
                     </h4>
-                    <strike>
-                      <p>normally @ ₹ 366,998</p>
+                    <select style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
+                      <option>TIER 3</option>
+                      <option>TIER 4</option>
+                      <option>TIER 5</option>
+                      <option>TIER 6</option>
+                    </select>
+                    
+                     <strike>
+                      <p className='mt-3'>normally $4402</p>
                     </strike>
                     <h2>
-                      <b>₹ 1,99,999</b>
+                      <b>$2399</b>
                       <span>
                         <h6>/month + TAX 18%</h6>
                       </span>
@@ -365,10 +386,15 @@ const Moneyflow = () => {
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-3"
-                      style={{ width: "90%", height: "45px" }}
+                      style={{ width: "70%", height: "45px" }}
                     >
                       BUY NOW
                     </button></a>
+                    <a href='account' style={{textDecoration:"none"}}>
+                      <p className="mt-1 text-primary">
+                        Buy In INR ₹1,99,999 / month
+                      </p>
+                      </a>
                     <hr />
 
                     <div className="row">
