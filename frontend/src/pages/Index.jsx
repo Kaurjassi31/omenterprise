@@ -444,7 +444,7 @@ const Index = () => {
           </div>
        
           <div className="container">
-          <a href="pricing">
+          <a href="services">
             {" "}
             <button
               type="button"
