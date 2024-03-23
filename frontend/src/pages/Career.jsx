@@ -49,8 +49,8 @@ const Career = () => {
                 <h5 class="card-title">PEOPLE</h5>
                 <h6 class="card-text">
                   Om Enterprises Group treats all employees like family;
-                  allowing them proper and be appreciated and help to
-                  grow their business.
+                  allowing them proper and be appreciated and help to achieve
+                  growth in their business.
                 </h6>
               </div>
             </div>

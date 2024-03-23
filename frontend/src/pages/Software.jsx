@@ -4,15 +4,7 @@ import "animate.css";
 import Nav from "../components/Nav";
 import msg from "../assets/software.jpg";
 import Footer from "../components/Footer";
-import Card from "../components/UI/Card";
-import whatsapp from "../assets/card1.svg";
-import email from "../assets/card6.svg";
-import sms from "../assets/card2.svg";
-import voice from "../assets/card5.svg";
-import website from "../assets/card4.svg";
-import software from "../assets/card2.svg";
-import social from "../assets/card7.svg";
-import digital from "../assets/card3.svg";
+import websitee from "../assets/w1.jpg";
 
 const Software = () => {
   return (
@@ -22,210 +14,86 @@ const Software = () => {
         <div
           className="container text-center"
           style={{
-            padding: "3%",
+            padding: "1%",
           }}
         >
-          <div className="row" >
-            <h1 className="mt-5"> SOFTWARE DEVELOPMENT</h1>
-            <img src={msg} className="img-fluid" />
+          <div className="row">
+            <h1 className="mt-3"> SOFTWARE DEVELOPMENT</h1>
+            <center>
+              <img
+                src={msg}
+                className="img-fluid mt-5"
+                style={{ height: "450px", width: "70%" }}
+              />
+            </center>
           </div>
         </div>
         <center>
-        <p style={{width:"70%"}}>
-          At Om Enterprises Group, we specialize in delivering high-quality,
-          custom software solutions tailored to meet the unique needs of your
-          business. Our team of experienced developers, designers, and project
-          managers work collaboratively to bring your ideas to life and help
-          your business thrive in the digital landscape.
-        </p>
+          <p style={{ width: "70%" }}>
+            At Om Enterprises Group, we specialize in delivering high-quality,
+            custom software solutions tailored to meet the unique needs of your
+            business. Our team of experienced developers, designers, and project
+            managers work collaboratively to bring your ideas to life and help
+            your business thrive in the digital landscape.
+          </p>
         </center>
       </div>
-
-
-      <div className="container-fluid mt-5" >
-        <div className="container-fluid cardglass">
-   
-        <div className="container mb-4">
-        <h1 className="text-center mt-3 mb-3 " style={{fontFamily:"Poppins', sans-serif"}}>Our services</h1>
-        <div className="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-5">
-          <Card img={sms} title={"Bulk Messages"} >
-            Sending of a large number of Bulk messages  to multiple
-            recipients.
-            <hr />
-            <a href="bulksms"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card
-            img={whatsapp}
-            className="img-fluid"
-            title={"Whatsapp Messages"}
-          >
-            Send large number of WhatsApp messages to
-            multiple recipients.
-            <hr />
-            <a href="whatsapp"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={email} title={"Bulk Emails"}>
-            Send a large number of Bulk emails to a group of people or
-            recipients. 
-            <hr />
-            <a href="bulkemail"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={voice} title={"Voice SMS"}>
-            Service given to individuals or businesses to send pre-recorded
-            voice messages.
-            <hr />
-            <a href="voicesms"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={website} title={"Website Development"}>
-            Developing a simple single static page of plain text to complex web
-            applications.
-            <hr />
-            <a href="website"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          
-          <Card img={social} title={"Socialmedia Management"}>
-            Strategies to maintain and grow a social presence,
-            on top of administrative.
-            <hr />
-            <a href="socialmedia"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-     
-          <Card img={digital} title={"Digital Marketing"} style={{height:"160px",width:"75%"}}>
-           defining software solutions to one or
-            more sets of problems.
-            <hr />
-            <a href="digitalmarketing"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-          <Card img={software} title={"Software Development"} style={{height:"160px",width:"75%"}}>
-           defining software solutions to one or
-            more sets of problems.
-            <hr />
-            <a href="software"> <button className="btn btn-outline-primary mb-2" type="submit" >
-                Know More
-              </button></a>
-          </Card>
-        </div>
-      </div>
-      </div>
-      </div>
-
-
-      <div className="container-fluid text-center">
+      <div className="container-fluid">
+        <h1 className="text-center mt-5">
+          Why Choose Us
+          <img
+            src={websitee}
+            className="img-fluid mx-3"
+            style={{ height: "80px", width: "80px" }}
+          />{" "}
+        </h1>
         <div className="container">
-          <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
-          <div class="row row-cols-1 row-cols-md-5 g-4 mt-5 mb-5">
+          <div class="row row-cols-1 row-cols-md-4 mt-3 g-4">
             <div class="col">
               <div class="card">
-                <center>
-                  <img
-                    src={sms}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
                 <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                  UNPARALLED OPEN RATE
+                  <h4 class="card-title">Expertise: </h4>
+                  <p class="card-text">
+                    Our team consists of seasoned professionals with years of
+                    experience in software development across various
+                    industries.
                   </p>
-                  <h1 class="card-title mt-3">98%</h1>
-                 
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-                <center>
-                  <img
-                    src={sms}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
                 <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                  HIGHEST CLICK <br/>RATE
+                  <h4 class="card-title">Collaborative Approach:</h4>
+                  <p class="card-text">
+                    We believe in working closely with our clients throughout
+                    the development process to ensure we'redelivering exactly
+                    what you need.
                   </p>
-                  <h1 class="card-title mt-3">20%</h1>
-                 
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-                <center>
-                  <img
-                    src={sms}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
                 <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                  FASTEST RESPONSE TIME
+                  <h4 class="card-title">Innovation:</h4>
+                  <p class="card-text">
+                    We stay ahead of the curve by constantly exploring new
+                    technologies and methodologies to improve our processes and
+                    deliver solutions.
                   </p>
-                  <h1 class="card-title mt-3">90s</h1>
-                 
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card mb-5">
-                <center>
-                  <img
-                    src={sms}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
+              <div class="card">
                 <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                 EXTREME READ <br/> RATE
+                  <h4 class="card-title">Customer Satisfaction:</h4>
+                  <p class="card-text">
+                    Your satisfaction is our top priority. We strive to exceed
+                    your expectations and build long-term partnerships based on
+                    trust and mutual success.
                   </p>
-                  <h1 class="card-title mt-3">90%</h1>
-                 
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card mb-5">
-                <center>
-                  <img
-                    src={sms}
-                    class="card-img-top"
-                    className="img-fluid mt-3"
-                    style={{ height: "60px", width: "60px" }}
-                    alt="..."
-                  />
-                </center>
-                <div class="card-body">
-                <p class="card-text mt-3" style={{ fontSize: "22px" }}>
-                 EXTREME READ <br/> RATE
-                  </p>
-                  <h1 class="card-title mt-3">90%</h1>
-                 
                 </div>
               </div>
             </div>
@@ -233,8 +101,7 @@ const Software = () => {
         </div>
       </div>
 
-      <Footer/>
-
+      <Footer />
     </>
   );
 };

@@ -109,7 +109,7 @@ const Feed = () => {
                       style={{ height: "30%", width: "30%" }}
                     />
                   </center>
-                  <p class="card-text mb-5">
+                  <p class="card-text mb-4">
                     Great Job! You exceeded our expectations and delivered more
                     than you promised.Om Enterprises is Great company to do
                     business.
@@ -133,7 +133,7 @@ const Feed = () => {
                       style={{ height: "30%", width: "30%" }}
                     />
                   </center>
-                  <p class="card-text mb-4">
+                  <p class="card-text mb-2">
                     Picking OM ENTERPRISES is one of the best decisions I took
                     ever to speed up our marketing their efforts are worthy for
                     all of it really happy and satisfied.
@@ -181,7 +181,7 @@ const Feed = () => {
                       style={{ height: "30%", width: "30%" }}
                     />
                   </center>
-                  <p class="card-text mb-5">
+                  <p class="card-text mb-4">
                     The services and support provided are highly professional.
                     We are very pleased to have Om Enterprises as our SMS
                     partner!
@@ -229,7 +229,7 @@ const Feed = () => {
                       style={{ height: "30%", width: "30%" }}
                     />
                   </center>
-                  <p class="card-text mb-5">
+                  <p class="card-text mb-4">
                     Om Enterprises stands out as one of the best teams I’ve ever
                     worked with really a great experience highly recommended.
                   </p>

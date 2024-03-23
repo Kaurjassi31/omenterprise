@@ -18,11 +18,9 @@ const Whatsapp = () => {
       <Nav />
       <div
         className="container text-center"
-        style={{ padding: "7%", backgroundColor: "#f7fbff" }}
+        style={{ padding: "4%", backgroundColor: "#f7fbff" }}
       >
-       
-        
-        <h1 className="mt-4" style={{  fontSize: "50px" }}>
+        <h1 className="" style={{  fontSize: "50px" }}>
           Bulk WhatsApp SMS
         </h1>
       

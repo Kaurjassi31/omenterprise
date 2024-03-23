@@ -14,8 +14,8 @@ const Hovercard = () => {
         <a class="card1" href="#">
           <h3>Market Leadership & Expertise</h3>
           <p class="small mt-2">
-            Enjoy the revive of rich communication with our huge reachability
-            and leadership across the world..
+            Enjoy rich communication with our huge reachability
+            and leadership across the world.
           </p>
           <div class="go-corner" href="#">
             <div class="go-arrow">→</div>
@@ -24,7 +24,7 @@ const Hovercard = () => {
       </div>
       <div className="col-sm-3 mt-3">
         <a class="card1" href="#">
-          <h3>Reliable API & Integration</h3>
+          <h3>Reliable API & <br/> Integration</h3>
           <p class="small mt-2">
             Trustworthy APIs and simple integration enable trouble-free
             communication experience.
@@ -51,8 +51,8 @@ const Hovercard = () => {
         <a class="card1" href="#">
           <h3>Omnichannel Communication</h3>
           <p class="small mt-2">
-            Experience seamless brand experience across all channels using
-            process of our WBS(Work breakdown structure).
+           Experience across all channels using
+            process of  WBS(Work breakdown structure).
           </p>
           <div class="go-corner" href="#">
             <div class="go-arrow">→</div>

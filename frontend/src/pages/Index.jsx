@@ -176,7 +176,7 @@ const Index = () => {
                     style={{ color: "#318e5b" }}
                   ></i>{" "}
                 </span>
-                Serving from 16+ Year{" "}
+                Serving from 16+ Year
               </p>
             </div>
             <div className="col-sm-2">
@@ -187,7 +187,7 @@ const Index = () => {
                     style={{ color: "#318e5b" }}
                   ></i>
                 </span>
-                Over 15000+ Customer{" "}
+                Over 15000+ Customer
               </p>
             </div>
           </div>
@@ -267,7 +267,7 @@ const Index = () => {
             <b> GROW YOUR BUSINESS💪 All you Needs is!</b>
           </h2>
           <p className="mt-3" style={{width:"70%"}}>
-            OM Enterproises Group is helping to grow your business under one
+            OM Enterprises Group is helping to grow your business under one
             roof by addresses all
             your sales and marketing needs, saving you the hassle of using
             multiple applications. With us, you can take care of all your
@@ -511,8 +511,7 @@ const Index = () => {
           <center>
             <h6 className=" mb-5" style={{ width: "60%" }}>
               Yes, that's correct! Get Om Enterprises plan and you will have
-              access to all applications without any feature
-              restrictions.
+              access to all features under one roof.
             </h6>
             <img src={compare} className="img-fluid imag" />
             <a href="pricing">

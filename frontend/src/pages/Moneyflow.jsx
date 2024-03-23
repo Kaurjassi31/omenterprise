@@ -17,7 +17,7 @@ const Moneyflow = () => {
           👨‍💻 <b>Money Flow Matrix</b>
         </h1>
         <h6 className="text-center">
-          The Most Powerful Business Suite with No Feature Restriction....
+          The Most Powerful Business Suite with Multiple Feature ....
           Without the High Costs 👍
         </h6>
         <center>

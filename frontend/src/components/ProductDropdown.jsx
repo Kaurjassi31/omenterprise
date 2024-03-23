@@ -38,6 +38,7 @@ function ProductDropdown() {
           <div className="row mt-1">
             <div className="row mt-2">
               <div className="col-sm-4 hvr">
+              <a href="bulksms" style={{textDecoration:"none",color:"black"}}>
                 <h6 class="card-title mt-2">
                   <img
                     src={text}
@@ -49,17 +50,10 @@ function ProductDropdown() {
                 <p className="mt-2">
                   Sending of a large number of messages to multiple recipients.
                 </p>
-
-                {/* <a href="pricing">
-                    <button
-                      type="button"
-                      class="btn btn-primary mb-3"
-                      style={{ }}
-                    >
-                      BUY NOW
-                    </button></a> */}
+                    </a>
               </div>
               <div className="col-sm-4 hvr">
+              <a href="bulkemail" style={{textDecoration:"none",color:"black"}}>
                 <h6 class="card-title mt-2">
                   <img
                     src={sms}
@@ -70,16 +64,10 @@ function ProductDropdown() {
                 </h6>
                 <p className="mt-2">Send email newsletters to your subscribers and customers.</p>
 
-                {/* <a href="pricing">
-                    <button
-                      type="button"
-                      class="btn btn-primary mb-3"
-                      style={{ }}
-                    >
-                      BUY NOW
-                    </button></a> */}
+               </a>
               </div>
               <div className="col-sm-4 hvr">
+              <a href="voicesms" style={{textDecoration:"none",color:"black"}}>
                 <h6 class="card-title mt-2">
                   <img
                     src={voice}
@@ -89,17 +77,10 @@ function ProductDropdown() {
                   <b>Voice Sms</b>
                 </h6>
                 <p className="mt-2">Sends a pre-recorded message to a list of contacts.</p>
-
-                {/* <a href="pricing">
-                    <button
-                      type="button"
-                      class="btn btn-primary mb-3"
-                      style={{ }}
-                    >
-                      BUY NOW
-                    </button></a> */}
+                </a>
               </div>
               <div className="col-sm-4 hvr">
+              <a href="website" style={{textDecoration:"none",color:"black"}}>
                 <h6 class="card-title mt-2">
                   <img
                     src={globe}
@@ -113,16 +94,11 @@ function ProductDropdown() {
                   Interaction between staff, customers and general public.{" "}
                 </p>
 
-                {/* <a href="pricing">
-                    <button
-                      type="button"
-                      class="btn btn-primary mb-3"
-                      style={{ }}
-                    >
-                      BUY NOW
-                    </button></a> */}
+                
+                </a>
               </div>
               <div className="col-sm-4 hvr">
+              <a href="socialmedia" style={{textDecoration:"none",color:"black"}}>
                 <h6 class="card-title mt-2">
                   <img
                     src={fb}
@@ -135,17 +111,10 @@ function ProductDropdown() {
                   Offer management solutions tailored to your business needs.
                 </p>
 
-                {/* <a href="pricing">
-                    <button
-                      type="button"
-                      class="btn btn-primary mb-3"
-                      style={{ }}
-                    >
-                      BUY NOW
-                    </button></a> */}
+               </a>
               </div>
               <div className="col-sm-4 hvr">
-                    <a href="pricing">
+                    <a href="account">
                     <button
                       type="button"
                       class="btn btn-primary mt-3"
