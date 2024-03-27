@@ -26,7 +26,7 @@ const Swiperr = () => {
     <>
       <div className="container mt-5 mb-5">
         <div className="container mt-5 mb-5">
-          <h1 style={{ color: "#023368" }}>
+          <h1 >
             Clients We Have Created Results For
           </h1>
         </div>

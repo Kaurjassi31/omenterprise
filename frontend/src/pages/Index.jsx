@@ -22,7 +22,7 @@ import sociall from "../assets/sociall.png";
 import seo from "../assets/seo.png";
 import qrcode from "../assets/qrcode.png";
 import Moneyflow from "./Moneyflow";
-
+import airtel1 from "../assets/airtel1.png";
 const Index = () => {
   return (
     <>
@@ -150,9 +150,9 @@ const Index = () => {
             <button
               type="button"
               class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
-              style={{height:"50px"}}
+              style={{ height: "50px" }}
             >
-            Know More About Us
+              Know More About Us
             </button>
           </a>
           <div className="row mt-2 mb-5">
@@ -252,252 +252,251 @@ const Index = () => {
             <p className="text-light mt-1 mb-5">
               they provide.Highly recommended.
             </p>
-            <h2 className="text-light mb-5">Airtel Broadband</h2>
+            <h2 className="text-light mb-5">
+              <img
+                src={airtel1}
+                className="img-fluid mx-3"
+                style={{ height: "70px", width: "70px", borderRadius: "50%" }}
+              />
+              Airtel Broadband
+            </h2>
           </center>
         </div>
       </div>
-      <div className="container-fluid text-center mb-5" >
-      <div className="container">
-      <Swiperr />
-      </div>
+      <div className="container-fluid text-center mb-5">
+        <div className="container">
+          <Swiperr />
+        </div>
       </div>
       <div className="container-fluid" style={{ backgroundColor: "#f8fcff" }}>
         <div className="container mt-5 mb-5 text-center">
           <h2 className="mt-5">
             <b> GROW YOUR BUSINESS💪 All you Needs is!</b>
           </h2>
-          <p className="mt-3" style={{width:"70%"}}>
-            OM Enterprises Group is helping to grow your business under one
-            roof by addresses all
-            your sales and marketing needs, saving you the hassle of using
-            multiple applications. With us, you can take care of all your
-            business needs in one place.
+          <p className="mt-3" style={{ width: "70%" }}>
+            OM Enterprises Group is helping to grow your business under one roof
+            by addresses all your sales and marketing needs, saving you the
+            hassle of using multiple applications. With us, you can take care of
+            all your business needs in one place.
           </p>
           <div className="container">
-          <div class="row row-cols-1 row-cols-md-4 mt-3 mb-2 g-4">
-            <div class="col"style={{height:"150px",width:"180px"}}>
-              <div class="card">
-                <center>
-                  <img
-                    src={bulk}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>
-                <div class="card-body">
-                  <h6 class="card-title">Bulk SMS</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+            <div class="row row-cols-1 row-cols-md-4 mt-3 mb-2 g-4 justify-content-center">
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card">
+                  <center>
+                    <img
+                      src={bulk}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>
+                  <div class="card-body">
+                    <h6 class="card-title">Bulk SMS</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
+                </div>
+              </div>
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card">
+                  <center>
+                    <img
+                      src={voicee}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">Voice SMS</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
+                </div>
+              </div>
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card">
+                  <center>
+                    <img
+                      src={emaill}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">Bulk Email</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
+                </div>
+              </div>
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card">
+                  <center>
+                    <img
+                      src={whatsappp}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">WhatsApp SMS</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
+                </div>
+              </div>
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card">
+                  <center>
+                    <img
+                      src={videoo}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">Videography</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col"style={{height:"150px",width:"180px"}}>
-              <div class="card">
-                <center>
-                  <img
-                    src={voicee}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">Voice SMS</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+            <div class="row row-cols-1 row-cols-md-4 mt-1 mb-5 g-4 justify-content-center">
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card mb-4 mt-1">
+                  <center>
+                    <img
+                      src={sociall}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">Social Media</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col"style={{height:"150px",width:"180px"}}>
-              <div class="card">
-                <center>
-                  <img
-                    src={emaill}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">Bulk Email</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                </div>
-              </div>
-            </div>
-            <div class="col"style={{height:"150px",width:"180px"}}>
-              <div class="card">
-                <center>
-                  <img
-                    src={whatsappp}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">WhatsApp SMS</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                </div>
-              </div>
-            </div>
-            <div class="col" style={{height:"150px",width:"180px"}}>
-              <div class="card">
-                <center>
-                  <img
-                    src={videoo}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">Videography</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                </div>
-              </div>
-            </div>
-            </div>
-            <div class="row row-cols-1 row-cols-md-4 mt-1 mb-5 g-4">
-            <div class="col" style={{height:"150px",width:"180px"}}>
-              <div class="card mb-4 mt-1">
-                <center>
-                  <img
-                    src={sociall}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">Social Media</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
-                </div>
-              </div>
-            </div>
-            
 
-            <div class="col" style={{height:"150px",width:"180px"}}>
-              <div class="card mb-4 mt-1">
-                <center>
-                  <img
-                    src={qrcode}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">QR Code</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card mb-4 mt-1">
+                  <center>
+                    <img
+                      src={qrcode}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">QR Code</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col" style={{height:"150px",width:"180px"}}>
-              <div class="card mb-1 mt-1">
-                <center>
-                  <img
-                    src={websitee}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">Website</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card mb-1 mt-1">
+                  <center>
+                    <img
+                      src={websitee}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">Website</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col" style={{height:"150px",width:"180px"}}>
-              <div class="card mb-1 mt-1">
-                <center>
-                  <img
-                    src={businesss}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title"> Business</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card mb-1 mt-1">
+                  <center>
+                    <img
+                      src={businesss}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title"> Business</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col"style={{height:"150px",width:"180px"}}>
-              <div class="card mb-4 mt-1">
-                <center>
-                  <img
-                    src={seo}
-                    class="card-img-top mt-4"
-                    style={{ height: "50px", width: "50px" }}
-                    alt="..."
-                  />
-                </center>{" "}
-                <div class="card-body">
-                  <h6 class="card-title">SEO</h6>
-                  {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+              <div class="col" style={{ height: "150px", width: "180px" }}>
+                <div class="card mb-4 mt-1">
+                  <center>
+                    <img
+                      src={seo}
+                      class="card-img-top mt-4"
+                      style={{ height: "50px", width: "50px" }}
+                      alt="..."
+                    />
+                  </center>{" "}
+                  <div class="card-body">
+                    <h6 class="card-title">SEO</h6>
+                    {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          </div>
-       
           <div className="container">
-          <a href="services">
-            {" "}
-            <button
-              type="button"
-              class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
-              style={{height:"50px",width:"100%"}}
-            >
-            Buy Your Plan Now
-            </button>
-          </a>
+            <a href="services">
+              {" "}
+              <button
+                type="button"
+                class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"
+                style={{ height: "50px", width: "100%" }}
+              >
+                Buy Your Plan Now
+              </button>
+            </a>
           </div>
-        <div className="container-fluid">
-        <div className="row mt-2 mb-5">
-          <div className="col-sm-3"></div>
-            <div className="col-sm-2">
-              <p style={{ fontSize: "14px" }}>
-                <span>
-                  <i
-                    class="fa-solid fa-check mx-1 p-1"
-                    style={{ color: "#318e5b" }}
-                  ></i>{" "}
-                </span>
-                Trusted 7,000+ Brands{" "}
-              </p>
-            </div>
-            <div className="col-sm-2">
-              <p style={{ fontSize: "14px" }}>
-                <span>
-                  <i
-                    class="fa-solid fa-check mx-1 p-1"
-                    style={{ color: "#318e5b" }}
-                  ></i>{" "}
-                </span>
-                Serving from 16+ Year{" "}
-              </p>
-            </div>
-            <div className="col-sm-2">
-              <p style={{ fontSize: "14px" }}>
-                <span>
-                  <i
-                    class="fa-solid fa-check mx-1 p-1"
-                    style={{ color: "#318e5b" }}
-                  ></i>
-                </span>
-                Over 15000+ Customer{" "}
-              </p>
+          <div className="container-fluid">
+            <div className="row mt-2 mb-5">
+              <div className="col-sm-3"></div>
+              <div className="col-sm-2">
+                <p style={{ fontSize: "14px" }}>
+                  <span>
+                    <i
+                      class="fa-solid fa-check mx-1 p-1"
+                      style={{ color: "#318e5b" }}
+                    ></i>{" "}
+                  </span>
+                  Trusted 7,000+ Brands{" "}
+                </p>
+              </div>
+              <div className="col-sm-2">
+                <p style={{ fontSize: "14px" }}>
+                  <span>
+                    <i
+                      class="fa-solid fa-check mx-1 p-1"
+                      style={{ color: "#318e5b" }}
+                    ></i>{" "}
+                  </span>
+                  Serving from 16+ Year{" "}
+                </p>
+              </div>
+              <div className="col-sm-2">
+                <p style={{ fontSize: "14px" }}>
+                  <span>
+                    <i
+                      class="fa-solid fa-check mx-1 p-1"
+                      style={{ color: "#318e5b" }}
+                    ></i>
+                  </span>
+                  Over 15000+ Customer{" "}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      
-    
-      
-        
-    
         </div>
       </div>
 
@@ -515,15 +514,15 @@ const Index = () => {
             </h6>
             <img src={compare} className="img-fluid imag" />
             <a href="pricing">
-            {" "}
-            <button
-              type="button"
-              class="btn btn-primary  btn-lg mt-5 mb-3 btn p-2"
-              style={{height:"50px",width:"16%"}}
-            >
-            Buy Your Plan Now
-            </button>
-          </a>
+              {" "}
+              <button
+                type="button"
+                class="btn btn-primary  btn-lg mt-5 mb-3 btn p-2"
+                style={{ height: "50px" }}
+              >
+                Buy Your Plan Now
+              </button>
+            </a>
             <div className="row mt-2 mb-5">
               <div className="col-sm-3"></div>
               <div className="col-sm-2">
@@ -564,63 +563,66 @@ const Index = () => {
         </div>
       </div>
 
-     <Moneyflow />
+      <Moneyflow />
       <div className="container-fluid text-center mt-5 mb-5">
-      <div className="container">
-        <Feed />
-      </div>
-      
-           <a href="pricing">
-            {" "}
-            <button
-              type="button"
-              class="btn btn-dark  btn-lg mt-3 mb-3 btn p-2"
-              style={{height:"50px"}}
-            >
+        <div className="container">
+          <Feed />
+        </div>
+
+        <a href="pricing">
+          {" "}
+          <button
+            type="button"
+            class="btn btn-dark  btn-lg mt-3 mb-3 btn p-2"
+            style={{ height: "50px" }}
+          >
             Buy Your Plan Now
-            </button>
-          </a>
-          <div className="row mt-2 mb-5">
-            <div className="col-sm-3"></div>
-            <div className="col-sm-2">
-              <p style={{ fontSize: "14px" }}>
-                <span>
-                  <i
-                    class="fa-solid fa-check mx-1 p-1"
-                    style={{ color: "#318e5b" }}
-                  ></i>{" "}
-                </span>
-                Trusted 7,000+ Brands{" "}
-              </p>
-            </div>
-            <div className="col-sm-2">
-              <p style={{ fontSize: "14px" }}>
-                <span>
-                  <i
-                    class="fa-solid fa-check mx-1 p-1"
-                    style={{ color: "#318e5b" }}
-                  ></i>{" "}
-                </span>
-                Serving from 16+ Year{" "}
-              </p>
-            </div>
-            <div className="col-sm-2">
-              <p style={{ fontSize: "14px" }}>
-                <span>
-                  <i
-                    class="fa-solid fa-check mx-1 p-1"
-                    style={{ color: "#318e5b" }}
-                  ></i>
-                </span>
-                Over 15000+ Customer{" "}
-              </p>
-            </div>
+          </button>
+        </a>
+        <div className="row mt-2 mb-5">
+          <div className="col-sm-3"></div>
+          <div className="col-sm-2">
+            <p style={{ fontSize: "14px" }}>
+              <span>
+                <i
+                  class="fa-solid fa-check mx-1 p-1"
+                  style={{ color: "#318e5b" }}
+                ></i>{" "}
+              </span>
+              Trusted 7,000+ Brands{" "}
+            </p>
           </div>
+          <div className="col-sm-2">
+            <p style={{ fontSize: "14px" }}>
+              <span>
+                <i
+                  class="fa-solid fa-check mx-1 p-1"
+                  style={{ color: "#318e5b" }}
+                ></i>{" "}
+              </span>
+              Serving from 16+ Year{" "}
+            </p>
+          </div>
+          <div className="col-sm-2">
+            <p style={{ fontSize: "14px" }}>
+              <span>
+                <i
+                  class="fa-solid fa-check mx-1 p-1"
+                  style={{ color: "#318e5b" }}
+                ></i>
+              </span>
+              Over 15000+ Customer{" "}
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div className="container-fluid text-center mt-5 mb-5" style={{backgroundColor:"#f8fcff"}}>
+      <div
+        className="container-fluid text-center mt-5 mb-5"
+        style={{ backgroundColor: "#f8fcff" }}
+      >
         <div className="container">
-        <Accordion />
+          <Accordion />
         </div>
       </div>
 
