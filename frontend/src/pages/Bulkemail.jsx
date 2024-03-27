@@ -43,7 +43,7 @@ const Bulkemail = () => {
             />
             <h4 className="mt-2">Email Template</h4>
             <center>
-                          <p className="mt-2" style={{fontSize:"15px",width:"70%"}}>
+             <p className="mt-2" style={{fontSize:"15px",width:"70%"}}>
               Email Template Advancement of technology is a reality of this
               ultra modern world and thus its outcome does not seem an unreal
               too.
@@ -100,7 +100,7 @@ const Bulkemail = () => {
           <div className="col-sm-2"></div>
           <div className="col-sm-8">
             <h2 className="mt-2">WE PROVIDE BEST BULK EMAIL SERVICE<img src={email3} className="img-fluid" style={{height:"80px"}} /></h2>
-            <p
+            {/* <p
               className="mt-1"
               style={{
                 fontSize: "20px",
@@ -116,7 +116,7 @@ const Bulkemail = () => {
               any business. Using a bulk email service is cheaper, faster, and
               much more convenient.Consult For Best Bulk Email Service Provider
               in india & Leading Bulk Email Service Provider in india.
-            </p>
+            </p> */}
           </div>
           <div className="col-sm-2"></div>
         </div>
@@ -151,7 +151,7 @@ const Bulkemail = () => {
                 Complimentary Available
               </li>
               <li>Validity – Unlimited </li>
-              <li>
+              <li> 
                 Bulk Email Software : FREE (You have to only purchase credits of
                 email)
               </li>
