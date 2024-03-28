@@ -65,7 +65,7 @@ const Feed = () => {
                     Great company to do business. We have worked with him on
                     numerous projects-Bulk SMS, Digital Marketing, Whatsapp
                     Promotions, etc.
-                  </p>{" "}
+                  </p>
                 </div>
               </div>
             </div>

@@ -1,19 +1,25 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import "../pages/indexnew.css";
+
 
 const Terms = () => {
   return (
     <>
     <Nav />
-      <div className="container">
-      <h2 className="mt-5" >
-        Terms and Conditions for Customers Availing SMS Service
-      </h2>
+    <div className="container">
+    <h1 className="mt-5" >
+        <b>        Terms and Conditions </b>
+      </h1>
+      <br/>
 <div className="container">
-<h4 className="mt-4 mb-4">Table of Contents</h4>
+      <h6>(for Customers Availing SMS Service)</h6>
 </div>
-<ul>
+    </div>
+      <div className="container terms mt-3" style={{width:"70%",textAlign:"left"}}>
+     
+{/* <ul>
       <li>A. Illegal Use</li>
       <li>B. Subscriber Conduct</li>
       <li>C. System and Network Security</li>
@@ -23,9 +29,9 @@ const Terms = () => {
       <li>G.Refund Poh6cy</li>
       <li>H. Enforcement of Terms and Conditions for Company subscribers</li>
       <li>Appendix</li>
-      </ul>
+      </ul> */}
 
-      <h6 className="mt-4 mb-4">
+      <h6 className="mt-5 mb-2 text-center" style={{width:"90%"}}>
         The Terms and Conditions specify the actions permitted by Provider
         Company to its users of our services, including SMS and other services,
         which may be introduced in the future. The Company reserves right to
@@ -33,8 +39,8 @@ const Terms = () => {
         or indirectly are required to engage in acceptable use only as per this
         policy as modified from time to time.
       </h6>
-
-      <h2 className="mt-4 mb-4">A. Illegal Use</h2>
+      <div className="row" style={{width:"90%"}}>
+      <h5 className="mt-3 mb-1 "><b>A. Illegal Use</b></h5>
       <h6>
         The Services of the Provider Company may be used only for lawful
         purposes. Transmission, distribution or storage of any material in
@@ -46,8 +52,9 @@ const Terms = () => {
         national. The provider company will not be held LIABLE for use of any
         Stolen Property by its users.
       </h6>
-
-      <h2 className="mt-4 mb-4">B. Subscriber Conduct</h2>
+      </div>
+<div className="row" style={{width:"90%"}}>
+<h5 className="mt-3 mb-1"><b> B. Subscriber Conduct</b></h5>
       <h6 className="mb-4">
         Subscriber shall use Company services for lawful purposes only.
         Subscriber shall not post or transmit using Company services any
@@ -64,8 +71,6 @@ const Terms = () => {
         advertise or perform any commercial solicitation, including, but not
         limited to, the solicitation of users to become subscribers of other
         on-line information services competitive with the Company services.
-        <br />
-        <br />
         Subscriber shall not upload, post or otherwise make available using
         Company services any material protected by copyright, trademark or other
         proprietary right without the express permission of the owner of the
@@ -75,9 +80,11 @@ const Terms = () => {
         resulting from any infringement of copyrights, proprietary rights, or
         any other harm resulting from such a submission.
       </h6>
+</div>
 
-      <h2>C. System and Network Security</h2>
-      <h6 className="mt-4 mb-4">
+<div className="row" style={{width:"90%"}}>
+<h5><b>C. System and Network Security</b></h5>
+      <h6 className="mt-1 mb-2">
         Violations of system or network security are prohibited, and may result
         in criminal and Civil Liability. The Company will investigate incidents
         involving such violations and may involve/will cooperate with law
@@ -85,7 +92,7 @@ const Terms = () => {
         system or network security violations include, without limitation, the
         following:
       </h6>
-      <ul>
+      <ul className="mx-3">
         <li>
           Unauthorized access to or use of data, systems or networks, including
           any attempt to probe, scan or test the vulnerability of a system or
@@ -120,7 +127,10 @@ const Terms = () => {
           so on.
         </li>
       </ul>
-      <h2 className="mt-4 mb-4">D. Indemnification</h2>
+</div>
+      <div className="row" style={{width:"90%"}}>
+      <h5 className="mt-4 mb-2"><b>
+        D. Indemnification</b></h5>
       <h6>
         Subscribers agree to defend, indemnify and hold harmless the Company,
         its affiliates and their respective directors, officers, employees and
@@ -128,7 +138,10 @@ const Terms = () => {
         fees, arising out of the use of Company Services by the subscriber or
         anybody else than the Subscriber, if any.
       </h6>
-      <h2  className="mt-4 mb-4">E. SMS</h2>
+      </div>
+
+      <div className="row" style={{width:"90%"}}>
+      <h5  className="mt-4 mb-2"><b>E. SMS</b></h5>
       <h6>
         It is a condition of use of Company services that subscriber does not
         post or transmit any unlawful, threatening, abusive, libelous,
@@ -153,13 +166,9 @@ const Terms = () => {
         other than owned by him will cause the termination of account and all
         credits will be set to zero. A formal complaint will also be lodged
         (FIR) with the law and order agency.
-        <br />
-        <br />
         Sending unsolicited SMS messages, including, without limitation,
         commercial advertising and informational announcements, is explicitly
-        prohibited.
-        <br />
-        <br /> Company has no control on the contents of the SMS sent and
+        prohibited. Company has no control on the contents of the SMS sent and
         Company shall not be held responsible/liable directly or indirectly
         neither for the content of the SMS sent nor for any delay in delivery or
         non-delivery or for any errors routed by Company through its SMSC.
@@ -167,14 +176,10 @@ const Terms = () => {
         <br />
         Company shall not be responsible in any manner due to errors caused on
         account of internet delays, disconnection, time outs, routing problems,
-        and so on.
-        <br />
-        <br /> User shall use the facilities provided by Company for delivery of
+        and so on. User shall use the facilities provided by Company for delivery of
         MT SMS that terminates within India only. User also acknowledges that it
         will not use the capability of sending international SMS through Company
-        SMSC.
-        <br />
-        <br /> User will not send unsolicited SMS (also referred to as
+        SMSC. User will not send unsolicited SMS (also referred to as
         ‘spamming’) to subscribers. All SMS sent by the user using Company SMSC
         must conform to IT Act 2000 and other relevant laws of India. Any
         violation will be the sole responsibility of user.
@@ -187,8 +192,6 @@ const Terms = () => {
         as a breach of this agreement and the connection will be disconnected
         forthwith. It shall be the sole responsibility of user and Company will
         in no way responsible for any such message and the subsequent fallout.
-        <br />
-        <br />
         Company shall strive to deliver SMS immediately upon receipt from the
         user. However, Company shall not be responsible for any delay, non
         receipt of SMS or any other interruption in providing SMSC facility,
@@ -199,9 +202,11 @@ const Terms = () => {
         will put in its best endeavors to achieve the best success rate in
         delivery of the SMS messages so routed through its SMSC.
       </h6>
-
-      <h2  className="mt-4 mb-4">F. Cost policy</h2>
-      <ol>
+      </div>
+      <div className="row" style={{width:"90%"}}>
+      <h5 className="mt-4 mb-2"><b>F. Cost policy</b>
+        </h5>
+      <ol className="mx-4">
         <li>
           In consideration of Company forwarding the SMS through its SMSC, User
           shall pay the agreed amount per SMS + taxes sent anywhere within
@@ -258,7 +263,9 @@ const Terms = () => {
           charges; these bulk SMS charges will be revised.{" "}
         </li>
       </ol>
-      <h2  className="mt-4 mb-4"> G. Refund Policy </h2>
+      </div>
+      <div className="row" style={{width:"90%"}}>
+      <h5  className="mt-4 mb-2"><b>G. Refund Policy</b>  </h5>
       <h6>
         Before starting any relationship with us. We advise you to test our
         services. We do not offer any refund of money at any stage or at any
@@ -271,7 +278,10 @@ const Terms = () => {
         charges like monthly fee (pro-rata basis), SMS charges, a 10% processing
         charges will be deducted from the refundable amount.
       </h6>
-      <h2  className="mt-4 mb-4"> H. Enforcement of Terms and Conditions for Company subscribers</h2>
+      </div>
+    
+      <div className="row" style={{width:"90%"}}>
+      <h5  className="mt-4 mb-2"><b> H. Enforcement of Terms and Conditions for Company subscribers</b></h5>   
       <h6>
         Indirect or attempted violations of the policy and actual or attempted
         violations by a third party on behalf of a Company subscriber or a
@@ -286,20 +296,24 @@ const Terms = () => {
         payment is received or, even if One SMS credit is consumed, the provider
         company will not be liable for a refund of the amount.
       </h6>
-      <h2  className="mt-4 mb-4"> I. Company Responsibilities Over Website Activities: </h2>
+      </div>
+      <div className="row" style={{width:"90%"}}>
+      <h5  className="mt-4 mb-2"><b>
+         I. Company Responsibilities Over Website Activities: </b></h5>
       <h6>
         {" "}
         Company is responsible for its own re-sellers. Activities done by
         re-sellers /Sub re-sellers / customers are responsibility of his / her
         individual re-seller. Hereby we confirm that we are providing just the
         platform to send SMSs / bulkSMSs. All individuals / re-sellers / sub
-        re-sellers are responsible for their own activities. <br />
-        <br /> All re-sellers are over sellers means they can sell unlimited SMS
+        re-sellers are responsible for their own activities. All re-sellers are over sellers means they can sell unlimited SMS
         credits to unlimited customers / Sub re-sellers. Therefore every
         individual is responsible himself for any purchase. Company it-self is
         not responsible for any fraud / cheating etc done by any re-seller /sub
         re-seller.{" "}
       </h6>
+      </div>
+    
       <div className="container-fluid" style={{backgroundColor:"#f8fcff"}}>
         <div className="container">
         <h2  className="mt-4 mb-4">Appendix</h2>

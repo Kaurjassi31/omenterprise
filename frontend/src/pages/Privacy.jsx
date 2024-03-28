@@ -2,27 +2,20 @@ import React from "react";
 import policy from "../assets/digitalnew.jpg";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import "../pages/indexnew.css";
+
 
 const Privacy = () => {
   return (
     <>
       <Nav />
-      <div
-        className="container-fluid  "
-        style={{
-          padding: "2%",
-        }}
-      >
-        <h1 className=" text-center" style={{ fontSize: "65px" }}>
-          PRIVACY POLICY
-        </h1>
-        <div className="container text-center">
-          <img src={policy} className="img-fluid" style={{height:"450px"}} />
-        </div>
-      </div>
-
       <div className="container">
-        <h6>
+    <h1 className="mt-5" >
+        <b>Privacy Policy </b>
+      </h1>
+    </div>
+      <div className="container terms mt-3" style={{width:"70%",textAlign:"left"}}>
+        <h6 className="mt-4" style={{width:"90%"}}>
           At Om Enterprises Group, accessible from
           https://www.omenterprisesgroup.in/, one of our main priorities is the
           privacy of our visitors. This Privacy Policy document contains types
@@ -37,15 +30,11 @@ const Privacy = () => {
           Privacy Policy Generator and the Free Privacy Policy Generator.
         </h6>
         <div
-          className="container"
+          className="row"
           style={{
-            display: "flex",
-            justifyContent: "start",
-            alignItems: "Start",
+           width:"90%"
           }}
-        >
-          <h2> CONSENT</h2>
-        </div>
+        > <h5> <b>CONSENT</b></h5>
         <h6>
           By using our website, you hereby consent to our Privacy Policy and
           agree to its terms. For our Terms and Conditions, please visit the
@@ -60,18 +49,16 @@ const Privacy = () => {
           contact information, including items such as name, company name,
           address, email address, and telephone number.
         </h6>
-
+        </div>
         <div
-          className="container"
+          className="row"
           style={{
-            display: "flex",
-            justifyContent: "start",
-            alignItems: "Start",
+           width:"90%"
           }}
         >
-          <h2>How we use your information</h2>
-        </div>
-        <ul>
+          <h5><b>How we use your information</b></h5>
+       
+        <ul className="mx-3">
           <li>
             We use the information we collect in various ways, including to:
           </li>
@@ -88,34 +75,30 @@ const Privacy = () => {
           <li>Send you emails</li>
           <li>Find and prevent fraud</li>
         </ul>
-      </div>
-
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Types of Data Collected</h2>
+        </div>
+    
+        <div
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h4><b>Types of Data Collected</b></h4>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h4>a) Personal Data</h4>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>a) Personal Data</b></h5>
         <h6>
           While using our Service, we may ask you to provide us with certain
           personally identifiable information that can be used to contact or
           identify you (“Personal Data”). Personally identifiable information
           may include, but is not limited to:
         </h6>
-        <ul>
+        <ul className="mx-3">
           <li>Email address</li>
           <li>First name and last name</li>
           <li>Phone number</li>
@@ -124,14 +107,12 @@ const Privacy = () => {
         </ul>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h4>b) Usage Data</h4>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>b) Usage Data</b></h5>
         <h6>
           We may also collect information how the Service is accessed and used
           (“Usage Data”). This Usage Data may include information such as your
@@ -142,35 +123,14 @@ const Privacy = () => {
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2> Use of Data</h2>
-      </div>
-
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b> Use of Data</b></h5>
         <h6>OM Enterprises uses the collected data for various purposes:</h6>
-      </div>
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <ul>
+         <ul className="mx-3">
           <li>To provide and maintain the Service</li>
           <li>To notify you about changes to our Service</li>
           <li>
@@ -187,14 +147,12 @@ const Privacy = () => {
         </ul>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Transfer Of Data </h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Transfer Of Data </b></h5>
         <h6>
           Your information, including Personal Data, may be transferred to — and
           maintained on — computers located outside of your state, province,
@@ -212,40 +170,19 @@ const Privacy = () => {
           information.
         </h6>
       </div>
-
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Disclosure Of Data</h2>
-      </div>
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h4>a) Legal Requirements</h4>
-      </div>
-      <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h4><b>Disclosure Of Data</b></h4>
+        <h5><b>a) Legal Requirements</b></h5>
         <h6>
           OM Enterprises may disclose your Personal Data in the good faith
           belief that such action is necessary to:
         </h6>
-        <ul>
+        <ul className="mx-3">
           <li>To comply with a legal obligation</li>
           <li>
             To protect and defend the rights or property of Om Enterprises
@@ -262,14 +199,12 @@ const Privacy = () => {
         </ul>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h4>b) Security Of Data</h4>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>b) Security Of Data</b></h5>
         <h6>
           The security of your data is important to us, but remember that no
           method of transmission over the Internet, or method of electronic
@@ -279,14 +214,12 @@ const Privacy = () => {
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Log Files </h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Log Files</b> </h5>
         <h6>
           Om Enterprises Group follows a standard procedure of using log files.
           These files log visitors when they visit websites. All hosting
@@ -306,14 +239,12 @@ const Privacy = () => {
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>GDPR Data Protection Rights </h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>GDPR Data Protection Rights </b></h5>
         <h6>
           We would like to make sure you are fully aware of all of your data
           protection rights. Every user is entitled to the following: The right
@@ -336,14 +267,12 @@ const Privacy = () => {
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Children’s Information </h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Children’s Information </b></h5>
         <h6>
           Another part of our priority is adding protection for children while
           using the internet. We encourage parents and guardians to observe,
@@ -360,14 +289,12 @@ const Privacy = () => {
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Cookies and Web Beacons </h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Cookies and Web Beacons </b></h5>
         <h6>
           Like any other website, Om Enterprises Group uses ‘cookies’. These
           cookies are used to store information including visitors’ preferences,
@@ -379,14 +306,12 @@ const Privacy = () => {
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Our Advertising Partners</h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Our Advertising Partners</b></h5>
         <h6>
         Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.
 <br/>
@@ -398,14 +323,12 @@ https://policies.google.com/technologies/ads
         </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }}
-      >
-        <h2>Advertising Partners Privacy Policies</h2>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Advertising Partners Privacy Policies</b></h5>
         <h6>
         You may consult this list to find the Privacy Policy for each of the advertising partners of Om Enterprises Group.
 
@@ -414,18 +337,18 @@ Third-party ad servers or ad networks uses technologies like cookies, JavaScript
 Note that Om Enterprises Group has no access to or control over these cookies that are used by third-party advertisers.        </h6>
       </div>
       <div
-        className="container"
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "Start",
-        }} >
-        <h2>Third Party Privacy Policies</h2>
-        <h6>
+          className="row"
+          style={{
+           width:"90%"
+          }}
+        >
+        <h5><b>Third Party Privacy Policies</b></h5>
+        <h6 className="mb-5">
         Om Enterprises Group’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
 
 You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers’ respective websites.</h6> </div>
-   
+</div>
+
    <Footer />
     </>
   );

@@ -7,15 +7,12 @@ import "../pages/indexnew.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import airtel from "../assets/airtel.png";
-import usha from "../assets/usha.png";
 import bmw from "../assets/bmw.png";
-import wonderland from "../assets/wonderland.png";
 import radio from "../assets/radio.png";
 import skk from "../assets/skk.png";
 import vodafone from "../assets/vodafone.png";
 import acc from "../assets/acc.png";
-import mercedez from "../assets/mercedez.png";
-import audi from "../assets/audi.png";
+
 
 import "./styles.css";
 

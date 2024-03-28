@@ -198,7 +198,7 @@ const Index = () => {
         className="container-fluid mt-5"
         style={{ backgroundColor: "#142e91", marginTop: "40px" }}
       >
-        <div className="row mt-5 hidn">
+        {/* <div className="row mt-5 hidn">
           <div className="col-sm-2"></div>
           <div className="col-sm-2 p-1 mx-3 block">
             <p className="text-center mt-2">
@@ -233,9 +233,17 @@ const Index = () => {
             </p>
           </div>
           <div className="col-sm-2"></div>
-        </div>
+        </div> */}
         <div className="container mt-5 mb-5" style={{ width: "60%" }}>
           <center>
+          <h2 className="text-light mb-3 mt-5">
+              <img
+                src={airtel1}
+                className="img-fluid mx-3"
+                style={{ height: "70px", width: "70px", borderRadius: "50%" }}
+              />
+              Airtel Broadband
+            </h2>
             <p className="text-light mt-3">
               Great company to do business. We have worked with him on numerous
               projects-Bulk SMS,{" "}
@@ -252,14 +260,7 @@ const Index = () => {
             <p className="text-light mt-1 mb-5">
               they provide.Highly recommended.
             </p>
-            <h2 className="text-light mb-5">
-              <img
-                src={airtel1}
-                className="img-fluid mx-3"
-                style={{ height: "70px", width: "70px", borderRadius: "50%" }}
-              />
-              Airtel Broadband
-            </h2>
+           
           </center>
         </div>
       </div>

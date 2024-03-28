@@ -38,9 +38,9 @@ const Moneyflow = () => {
                     <h4 class="card-title">
                       <b>PACKAGE 1</b>
                     </h4>
-                    <button style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
+                    {/* <button style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
                       TIER 1
-                    </button>
+                    </button> */}
                     <strike>
                       {" "}
                       <p className='mt-3'>normally $887</p>
@@ -198,10 +198,10 @@ const Moneyflow = () => {
                     <h4 class="card-title">
                       <b>PACKAGE 2</b>
                     </h4>
-                    <button style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
+                    {/* <button style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
                       TIER 2
                       
-                    </button>
+                    </button> */}
                     <strike>
                       <p className='mt-3'>normally $1499</p>
                     </strike>
@@ -366,12 +366,12 @@ const Moneyflow = () => {
                     <h4 class="card-title">
                       <b>PACKAGE 3</b>
                     </h4>
-                    <select style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
+                    {/* <select style={{height:"40px",width:"50%",backgroundColor:"white",color:"#006df9"}}>
                       <option>TIER 3</option>
                       <option>TIER 4</option>
                       <option>TIER 5</option>
                       <option>TIER 6</option>
-                    </select>
+                    </select> */}
                     
                      <strike>
                       <p className='mt-3'>normally $4402</p>
