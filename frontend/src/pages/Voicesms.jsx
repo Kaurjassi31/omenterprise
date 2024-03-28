@@ -112,7 +112,7 @@ const Voicesms = () => {
       <div className="container text-center mt-5">
         <h2>VOICE MESSAGING FEATURES</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-5">
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <div class="card h-100">
               <center>
                 <img
@@ -134,7 +134,7 @@ const Voicesms = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <div class="card h-100">
               <center>
                 <img
@@ -156,7 +156,7 @@ const Voicesms = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <div class="card h-100">
               <center>
                 <img

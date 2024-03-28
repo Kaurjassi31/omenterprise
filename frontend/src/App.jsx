@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
@@ -23,7 +25,18 @@ import Dlt from "./pages/Dlt";
 import Career from "./pages/Career";
 import Reseller from "./pages/Reseller";
 import Blog from "./pages/Blog";
+import { useEffect } from "react";
+import WhatsappAPI from "./components/WhatsappAPI";
+
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration:800,
+      delay: 100
+    });
+   
+  },[])
   return (
     <>
       <Routes>
@@ -53,6 +66,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
 
       </Routes>
+      <WhatsappAPI/>
     </>
   );
 }

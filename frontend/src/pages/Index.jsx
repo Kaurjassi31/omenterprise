@@ -23,6 +23,7 @@ import seo from "../assets/seo.png";
 import qrcode from "../assets/qrcode.png";
 import Moneyflow from "./Moneyflow";
 import airtel1 from "../assets/airtel1.png";
+import Whatsapp from "../components/WhatsappAPI";
 const Index = () => {
   return (
     <>
@@ -193,7 +194,7 @@ const Index = () => {
           </div>
         </center>
       </div>
-
+<Whatsapp />
       <div
         className="container-fluid mt-5"
         style={{ backgroundColor: "#142e91", marginTop: "40px" }}

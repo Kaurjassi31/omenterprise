@@ -54,7 +54,7 @@ const Pricing = () => {
         <div className="container mb-5">
           <h1 className="mt-5 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif"}}>SHORT MESSAGING TOOLS FOR YOUR BUSINESS </h1>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-3">
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <div class="card ">
                 <center>
                   <img
@@ -74,7 +74,7 @@ const Pricing = () => {
               </div>
             </div>
           
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <div class="card">
                 <center>
                   <img
@@ -93,7 +93,7 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <div class="card ">
                 <center>
                   <img

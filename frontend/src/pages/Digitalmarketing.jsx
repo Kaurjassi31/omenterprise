@@ -4,7 +4,9 @@ import "../pages/services.css";
 import dm from "../assets/digital2.gif";
 import digital from "../assets/digi.png";
 import Footer from "../components/Footer";
-
+import websitee from "../assets/websitee.png";
+import sociall from "../assets/sociall.png";
+import digitalnew from "../assets/digim.png";
 const Digitalmarketing = () => {
   return (
     <>
@@ -74,9 +76,17 @@ const Digitalmarketing = () => {
             />
           </h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col mb-5">
+            <div class="col mb-5" data-aos="fade-up">
               <div class="card">
                 <div class="card-body">
+                <center>
+                <img
+                  src={digitalnew}
+                  class="card-img-top mt-2 mb-2"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
                   <h4 class="card-title"> Strategic Digital Marketing:</h4>
                   <p class="card-text">
                   Tailored strategies crafted to suit your unique business
@@ -87,28 +97,45 @@ const Digitalmarketing = () => {
                 </div>
               </div>
             </div>
-            <div class="col mb-5">
+       
+            <div class="col mb-5" data-aos="fade-up">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Web Design and Development:</h4>
-                  <p class="card-text">
-                  Stunning, responsive websites optimized for user
-                      experience and conversion. Seamless integration of innovative design elements and
-                      cutting-edge technology.  Mobile-friendly solutions to reach customers on any
-                      device.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-5">
-              <div class="card">
-                <div class="card-body">
+                <center>
+                <img
+                  src={sociall}
+                  class="card-img-top mt-2 mb-2"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
                   <h4 class="card-title">  Social Media Management (SMM):</h4>
                   <p class="card-text">
                   Engage with your audience across popular social media
                       platforms.  Create compelling content that sparks conversations and
                       builds brand loyalty. Data-driven insights to refine your social media strategy
                       and drive engagement.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5" data-aos="fade-up">
+              <div class="card">
+                <div class="card-body">
+                <center>
+                <img
+                  src={websitee}
+                  class="card-img-top mt-2 mb-2"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
+                  <h4 class="card-title">Web Design and Development:</h4>
+                  <p class="card-text">
+                  Stunning, responsive websites optimized for user
+                      experience and conversion. Seamless integration of innovative design elements and
+                      cutting-edge technology.  Mobile-friendly solutions to reach customers on any
+                      device.
                   </p>
                 </div>
               </div>

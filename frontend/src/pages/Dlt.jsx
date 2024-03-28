@@ -57,6 +57,8 @@ const Dlt = () => {
         </div>
         </div>
       </div>
+
+    
       <Footer />
     </>
   );

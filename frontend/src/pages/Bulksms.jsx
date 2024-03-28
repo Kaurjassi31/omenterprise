@@ -9,6 +9,9 @@ import global from "../assets/global.png";
 import people from "../assets/people.png";
 import computer from "../assets/computer.png";
 import bulksms2 from "../assets/mobile2.png";
+import voice6 from "../assets/voice6.png";
+import whtsapp from "../assets/whtsapp.png";
+import smss from "../assets/smss.png";
 
 const Bulksms = () => {
   return (
@@ -21,14 +24,13 @@ const Bulksms = () => {
           </h1>
           </div>
         <div className="container">
-                    <img src={Bulk} className="img-fluid" style={{height:"500px"}} />
-                    </div>
+          <img src={Bulk} className="img-fluid" style={{height:"500px"}} />
+       </div>
       </div>
       <div className="container">
         <div className="row">
           <h1
-            className="text-center mt-5"
-           
+            className="text-center mt-5" 
           >
             Send and Receive Bulk SMS Instantly in just 1 Click
           </h1>
@@ -83,7 +85,6 @@ const Bulksms = () => {
     <div className="col-sm-2"></div>
     <div className="col-sm-8 text-center">
     <h2 className="mt-5">WE PROVIDE BEST BULK SMS SERVICE</h2>
-
       <p className="  mt-5 mb-5">  Bulk messages refer to the sending of a large number of messages
           simultaneously to multiple recipients. This can be done through
           various communication channels, including email, SMS (Short Message
@@ -95,14 +96,19 @@ const Bulksms = () => {
   </div>
 </div>
 
-
-      
-
       <div className="container-fluid "  style={{backgroundColor:"#f8fcff",color:"black"}} >
         <h1 className=" text-center">Our Bulk SMS Services<img src={bulksms2} className="img-fluid mx-3" style={{height:"70px"}} /></h1>
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
+      <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+        <div class="col" data-aos="zoom-in">
           <div class="card mt-5 mb-5">
+          <center>
+                <img
+                  src={comments}
+                  class="card-img-top mt-3"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h4 class="card-title">
@@ -119,8 +125,16 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in">
           <div class="card mt-5 mb-5">
+          <center>
+                <img
+                  src={voice6}
+                  class="card-img-top mt-3"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h4 class="card-title">Voice Call SMS</h4>
@@ -133,8 +147,16 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in">
           <div class="card mt-5 mb-5">
+          <center>
+                <img
+                  src={smss}
+                  class="card-img-top mt-3"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h4 class="card-title">Promotional Bulk SMS</h4>
@@ -148,8 +170,17 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in">
+       
           <div class="card mt-5 mb-5">
+          <center>
+                <img
+                  src={whtsapp}
+                  class="card-img-top mt-3"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </center>
             {/* <img src="..." class="card-img-top" alt="..." /> */}
             <div class="card-body">
               <h4 class="card-title">Whatsapp Bulk SMS</h4>

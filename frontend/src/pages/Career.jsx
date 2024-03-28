@@ -41,7 +41,7 @@ const Career = () => {
         </center>
         <div className="container">
         <div class="row row-cols-1 row-cols-md-5 mt-2 mb-2 g-4 text-center">
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <div class="card">
             <center>
               <img src={peoplee} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
@@ -55,7 +55,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <div class="card">
             <center>
               <img src={motivation} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
@@ -69,7 +69,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <div class="card">
             <center>
               <img src={trust} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
@@ -82,7 +82,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <div class="card">
               <center>
               <img src={support} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
@@ -96,7 +96,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <div class="card">
             <center>
               <img src={reliability} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />

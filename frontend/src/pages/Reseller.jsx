@@ -31,7 +31,7 @@ const Reseller = () => {
             Become a Reseller and earn large chunk of money with no setup cost.
           </h6>
           <div class="row row-cols-1 row-cols-md-5 mt-4 g-4">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <center>
                   <img
@@ -48,7 +48,7 @@ const Reseller = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <center>
                   <img
@@ -63,7 +63,7 @@ const Reseller = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <center>
                   <img
@@ -78,7 +78,7 @@ const Reseller = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <center>
                   <img
@@ -96,7 +96,7 @@ const Reseller = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="card">
                 <center>
                   <img

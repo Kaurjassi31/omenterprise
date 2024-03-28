@@ -56,7 +56,7 @@ const Blog = () => {
           bulk SMS service provider in Jalandhar.
         </h6>
         <div class="row row-cols-1 row-cols-md-3 mt-3 mb-5 g-4">
-          <div class="col">
+          <div class="col"  data-aos="zoom-out">
             <div class="card">
               <center>
               <img
@@ -76,7 +76,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col"  data-aos="zoom-out">
             <div class="card">
             <center>
               <img
@@ -94,7 +94,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col"  data-aos="zoom-out">
             <div class="card">
             <center>
               <img
