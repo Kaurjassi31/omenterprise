@@ -141,7 +141,7 @@ const Contact = () => {
               color: "black",
             }}
           >
-            <form action="https://formspree.io/f/mvoealkr" method="POST">
+            <form action="https://formspree.io/f/mrgnykrq" method="POST">
               <h2 className="mt-3 text-center">CONTACT US</h2>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label mt-4">
