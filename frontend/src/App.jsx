@@ -27,6 +27,7 @@ import Reseller from "./pages/Reseller";
 import Blog from "./pages/Blog";
 import { useEffect } from "react";
 import WhatsappAPI from "./components/WhatsappAPI";
+import Careerform from "./pages/Careerform";
 
 function App() {
   useEffect(() => {
@@ -64,6 +65,7 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/reseller" element={<Reseller />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/Careerform" element={<Careerform />} />
 
       </Routes>
       <WhatsappAPI/>

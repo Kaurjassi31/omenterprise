@@ -7,6 +7,8 @@ import reliability from "../assets/reliability.png";
 import peoplee from "../assets/peoplee.png";
 import trust from "../assets/trust.png";
 import Footer from "../components/Footer";
+import "../pages/indexnew.css";
+
 
 
 const Career = () => {
@@ -146,6 +148,7 @@ const Career = () => {
           </div>
         </div>
       </div>
+      <a href="Careerform"><button className="applybtn">Apply Now</button></a>
     </div>
   </div>
   <div class="col">
@@ -170,6 +173,7 @@ const Career = () => {
           </div>
         </div>
       </div>
+      <a href="Careerform"><button className="applybtn">Apply Now</button></a>
     </div>
   </div>
   <div class="col">
@@ -195,6 +199,8 @@ const Career = () => {
           </div>
         </div>
       </div>
+      <a href="Careerform"><button className="applybtn">Apply Now</button></a>
+
     </div>
   </div>
 </div>
