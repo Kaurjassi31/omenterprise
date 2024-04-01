@@ -107,10 +107,10 @@ const Account = () => {
                 </button>
               </form>
               <h6 className="mt-2">
-                Already have an Account?{" "}
+                Already have an Account?
                 <a href="login" style={{ textDecoration: "none" }}>
                   Login Here
-                </a>{" "}
+                </a>
               </h6>
               <center>
               <hr style={{ width: "80%" }} />
@@ -120,7 +120,7 @@ const Account = () => {
                   By Signing up you automatically agrees to the
                   <a href="terms" style={{ textDecoration: "none" }}>
                     Terms and Conditions.
-                  </a>{" "}
+                  </a>
                 </h6>
               </center>
             </div>

@@ -93,17 +93,14 @@ const Careerform = () => {
                   value="option2"
                 />
                 <label class="form-check-label" for="inlineRadio2">
-                  Experienced{" "}
+                  Experienced
                 </label>
               </div>
             </div>
-
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">
-                {" "}
                 Last Experience Details
               </label>
-
               <textarea
                 name="detail"
                 form="usrform"
@@ -127,7 +124,6 @@ const Careerform = () => {
                 name="start"
               />
             </div>
-
             <center>
               <button
                 className=" btn btn-primary mt-4 mb-4"
