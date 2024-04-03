@@ -1,112 +1,111 @@
-*{
-        font-family: "Inter", Sans-serif;
+* {
+  font-family: "Inter", Sans-serif;
 }
-.block{
-    background-color: white;
-    width: 300px;
-    border-radius: 8px;
-    margin-top: -40px;
-    font-size: 14px;
-    /* From https://css.glass */
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-border: 1px solid rgba(255, 255, 255, 0.09);
+.block {
+  background-color: white;
+  width: 300px;
+  border-radius: 8px;
+  margin-top: -40px;
+  font-size: 14px;
+  /* From https://css.glass */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.09);
 }
-.brand{
-    height: 80px;
+.brand {
+  height: 80px;
   width: 50%;
   background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(142, 141, 141, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(142, 141, 141, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width:768px){
-    .hidn{
-        display:none;
-    }
+@media (max-width: 768px) {
+  .hidn {
+    display: none;
+  }
 }
-.bdr{
- background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.bdr {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.imag{
-    background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.imag {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.acord{
-    height: 500px;
-    background-color: #f8fcff;
+.acord {
+  height: 500px;
+  background-color: #f8fcff;
 }
-.fotr{
-    color: black;
+.fotr {
+  color: black;
 }
-.fotr:hover{
-    color:#006df9;
+.fotr:hover {
+  color: #006df9;
 }
-.loginform{
-    height: 550px;
-    background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.loginform {
+  height: 550px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.accountform{
-    height: 600px;
-    background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.accountform {
+  height: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.terms{
-    background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.terms {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 #mybutton {
-    position: fixed;
-    bottom: 100px;
-    right: 20px;
-    z-index: 10;
-  }
-  .feedback {
-    background-color :  #04cc25;
-    color: whitesmoke;
-    padding: 5px 10px 5px;
-    font-size: 35px;
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    border: none;
-    text-decoration: none;
-    
-  }
-  /* .feedback:hover{
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 10;
+}
+.feedback {
+  background-color: #04cc25;
+  color: whitesmoke;
+  padding: 5px 10px 5px;
+  font-size: 35px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  text-decoration: none;
+}
+/* .feedback:hover{
     font-family: "Poppins", sans-serif;
     background-color:#04aa04;
     color: whitesmoke;
 } */
-.applybtn{
-    height: 45px;
-    width: 100%;
-    color: white;
-    background-color: #006df9;
-    border: none;
+.applybtn {
+  height: 45px;
+  width: 100%;
+  color: white;
+  background-color: #006df9;
+  border: none;
 }

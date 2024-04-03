@@ -33,9 +33,7 @@
             </p>
             <div className="mb-5">
               <Button>know more</Button>
-              {/* <button className="button" type="submit">
                 know more
-              </button> */}
             </div>
           </div>
           <div className="col-sm-7">

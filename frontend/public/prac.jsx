@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import AOS from "aos";
-import Index from "./pages/Index"; 
+// import Index from "./pages/Index"; 
 // import Index from "./Index";
 import "aos/dist/aos.css";
 import About from "./pages/About";
@@ -17,7 +17,7 @@ import Software from "./pages/Software";
 import Website from "./pages/Website";
 import Whatsapp from "./pages/Whatsapp";
 import Voicesms from "./pages/Voicesms";
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 import Privacy from "./pages/Privacy";
 import Account from "./pages/Account";
 import Terms from "./pages/Terms";
@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Index/>} />
+        {/* <Route path="/" element={<Index/>} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
@@ -55,7 +55,7 @@ function App() {
         <Route path="/whatsapp" element={<Whatsapp />} />
         <Route path="/voicesms" element={<Voicesms />} />
         <Route path="/software" element={<Software />} />
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/login" element={<Login />} /> */}
         <Route path="/account" element={<Account />} />
         <Route path="/digitalmarketing" element={<Digitalmarketing />} />
         <Route path="/Index" element={<Index />} />
@@ -68,8 +68,8 @@ function App() {
         <Route path="/reseller" element={<Reseller />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/Careerform" element={<Careerform />} />
-        {/* <Route path="/" element={<Index />}/>           */}
-        {/* <Route path='/login' element={<Login />}/> */}
+        <Route path="/" element={<Index />}/>          
+        <Route path='/login' element={<Login />}/>
 
       </Routes>
       <WhatsappAPI/>
@@ -78,26 +78,3 @@ function App() {
 }
 
 export default App;
-
-
-
-// import React from 'react'
-// import Index from "./pages/Index"; 
-
-// import { Route, Routes } from "react-router-dom";
-
-// function App() {
-
-//   return (
-//     <>
-//      hello world
-//      <Routes>
-
-//         <Route path="/" element={<Index/>} />
-//         </Routes>
-
-//     </>
-//   );
-// }
-
-// export default App;

@@ -1,6 +1,10 @@
+
+
+
 import React from "react";
 import Nav from "../components/Nav";
 import "../pages/indexnew.css";
+import "../App";
 import New from "../assets/new.gif";
 import Swiperr from "../components/Swiperr";
 import Accordion from "../components/Accordion";
