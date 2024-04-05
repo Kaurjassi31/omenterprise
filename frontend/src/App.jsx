@@ -4,7 +4,7 @@ import AOS from "aos";
 import Index from "./pages/Index"; 
 // import Index from "./Index";
 import "aos/dist/aos.css";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
@@ -17,7 +17,7 @@ import Software from "./pages/Software";
 import Website from "./pages/Website";
 import Whatsapp from "./pages/Whatsapp";
 import Voicesms from "./pages/Voicesms";
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 import Privacy from "./pages/Privacy";
 import Account from "./pages/Account";
 import Terms from "./pages/Terms";
@@ -29,7 +29,7 @@ import Blog from "./pages/Blog";
 import { useEffect } from "react";
 import WhatsappAPI from "./components/WhatsappAPI";
 import Careerform from "./pages/Careerform";
-// import Login from './pages/Login';
+import Login from './pages/Login';
 
 function App() {
   useEffect(() => {
@@ -44,7 +44,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Index/>} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/pricing" element={<Pricing />} />
