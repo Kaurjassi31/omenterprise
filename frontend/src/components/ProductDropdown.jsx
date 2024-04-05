@@ -120,9 +120,9 @@ function ProductDropdown() {
                       class="btn btn-primary mt-3"
                       style={{ }}
                     >
-                    Signup Now
+                  Buy Now
                     </button></a>
-                    <p className="mt-2">Signup to buy package at exicting prices</p>
+                    <p className="mt-2"> Buy our package at exicting prices</p>
               </div>
             </div>
           </div>

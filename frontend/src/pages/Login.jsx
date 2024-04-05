@@ -67,13 +67,13 @@ const Login = () => {
                     style={{ height: "30px", width: "30px" }}
                   />
                 </center>
-                <input
+                {/* <input
                   type="text"
                   placeholder="Username"
                   className="mt-3"
                   name="Your Name"
                   style={{ height: "45px", width: "80%", borderRadius: "4px" }}
-                />
+                /> */}
 
                 <br />
 
