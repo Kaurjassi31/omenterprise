@@ -1,15 +1,11 @@
 import React from "react";
-import whatsApp from "../assets/whatsapp1.png";
-import Whatsapp1 from "../assets/whatsapp4.png";
-import "../pages/services.css";
-
-
+import whatsApp from "../assets/images/whatsapp1.png";
+import Whatsapp1 from "../assets/images/whatsapp4.png";
+import "../assets/css/services.css";
 import Nav from "../components/Nav";
-import Accordion from "../components/Accordion";
-import process from "../assets/process.png";
+import process from "../assets/images/process.png";
 import Hovercard from "../components/Hovercard";
-import "../components/hovercard.css";
-import "../components/Footer";
+import "../assets/css/hovercard.css";
 import Footer from "../components/Footer";
 
 const Whatsapp = () => {
@@ -17,8 +13,8 @@ const Whatsapp = () => {
     <>
       <Nav />
       <div
-        className="container text-center"
-        style={{ padding: "4%", backgroundColor: "#f7fbff" }}
+        className="container-fluid text-center"
+        style={{ padding: "2%", backgroundColor: "#f7fbff" }}
       >
         <h1 className="" style={{  fontSize: "50px" }}>
           Bulk WhatsApp SMS
@@ -34,6 +30,7 @@ const Whatsapp = () => {
           WhatsApp messages in 2024, utilizing the capabilities of a reliable
           bulk WhatsApp sender to maximize your messaging efficiency and reach.
         </p>
+        <div className="container">
         <div className="mt-5 mb-5 green" >
         <h1 style={{  fontSize: "50px" }} className="mt-3">
           How it works?
@@ -44,9 +41,10 @@ const Whatsapp = () => {
           style={{ height: "450px" }}
         />
         </div>
+        </div>
         <br />
         
-
+<div className="container">
         <div className="row" style={{
            
             background: "rgba(255, 255, 255, 0.2)",
@@ -99,7 +97,7 @@ const Whatsapp = () => {
           </p>
         
         </div>
-
+        </div>
         
 
         <Hovercard />

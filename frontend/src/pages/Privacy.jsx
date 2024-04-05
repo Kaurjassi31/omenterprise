@@ -1,8 +1,8 @@
 import React from "react";
-import policy from "../assets/digitalnew.jpg";
+import policy from "../assets/images/digitalnew.jpg";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import "../pages/indexnew.css";
+import "../assets/css/style.css";
 
 
 const Privacy = () => {

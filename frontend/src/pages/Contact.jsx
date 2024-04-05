@@ -1,16 +1,16 @@
 import React from "react";
 import "../components/Nav";
 import Nav from "../components/Nav";
-import contactus from "../assets/contactus.png";
-import contact from "../assets/support2.png";
-import "../pages/services.css";
+import contactus from "../assets/images/contactus.png";
+import contact from "../assets/images/support2.png";
+import "../assets/css/services.css";
 import Footer from "../components/Footer";
-import call from "../assets/call2.png";
-import care from "../assets/care.png";
-import query from "../assets/query.png";
-import office from "../assets/office.png";
-import "../pages/indexnew.css";
-import ms from "../assets/marketing.png";
+import call from "../assets/images/call2.png";
+import care from "../assets/images/care.png";
+import query from "../assets/images/query.png";
+import office from "../assets/images/office.png";
+import "../assets/css/indexnew.css";
+import ms from "../assets/images/marketing.png";
 import Button from "../components/UI/Button";
 const Contact = () => {
   return (

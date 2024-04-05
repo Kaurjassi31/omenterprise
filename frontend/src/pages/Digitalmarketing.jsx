@@ -1,12 +1,12 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "../pages/services.css";
-import dm from "../assets/digital2.gif";
-import digital from "../assets/digi.png";
+import "../assets/css/services.css";
+import dm from "../assets/images/digital2.gif";
+import digital from "../assets/images/digi.png";
 import Footer from "../components/Footer";
-import websitee from "../assets/websitee.png";
-import sociall from "../assets/sociall.png";
-import digitalnew from "../assets/digim.png";
+import websitee from "../assets/images/websitee.png";
+import sociall from "../assets/images/sociall.png";
+import digitalnew from "../assets/images/digim.png";
 const Digitalmarketing = () => {
   return (
     <>

@@ -1,17 +1,16 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "../pages/services.css";
-import voice from "../assets/voice4.png";
-import clock from "../assets/clock.png";
-import chat from "../assets/chat.png";
-import laptop from "../assets/laptop.png";
-import support from "../assets/support1.png";
+import "../assets/css/services.css";
+import voice from "../assets/images/voice4.png";
+import clock from "../assets/images/clock.png";
+import chat from "../assets/images/chat.png";
+import laptop from "../assets/images/laptop.png";
+import support from "../assets/images/support1.png";
 import Footer from "../components/Footer";
-import voice2 from "../assets/voice2.png";
-import comments from "../assets/comments.png";
-import user2 from "../assets/user2.png";
-import next from "../assets/next.png";
-import voicee from "../assets/voicee.png";
+import comments from "../assets/images/comments.png";
+import user2 from "../assets/images/user2.png";
+import next from "../assets/images/next.png";
+import voicee from "../assets/images/voicee.png";
 
 const Voicesms = () => {
   return (

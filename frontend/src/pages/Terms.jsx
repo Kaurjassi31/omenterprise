@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import "../pages/indexnew.css";
+import "../assets/css/indexnew.css";
 
 
 const Terms = () => {

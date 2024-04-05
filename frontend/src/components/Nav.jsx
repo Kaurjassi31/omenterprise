@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/logo.png";
-import "../pages/services.css";
+import logo from "../assets/images/logo.png";
+import "../assets/css/services.css";
 import ProductDropdown from "../components/ProductDropdown";
 
 import DropdownMenu from "../components/UI/DropdownMenu";

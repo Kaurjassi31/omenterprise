@@ -1,10 +1,10 @@
 import React from "react";
-import "../pages/services.css";
+import "../assets/css/services.css";
 import "animate.css";
 import Nav from "../components/Nav";
-import msg from "../assets/software.jpg";
+import msg from "../assets/images/software.jpg";
 import Footer from "../components/Footer";
-import websitee from "../assets/w1.jpg";
+import websitee from "../assets/images/w1.jpg";
 
 const Software = () => {
   return (

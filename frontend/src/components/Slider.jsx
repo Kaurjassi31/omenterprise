@@ -1,8 +1,8 @@
 import React from "react";
 
-import theme from "../assets/digitalnew.jpg";
-import theme1 from "../assets/software1.png";
-import theme2 from "../assets/website.png";
+import theme from "../assets/images/digitalnew.jpg";
+import theme1 from "../assets/images/software1.png";
+import theme2 from "../assets/images/website.png";
 import Button from "../components/UI/Button";
 const Slider = () => {
   return (

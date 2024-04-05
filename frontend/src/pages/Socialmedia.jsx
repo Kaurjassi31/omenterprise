@@ -1,12 +1,12 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "../pages/services.css";
-import social from "../assets/social2.png";
-import sc from "../assets/sc.jpg";
-import sc1 from "../assets/sc1.jpg";
-import sc2 from "../assets/sc2.jpg";
-import sc3 from "../assets/sc3.jpg";
-import sociall from "../assets/sociall.png";
+import "../assets/css/services.css";
+import social from "../assets/images/social2.png";
+import sc from "../assets/images/sc.jpg";
+import sc1 from "../assets/images/sc1.jpg";
+import sc2 from "../assets/images/sc2.jpg";
+import sc3 from "../assets/images/sc3.jpg";
+import sociall from "../assets/images/sociall.png";
 import Footer from "../components/Footer";
 
 const Socialmedia = () => {

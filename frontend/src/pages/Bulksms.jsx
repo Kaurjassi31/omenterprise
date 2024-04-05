@@ -1,17 +1,17 @@
 import React from "react";
-import Bulk from "../assets/bulk4.avif";
+import Bulk from "../assets/images/bulk4.avif";
 import Nav from "../components/Nav";
-import "../pages/services.css";
+import "../assets/css/services.css";
 import Footer from "../components/Footer";
-import "../pages/bulk.css";
-import comments from "../assets/comments.png";
-import global from "../assets/global.png";
-import people from "../assets/people.png";
-import computer from "../assets/computer.png";
-import bulksms2 from "../assets/mobile2.png";
-import voice6 from "../assets/voice6.png";
-import whtsapp from "../assets/whtsapp.png";
-import smss from "../assets/smss.png";
+import "../assets/css/bulk.css";
+import comments from "../assets/images/comments.png";
+import global from "../assets/images/global.png";
+import people from "../assets/images/people.png";
+import computer from "../assets/images/computer.png";
+import bulksms2 from "../assets/images/mobile2.png";
+import voice6 from "../assets/images/voice6.png";
+import whtsapp from "../assets/images/whtsapp.png";
+import smss from "../assets/images/smss.png";
 
 const Bulksms = () => {
   return (

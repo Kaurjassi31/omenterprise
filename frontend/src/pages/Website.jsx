@@ -1,18 +1,16 @@
 import React from "react";
-import "../pages/indexnew.css";
+import "../assets/css/indexnew.css";
 
 // import { StyleClass } from 'primereact/styleclass';
 
 import Nav from "../components/Nav";
-import web3 from "../assets/w1.jpg";
-import people from "../assets/people.png";
-import pin from "../assets/pin.png";
-import mobile2 from "../assets/mobile2.png";
-import star2 from "../assets/star2.png";
-import website from "../assets/w.gif";
-import website1 from "../assets/website1.png";
+import web3 from "../assets/images/w1.jpg";
+import people from "../assets/images/people.png";
+import pin from "../assets/images/pin.png";
+import mobile2 from "../assets/images/mobile2.png";
+import star2 from "../assets/images/star2.png";
+import website1 from "../assets/images/website1.png";
 import Footer from "../components/Footer";
-import w2 from "../assets/w3.gif";
 
 const Website = () => {
   return (

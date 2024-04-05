@@ -1,115 +1,84 @@
-import React from "react";
-import { useAuth0 } from "@auth0/auth0-react";
-import Nav from "../components/Nav";
-import "../pages/indexnew.css";
-import login from "../assets/loginn.jpg";
-import google from "../assets/google.png";
-import or from "../assets/or.png";
+import { useState } from "react";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from '../firebase/firebase'; // Import auth from firebase.js
 
-const Login = () => {
-    // const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
-  
-    // console.log("Current User", user);
+import Nav from "../components/Nav";
+import "../assets/css/style.css";
+// import login from "../assets/images/loginn.jpg";
+// import google from "../assets/images/google.png";
+// import or from "../assets/images/or.png";
+// import { Button } from "@mui/material";
+
+function Login() {
+  const [isLoading, setIsLoading] = useState(false);
+  const [loginType, setLoginType] = useState('login');
+  const [userCredentials, setUserCredentials] = useState({});
+
+  function handleCredentials(e) {
+    setUserCredentials({...userCredentials, [e.target.name]: e.target.value});
+    console.log(userCredentials);
+  }
+
+  function handleSignup(e) {
+    e.preventDefault();
+    createUserWithEmailAndPassword(auth, userCredentials.email, userCredentials.password)
+    .then((userCredential) => {
+      // Signed up 
+      const user = userCredential.user;
+      console.log(user);
+      // ...
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      console.log(errorCode);
+      console.log(errorMessage);
+      // ..
+    });
+  }
+
   return (
     <>
       <Nav />
-      <div className="App">
-        <header className="App-header">
-          {/* {isAuthenticated &&  <h3>Hello {user.name}</h3>}
-          {isAuthenticated ? (
-            <button onClick={e => logout()}>logout</button>
-          ) : (
-            <button onClick={(e) => loginWithRedirect()}>
-              Login With Redirect
+      <div className="container">
+        <section>
+          <h1>Welcome to the Om Enterprises Group</h1>
+          <p>Login or create an account to continue</p>
+          <div className="login-type">
+            <button
+              className={`btn ${loginType === 'login' ? 'selected' : ''}`}
+              onClick={() => setLoginType('login')}
+            >
+              Login
             </button>
-          )} */}
-          <div className="container-fluid" style={{ padding: "1%" }}>
-            <div className="container text-center ">
-              <div className="row mt-5 mb-5" >
-                <div className="col-sm-6">
-                  <img
-                    src={login}
-                    className="img-fluid"
-                    style={{ height: "550px"}}
-                    alt="Login Image"
-                  />
-                </div>
-                <div className="col-sm-6 loginform">
-                  <form action="" method="POST">
-                    <h2 className=" mt-4">Login</h2>
-                    <center>
-                    <div className="row mt-3" style={{backgroundColor:"#1875fd",width:"80%",borderRadius:"4px"}} >
-                      <div className="col-sm-2" style={{backgroundColor:"#1875fd",borderRadius:"4px"}}>
-                        <div className="whte bg-light mt-2" style={{height:"37px",width:"40px",borderRadius:"4px"}}>
-                          <img
-                            src={google}
-                            className="img-fluid  mt-1"
-                            style={{ height: "30px",width:"30px" }}
-                            alt="Google Icon"
-                          />
-                        </div>
-                      </div>
-                      <div className="col-sm-7">
-                        <p className="text-light text-center mt-3">Login with Google</p>   
-                      </div>
-                    </div>
-                    </center>
-                    <center>
-                      <img src={or} className="img-fluid mt-2"  style={{ height: "30px",width:"30px" }} alt="OR Icon" />
-                    </center>
-                    <input
-                      type="text"
-                      placeholder="Username"
-                      className="mt-3"
-                      name="username"
-                      style={{ height: "45px",width:"80%",borderRadius:"4px" }}
-                    />
-                    <br />
-                    <input
-                      type="password"
-                      placeholder="Password"
-                      className="mt-4"
-                      name="password"
-                      style={{ height: "45px",width:"80%",borderRadius:"4px" }}
-                    />
-                    <br />
-
-                    <button
-                      type="submit"
-                      className=" btn btn-primary mt-4 mb-3"
-                      style={{
-                        backgroundColor: "#1875fd",width: "80%",height:"50px",fontSize:"20px"
-                      }}
-                    >
-                      Login
-                    </button>
-                  </form>
-                  <center>
-                    <hr style={{ width: "80%" }} />
-                  </center>
-                  <h6 className="mt-4">
-                    Don't have Account?
-                    <a href="account" style={{ textDecoration: "none" }}>
-                      Create Account
-                    </a>
-                  </h6>
-                  <hr style={{ width: "80%" }} />
-                  <center>
-                    <h6 className="mt-2" style={{ width: "80%" }}>
-                      By Signing up you automatically agrees to the
-                      <a href="terms" style={{ textDecoration: "none" }}>
-                        Terms and Conditions.
-                      </a>{" "}
-                    </h6>
-                  </center>
-                </div>
-              </div>
-            </div>
+            <button
+              className={`btn ${loginType === 'signup' ? 'selected' : ''}`}
+              onClick={() => setLoginType('signup')}
+            >
+              Signup
+            </button>
           </div>
-        </header>
+          <form className="add-form login">
+            <div className="form-control">
+              <label>Email</label>
+              <input onChange={(e) => { handleCredentials(e) }} type="text" name="email" placeholder="Enter your email" />
+            </div>
+            <div className="form-control">
+              <label>Password</label>
+              <input onChange={(e) => { handleCredentials(e) }} type="password" name="password" placeholder="Enter your password" />
+            </div>
+            {
+              loginType === 'login' ?
+                <button className="active btn btn-block">Login</button>
+                :
+                <button onClick={(e) => { handleSignup(e) }} className="active btn btn-block">Sign Up</button>
+            }
+            <p className="forget-password"> Forgot Password</p>
+          </form>
+        </section>
       </div>
     </>
   );
-};
+}
 
 export default Login;

@@ -1,12 +1,12 @@
 import React from 'react'
-import "../pages/indexnew.css";
-import c1 from "../assets/c1.svg";
-import c2 from "../assets/c2.svg";
-import c3 from "../assets/c3.svg";
-import c4 from "../assets/c4.svg";
-import c5 from "../assets/c5.svg";
-import plan from "../assets/plan.png";
-import cross1 from "../assets/cross1.png";
+import "../assets/css/indexnew.css";
+import c1 from "../assets/images/c1.svg";
+import c2 from "../assets/images/c2.svg";
+import c3 from "../assets/images/c3.svg";
+import c4 from "../assets/images/c4.svg";
+import c5 from "../assets/images/c5.svg";
+import plan from "../assets/images/plan.png";
+import cross1 from "../assets/images/cross1.png";
 
 const Moneyflow = () => {
   return (

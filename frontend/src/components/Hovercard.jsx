@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/hovercard.css";
+import "../assets/css/hovercard.css";
 
 const Hovercard = () => {
   return (

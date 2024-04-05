@@ -1,9 +1,9 @@
 import React from "react";
 import Nav from "../components/Nav";
-import Bulk4 from "../assets/blog.png";
-import rate from "../assets/rate.png";
-import money from "../assets/money.png";
-import global from "../assets/global.png";
+import Bulk4 from "../assets/images/blog.png";
+import rate from "../assets/images/rate.png";
+import money from "../assets/images/money.png";
+import global from "../assets/images/global.png";
 import Footer from "../components/Footer";
 const Blog = () => {
   return (

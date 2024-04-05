@@ -1,13 +1,13 @@
 import React from "react";
-import career from "../assets/Careers.gif";
+import career from "../assets/images/Careers.gif";
 import Nav from "../components/Nav";
-import support from "../assets/support.png";
-import motivation from "../assets/motivation.png";
-import reliability from "../assets/reliability.png";
-import peoplee from "../assets/peoplee.png";
-import trust from "../assets/trust.png";
+import support from "../assets/images/support.png";
+import motivation from "../assets/images/motivation.png";
+import reliability from "../assets/images/reliability.png";
+import peoplee from "../assets/images/people.png";
+import trust from "../assets/images/trust.png";
 import Footer from "../components/Footer";
-import "../pages/indexnew.css";
+import "../assets/css/style.css";
 
 
 

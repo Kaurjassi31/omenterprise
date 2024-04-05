@@ -24,7 +24,7 @@ import Terms from "./pages/Terms";
 import Error from "./pages/Error";
 import Dlt from "./pages/Dlt";
 import Career from "./pages/Career";
-import Reseller from "./pages/Reseller";
+// import Reseller from "./pages/Reseller";
 import Blog from "./pages/Blog";
 import { useEffect } from "react";
 import WhatsappAPI from "./components/WhatsappAPI";
@@ -65,7 +65,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="/dlt" element={<Dlt />} />
         <Route path="/career" element={<Career />} />
-        <Route path="/reseller" element={<Reseller />} />
+        {/* <Route path="/reseller" element={<Reseller />} /> */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/Careerform" element={<Careerform />} />
         {/* <Route path="/" element={<Index />}/>           */}

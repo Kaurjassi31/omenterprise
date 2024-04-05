@@ -1,9 +1,9 @@
 import React from "react";
-import "../pages/indexnew.css";
+import "../assets/css/style.css";
 import Nav from "../components/Nav";
-import login from "../assets/create.jpg";
-import google from "../assets/google.png";
-import or from "../assets/or.png";
+import login from "../assets/images/create.jpg";
+import google from "../assets/images/google.png";
+import or from "../assets/images/or.png";
 
 const Account = () => {
   return (

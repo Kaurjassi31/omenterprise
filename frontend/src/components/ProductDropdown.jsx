@@ -1,12 +1,12 @@
 // ProductDropdown.js
 import React from "react";
-import "../pages/services.css";
-import logo from "../assets/logo.png";
-import text from "../assets/text.webp";
-import sms from "../assets/mail.png";
-import voice from "../assets/voice6.png";
-import globe from "../assets/globe2.png";
-import fb from "../assets/fb.png";
+import "../assets/css/services.css";
+import logo from "../assets/images/logo.png";
+import text from "../assets/images/text.webp";
+import sms from "../assets/images/mail.png";
+import voice from "../assets/images/voice6.png";
+import globe from "../assets/images/globe2.png";
+import fb from "../assets/images/fb.png";
 
 function ProductDropdown() {
   return (

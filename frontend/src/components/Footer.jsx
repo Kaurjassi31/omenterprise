@@ -1,10 +1,10 @@
 import React from "react";
-import logo1 from "../assets/logo1.png";
-import "../pages/indexnew.css";
-import facebook from "../assets/facebook.png";
-import instagram from "../assets/insta.png";
-import youtube from "../assets/youtube.png";
-import linkedin from "../assets/linkedin.png";
+import logo1 from "../assets/images/logo1.png";
+import "../assets/css/style.css";
+import facebook from "../assets/images/facebook.png";
+import instagram from "../assets/images/insta.png";
+import youtube from "../assets/images/youtube.png";
+import linkedin from "../assets/images/linkedin.png";
 const Footer = () => {
   return (
     <>
@@ -47,10 +47,8 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3 fotr">Ultimate</li>
               </a>
-
         </ul>     
          </div>
-
        <div className="col-sm-2 ">
        <ul
               style={{
@@ -71,6 +69,10 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }}>
                 <li className="mt-3 fotr">Blog</li>
               </a>
+              <a href="socialmedia"
+                style={{ textDecoration: "none", color: "black" }} >
+                <li className="mt-3 fotr">Social Media</li>
+              </a>
               
               <a  href="privacy"
                 style={{ textDecoration: "none", color: "black" }}>
@@ -80,11 +82,6 @@ const Footer = () => {
               <a href="pricing"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3 fotr">Plan & Pricing</li>
-              </a>
-             
-              <a href="Reseller"
-                style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3 fotr">Become Reseller</li>
               </a>
               <u> <a  href="website"
                 style={{ textDecoration: "none", color: "black" }}>
@@ -100,10 +97,9 @@ const Footer = () => {
               </a>
             </ul>
          </div>        
-       <div className="col-sm-2 ">
+       <div className="col-sm-2">
         <ul
               style={{
-            
                 textDecoration: "none",
                 listStyle: "none",
                 textAlign: "left",
@@ -122,14 +118,13 @@ const Footer = () => {
                 style={{ textDecoration: "none", color: "black" }}>
                 <li className="mt-3 fotr">Digital marketing</li>
               </a>
-              <a href="socialmedia"
-                style={{ textDecoration: "none", color: "black" }} >
-                <li className="mt-3 fotr">Social Media</li>
-              </a>
-           
               <a href="voicesms"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3 fotr">Voice Messages</li>
+              </a>
+              <a href="whatsapp"
+                style={{ textDecoration: "none", color: "black" }}>
+                <li className="mt-3 fotr">Whatsapp Messages</li>
               </a>
               <u><h5 className="mt-5"><b>Certification </b></h5></u>
             
@@ -157,7 +152,6 @@ const Footer = () => {
           <a href="https://www.instagram.com/omenterprisesgroup/"><img src={instagram} className="mx-2 mt-3" style={{height:"30px",width:"30px"}} /></a>
           <a href="https://www.youtube.com/@omenterprisesglobalgroup"><img src={youtube} className="mx-2 mt-3" style={{height:"30px",width:"30px"}} /></a>
           <a href="https://www.linkedin.com/company/om-enterprises-group/"><img src={linkedin} className="mx-2 mt-3" style={{height:"30px",width:"30px"}} /></a>
-      
             </ul>      
          </div>
         </div>

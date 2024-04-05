@@ -1,5 +1,5 @@
 import React from 'react'
-import "../pages/indexnew.css";
+import "../assets/css/indexnew.css";
 
 
 const WhatsappAPI = () => {

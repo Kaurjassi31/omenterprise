@@ -1,6 +1,6 @@
 import React from "react";
-import "../pages/indexnew.css";
-import dlt from "../assets/dlt.jpg";
+import "../assets/css/style.css";
+import dlt from "../assets/images/dlt.jpg";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 const Dlt = () => {

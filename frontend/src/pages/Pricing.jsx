@@ -1,12 +1,13 @@
 import React from 'react'
 import Nav from '../components/Nav'
-import msg from "../assets/price.gif";
-import call from "../assets/call2.png";
+import msg from "../assets/images/price.gif";
+import call from "../assets/images/call2.png";
 import Swiperr from "../components/Swiperr";
 import Footer from '../components/Footer';
-import ic4 from "../assets/ic4.png";
-import ic2 from "../assets/ic2.png";
+import ic4 from "../assets/images/ic4.png";
+import ic2 from "../assets/images/ic2.png";
 import Moneyflow from './Moneyflow';
+import "../assets/css/pricing.css";
 
 
 const Pricing = () => {

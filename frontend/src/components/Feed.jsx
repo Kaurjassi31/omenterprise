@@ -2,7 +2,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import rating5 from "../assets/rating.png";
+import rating5 from "../assets/images/rating.png";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";

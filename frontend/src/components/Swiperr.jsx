@@ -1,20 +1,19 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../pages/indexnew.css";
-
+import "../assets/css/indexnew.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import airtel from "../assets/airtel.png";
-import bmw from "../assets/bmw.png";
-import radio from "../assets/radio.png";
-import skk from "../assets/skk.png";
-import vodafone from "../assets/vodafone.png";
-import acc from "../assets/acc.png";
+import airtel from "../assets/images/airtel.png";
+import bmw from "../assets/images/bmw.png";
+import radio from "../assets/images/radio.png";
+import skk from "../assets/images/skk.png";
+import vodafone from "../assets/images/vodafone.png";
+import acc from "../assets/images/acc.png";
 
 
-import "./styles.css";
+// import "./styles.css";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper/modules";

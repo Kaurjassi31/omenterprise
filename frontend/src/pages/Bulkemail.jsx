@@ -1,16 +1,15 @@
 import React from "react";
-import "../pages/bulk.css";
+import "../assets/css/bulk.css";
 import Nav from "../components/Nav";
 
 import "../App.css";
-import email from "../assets/email5.gif";
+import email from "../assets/images/email5.gif";
 import Footer from "../components/Footer";
-import gmail from "../assets/gmail.png";
-import clock from "../assets/clock1.png";
-import upload from "../assets/upload.png";
-import sms from "../assets/sms.png";
-import email3 from "../assets/email3.png";
-import emailnew from "../assets/emailnew1.png";
+import gmail from "../assets/images/gmail.png";
+import clock from "../assets/images/clock1.png";
+import upload from "../assets/images/upload.png";
+import sms from "../assets/images/sms.png";
+import email3 from "../assets/images/email3.png";
 
 const Bulkemail = () => {
   return (

@@ -1,32 +1,29 @@
-
-
-
 import React from "react";
 import Nav from "../components/Nav";
-import "../pages/indexnew.css";
+import "../assets/css/indexnew.css";
 import "../App";
-import New from "../assets/new.gif";
+import New from "../assets/images/new.gif";
 import Swiperr from "../components/Swiperr";
 import Accordion from "../components/Accordion";
 import Footer from "../components/Footer";
-import star5 from "../assets/star3.png";
+import star5 from "../assets/images/star3.png";
 import Feed from "../components/Feed";
-import check from "../assets/check.webp";
-import compare from "../assets/compare.png";
-import player from "../assets/player.webp";
-import text from "../assets/text.webp";
-import bulk from "../assets/mobile2.png";
-import emaill from "../assets/emaill.png";
-import voicee from "../assets/voicee.png";
-import websitee from "../assets/websitee.png";
-import businesss from "../assets/businesss.png";
-import whatsappp from "../assets/whatsappp.png";
-import videoo from "../assets/videoo.png";
-import sociall from "../assets/sociall.png";
-import seo from "../assets/seo.png";
-import qrcode from "../assets/qrcode.png";
+// import check from "../assets/images/check.webp";
+import compare from "../assets/images/compare.png";
+// import player from "../assets/images/player.webp";
+// import text from "../assets/images/text.webp";
+import bulk from "../assets/images/mobile2.png";
+import emaill from "../assets/images/emaill.png";
+import voicee from "../assets/images/voicee.png";
+import websitee from "../assets/images/websitee.png";
+import businesss from "../assets/images/businesss.png";
+import whatsappp from "../assets/images/whatsappp.png";
+import videoo from "../assets/images/videoo.png";
+import sociall from "../assets/images/sociall.png";
+import seo from "../assets/images/seo.png";
+import qrcode from "../assets/images/qrcode.png";
 import Moneyflow from "./Moneyflow";
-import airtel1 from "../assets/airtel1.png";
+import airtel1 from "../assets/images/airtel1.png";
 import Whatsapp from "../components/WhatsappAPI";
 const Index = () => {
   return (
