@@ -3,7 +3,7 @@ import "../assets/css/hovercard.css";
 
 const Hovercard = () => {
   return (
-    <div className="row mt-4">
+    <div className="row mt-4 mx-auto">
       <h1
         className="mt-2"
         style={{ fontSize: "50px" }}

@@ -1,5 +1,5 @@
 import React from "react";
-import career from "../assets/images/Careers.gif";
+import career from "../assets/images/career3.png";
 import Nav from "../components/Nav";
 import support from "../assets/images/support.png";
 import motivation from "../assets/images/motivation.png";
@@ -15,19 +15,21 @@ const Career = () => {
   return (
     <>
       <Nav />
-      <div className="container-fluid mb-5">
+      <div className="container-fluid mb-1">
+      <h1 className="text-center mt-3" style={{color:"#017cfe",fontSize:"50px"}}>CAREER</h1>
         <div
           className="container text-center"
-          style={{
-            padding: "3%",
-          }}
+          // style={{
+          //   padding: "1%",
+          // }}
         >
+        
           <div className="row" >
-            <img src={career} className="img-fluid" style={{height:"500px"}} />
+            <img src={career} className="img-fluid mt-2" style={{height:"450px"}} />
           </div>
         </div>
         <center>
-          <p className="text-center" style={{ width: "70%" }}>
+          <p className="text-center mt-5" style={{ width: "70%" }}>
             Om Enterprises Group believes in creating a cohesive working
             environment to harness the best from our employees. Connectivity is
             in our DNA and that translates into our functioning and operations

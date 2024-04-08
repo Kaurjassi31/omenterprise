@@ -111,7 +111,7 @@ function ProductDropdown() {
                </a>
               </div>
               <div className="col-sm-4 hvr">
-                    <a href="account">
+                    <a href="pricing">
                     <button
                       type="button"
                       class="btn btn-primary mt-3"

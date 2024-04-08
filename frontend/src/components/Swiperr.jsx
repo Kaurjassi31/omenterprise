@@ -57,35 +57,35 @@ const Swiperr = () => {
           <SwiperSlide>
             <img
               src={bmw}
-              className="img-fluid brand"
+              className="img-fluid brand mx-auto"
               style={{ height: "130px", width: "140px" }}
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={airtel}
-              className="img-fluid brand "
+              className="img-fluid brand mx-auto "
               style={{ height: "150px", width: "180px" }}
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={radio}
-              className="img-fluid brand"
+              className="img-fluid brand mx-auto"
               style={{ height: "150px", width: "200px" }}
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={skk}
-              className="img-fluid brand"
+              className="img-fluid brand mx-auto"
               style={{ height: "150px", width: "190px" }}
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={acc}
-              className="img-fluid brand"
+              className="img-fluid brand mx-auto"
               style={{ height: "150px", width: "170px" }}
             />
           </SwiperSlide>
@@ -93,7 +93,7 @@ const Swiperr = () => {
           <SwiperSlide>
             <img
               src={vodafone}
-              className="img-fluid brand"
+              className="img-fluid brand mx-auto"
               style={{ height: "150px", width: "180px" }}
             />
           </SwiperSlide>

@@ -108,7 +108,7 @@ const Login = () => {
               </form>
               <h6 className="mt-2">
                 Don't have an Account?
-                <a href="login" style={{ textDecoration: "none" }}>
+                <a href="account" style={{ textDecoration: "none" }}>
                  Create Now
                 </a>
               </h6>

@@ -238,14 +238,32 @@ const Index = () => {
         </div> */}
         <div className="container mt-5 mb-5" style={{ width: "60%" }}>
           <center>
-          <h2 className="text-light mb-3 mt-5">
+            <div className="row">
+              <div className="col-sm-2"></div>
+              <div className="col-sm-2">
+              <img
+                src={airtel1}
+                className="img-fluid mt-4"
+                style={{ height: "70px", width: "70px", borderRadius: "50%" }}
+              />
+              </div>
+              <div className="col-sm-4">
+                  <h2 className="text-light mb-3 mt-5">
+                  Airtel Broadband
+            </h2>
+
+              </div>
+              <div className="col-sm-4"></div>
+            </div>
+
+          {/* <h2 className="text-light mb-3 mt-5">
               <img
                 src={airtel1}
                 className="img-fluid mx-3"
                 style={{ height: "70px", width: "70px", borderRadius: "50%" }}
               />
               Airtel Broadband
-            </h2>
+            </h2> */}
             <p className="text-light mt-3">
               Great company to do business. We have worked with him on numerous
               projects-Bulk SMS,{" "}

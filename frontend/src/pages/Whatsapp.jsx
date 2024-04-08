@@ -21,7 +21,8 @@ const Whatsapp = () => {
         </h1>
       
         <img src={whatsApp} className="img-fluid" style={{ height: "500px" }} />
-        <p className="mt-3" style={{ fontSize: "18px" }}>
+        <center>
+        <p className="mt-3" style={{ fontSize: "18px",width:"70%" }}>
           Using bulk WhatsApp sender has become increasingly popular among
           businesses and organizations as an efficient communication tool. With
           WhatsApp boasting more than 2 billion monthly active users, it’s
@@ -29,8 +30,8 @@ const Whatsapp = () => {
           practices. In this blog post, we will discuss how to send bulk
           WhatsApp messages in 2024, utilizing the capabilities of a reliable
           bulk WhatsApp sender to maximize your messaging efficiency and reach.
-        </p>
-        <div className="container">
+        </p></center>
+        <div className="container" style={{backgroundColor:"#92edbc"}}>
         <div className="mt-5 mb-5 green" >
         <h1 style={{  fontSize: "50px" }} className="mt-3">
           How it works?
