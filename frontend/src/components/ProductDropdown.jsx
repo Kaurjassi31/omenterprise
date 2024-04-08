@@ -54,7 +54,7 @@ function ProductDropdown() {
               </div>
               <div className="col-sm-4 hvr">
               <a href="bulkemail" style={{textDecoration:"none",color:"black"}}>
-                <h6 class="card-title mt-2">
+                <h6 className="card-title mt-2">
                   <img
                     src={sms}
                     className="img-fluid mx-2"
@@ -68,7 +68,7 @@ function ProductDropdown() {
               </div>
               <div className="col-sm-4 hvr">
               <a href="voicesms" style={{textDecoration:"none",color:"black"}}>
-                <h6 class="card-title mt-2">
+                <h6 className="card-title mt-2">
                   <img
                     src={voice}
                     className="img-fluid mx-2"
@@ -81,7 +81,7 @@ function ProductDropdown() {
               </div>
               <div className="col-sm-4 hvr">
               <a href="website" style={{textDecoration:"none",color:"black"}}>
-                <h6 class="card-title mt-2">
+                <h6 className="card-title mt-2">
                   <img
                     src={globe}
                     className="img-fluid mx-2"
@@ -93,13 +93,11 @@ function ProductDropdown() {
                   {" "}
                   Interaction between staff, customers and general public.{" "}
                 </p>
-
-                
                 </a>
               </div>
               <div className="col-sm-4 hvr">
               <a href="socialmedia" style={{textDecoration:"none",color:"black"}}>
-                <h6 class="card-title mt-2">
+                <h6 className="card-title mt-2">
                   <img
                     src={fb}
                     className="img-fluid mx-2"
@@ -110,7 +108,6 @@ function ProductDropdown() {
                 <p className="mt-2">
                   Offer management solutions tailored to your business needs.
                 </p>
-
                </a>
               </div>
               <div className="col-sm-4 hvr">
