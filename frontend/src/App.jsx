@@ -4,9 +4,9 @@ import AOS from "aos";
 import Index from "./pages/Index"; 
 // import Index from "./Index";
 import "aos/dist/aos.css";
-// import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Aboutus from "./pages/Aboutus";
 import Pricing from "./pages/Pricing";
 import "./App.css";
 import Bulksms from "./pages/Bulksms";
@@ -17,7 +17,6 @@ import Software from "./pages/Software";
 import Website from "./pages/Website";
 import Whatsapp from "./pages/Whatsapp";
 import Voicesms from "./pages/Voicesms";
-// import Login from "./pages/Login";
 import Privacy from "./pages/Privacy";
 import Account from "./pages/Account";
 import Terms from "./pages/Terms";
@@ -30,6 +29,7 @@ import { useEffect } from "react";
 import WhatsappAPI from "./components/WhatsappAPI";
 import Careerform from "./pages/Careerform";
 import Login from './pages/Login';
+import Map from './components/Map';
 
 function App() {
   useEffect(() => {
@@ -44,9 +44,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Index/>} />
-        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/aboutus" element={<Aboutus/>}  />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/bulksms" element={<Bulksms />} />
         <Route path="/bulkemail" element={<Bulkemail />} />
@@ -68,8 +68,7 @@ function App() {
         {/* <Route path="/reseller" element={<Reseller />} /> */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/Careerform" element={<Careerform />} />
-        {/* <Route path="/" element={<Index />}/>           */}
-        {/* <Route path='/login' element={<Login />}/> */}
+        <Route path="/Map" element={<Map />} />
 
       </Routes>
       <WhatsappAPI/>

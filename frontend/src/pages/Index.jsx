@@ -469,8 +469,8 @@ const Index = () => {
           </div>
 
           <div className="container">
-            <a href="services">
-              {" "}
+            <a href="pricing">
+            
               <button
                 type="button"
                 class="btn btn-primary  btn-lg mt-3 mb-3 btn p-2"

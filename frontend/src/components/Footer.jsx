@@ -23,7 +23,7 @@ const Footer = () => {
                 <li className="mt-3 fotr">Services</li>
               </a>
        
-              <a href="about"
+              <a href="aboutus"
                 style={{ textDecoration: "none", color: "black" }} >
                 <li className="mt-3 fotr" >About Us</li>
               </a>

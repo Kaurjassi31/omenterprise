@@ -99,7 +99,7 @@ const Bulksms = () => {
       <div className="container-fluid "  style={{backgroundColor:"#f8fcff",color:"black"}} >
         <h1 className=" text-center">Our Bulk SMS Services<img src={bulksms2} className="img-fluid mx-3" style={{height:"70px"}} /></h1>
       <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
-        <div class="col" data-aos="zoom-in">
+        <div class="col" data-aos="fade-up">
           <div class="card mt-5 mb-5">
           <center>
                 <img
@@ -125,7 +125,7 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col" data-aos="zoom-in">
+        <div class="col" data-aos="fade-down">
           <div class="card mt-5 mb-5">
           <center>
                 <img
@@ -147,7 +147,7 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col" data-aos="zoom-in">
+        <div class="col" data-aos="fade-up">
           <div class="card mt-5 mb-5">
           <center>
                 <img
@@ -170,7 +170,7 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col" data-aos="zoom-in">
+        <div class="col" data-aos="fade-down">
        
           <div class="card mt-5 mb-5">
           <center>

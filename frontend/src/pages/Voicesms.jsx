@@ -133,7 +133,7 @@ const Voicesms = () => {
               </div>
             </div>
           </div>
-          <div class="col" data-aos="fade-right">
+          <div class="col" data-aos="fade-down">
             <div class="card h-100">
               <center>
                 <img
@@ -155,7 +155,7 @@ const Voicesms = () => {
               </div>
             </div>
           </div>
-          <div class="col" data-aos="fade-right">
+          <div class="col" data-aos="fade-left">
             <div class="card h-100">
               <center>
                 <img

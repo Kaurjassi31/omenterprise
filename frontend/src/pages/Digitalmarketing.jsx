@@ -98,7 +98,7 @@ const Digitalmarketing = () => {
               </div>
             </div>
        
-            <div class="col mb-5" data-aos="fade-up">
+            <div class="col mb-5" data-aos="fade-down">
               <div class="card">
                 <div class="card-body">
                 <center>

@@ -76,7 +76,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div class="col"  data-aos="zoom-out">
+          <div class="col"  data-aos="fade-up">
             <div class="card">
             <center>
               <img

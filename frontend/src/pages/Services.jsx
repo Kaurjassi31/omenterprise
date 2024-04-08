@@ -143,7 +143,7 @@ const Services = () => {
         <div className="container">
           <h1 className="mt-3 mb-2 text-center" style={{fontFamily:"Poppins', sans-serif",color:"#023368"}}>BULK SMS SERVICE PROVIDER INDIA | WHY SMS MARKETING?</h1>
           <div class="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-5">
-            <div class="col" data-aos="zoom-out">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <center>
                   <img
@@ -163,7 +163,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="zoom-out">
+            <div class="col" data-aos="fade-down">
               <div class="card">
                 <center>
                   <img
@@ -183,7 +183,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="zoom-out">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <center>
                   <img
@@ -203,7 +203,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="zoom-out">
+            <div class="col" data-aos="fade-down">
               <div class="card">
                 <center>
                   <img

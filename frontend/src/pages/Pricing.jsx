@@ -75,7 +75,7 @@ const Pricing = () => {
               </div>
             </div>
           
-            <div class="col" data-aos="zoom-in-up">
+            <div class="col" data-aos="fade-down">
               <div class="card">
                 <center>
                   <img

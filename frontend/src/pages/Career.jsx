@@ -6,6 +6,7 @@ import motivation from "../assets/images/motivation.png";
 import reliability from "../assets/images/reliability.png";
 import peoplee from "../assets/images/people.png";
 import trust from "../assets/images/trust.png";
+import job from "../assets/images/job.png";
 import Footer from "../components/Footer";
 import "../assets/css/style.css";
 
@@ -59,7 +60,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div class="col" data-aos="fade-down">
+          <div class="col" data-aos="fade-up">
             <div class="card">
             <center>
               <img src={motivation} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />
@@ -86,7 +87,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div class="col" data-aos="fade-down">
+          <div class="col" data-aos="fade-up">
             <div class="card">
               <center>
               <img src={support} class="card-img-top mt-3" style={{height:"80px",width:"80px"}} alt="..." />

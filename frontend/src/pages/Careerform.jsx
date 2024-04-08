@@ -1,11 +1,12 @@
 import React from "react";
 import Nav from "../components/Nav";
+import "../assets/css/indexnew.css";
 
 const Careerform = () => {
   return (
     <>
       <Nav />
-      <div className="container-fluid bg-light ">
+      <div className="container-fluid" style={{backgroundColor: "#f8fcff"}}>
         <div className="container">
           <form action="https://formspree.io/f/xzbnjabg" method="POST">
             <h2 className="mt-3 text-center">Apply for a Position</h2>
@@ -135,8 +136,8 @@ const Careerform = () => {
               </button>
             </center>
           </form>
+          </div>
         </div>
-      </div>
     </>
   );
 };

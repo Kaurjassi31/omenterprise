@@ -153,7 +153,17 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     position: absolute;
 
    }
-   
+   .teamgraph {
+    height: 170px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.sales{
+    height:330px;
+    width: 40%;
+    background-color: white;
+}
 
 
 
