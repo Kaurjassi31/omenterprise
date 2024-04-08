@@ -647,6 +647,8 @@ const Index = () => {
         </div>
       </div>
 
+     
+
       <Footer />
     </>
   );

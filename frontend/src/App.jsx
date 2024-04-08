@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import AOS from "aos";
 import Index from "./pages/Index"; 
 // import Index from "./Index";
@@ -59,7 +59,7 @@ function App() {
         <Route path="/account" element={<Account />} />
         <Route path="/digitalmarketing" element={<Digitalmarketing />} />
         <Route path="/Index" element={<Index />} />
-        <Route path="/Home" element={<Home />} />
+        {/* <Route path="/Home" element={<Home />} /> */}
         <Route path="/Privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<Error />} />
