@@ -35,7 +35,6 @@ const Nav = () => {
               style={{ height: "70px", width: "70px" }}
             />
           </a>
-
           <button
             className="navbar-toggler"
             type="button"
