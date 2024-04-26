@@ -2,6 +2,12 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import "../assets/css/services.css";
 import ProductDropdown from "../components/ProductDropdown";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
 
 import DropdownMenu from "../components/UI/DropdownMenu";
 const Nav = () => {
@@ -44,20 +50,24 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item product mt-2">
-                <a className="nav-link active" aria-current="page" href="/index">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/index"
+                >
                   <ProductDropdown />
                 </a>
               </li>
-              <li
+              {/* <li
                 className="nav-item mt-3 mx-2 "
                 style={{ fontSize: "18px", color: "black" }}
               >
                 <a className="nav-link text-dark" href="/login">
                   Sign In
                 </a>
-              </li>
+              </li> */}
             </ul>
-            <form className="d-flex" role="search">
+            {/* <form className="d-flex" role="search">
               <button
                 className=" btn btn-primary  mx-3 mb-3"
                 style={{
@@ -69,7 +79,13 @@ const Nav = () => {
                   Sign Up Now
                 </a>
               </button>
-            </form>
+            </form> */}
+            <SignedOut>
+              <SignInButton className="p-1 mb-2" style={{border:"none",fontSize:"18px",backgroundColor:"white"}}  />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
           </div>
         </div>
       </nav>
