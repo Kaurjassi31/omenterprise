@@ -66,6 +66,14 @@ const Nav = () => {
                   Sign In
                 </a>
               </li> */}
+              <li>
+              <SignedOut>
+              <SignInButton className="mt-3 p-2" style={{border:"none",fontSize:"18px",backgroundColor:"transparent"}}  />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+              </li>
             </ul>
             {/* <form className="d-flex" role="search">
               <button
@@ -80,12 +88,7 @@ const Nav = () => {
                 </a>
               </button>
             </form> */}
-            <SignedOut>
-              <SignInButton className="p-1 mb-2" style={{border:"none",fontSize:"18px",backgroundColor:"white"}}  />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
+            
           </div>
         </div>
       </nav>
