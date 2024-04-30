@@ -2,12 +2,13 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import "../assets/css/services.css";
 import ProductDropdown from "../components/ProductDropdown";
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/clerk-react";
+import Clerklogin from "./clerklogin";
+// import {
+//   SignedIn,
+//   SignedOut,
+//   SignInButton,
+//   UserButton,
+// } from "@clerk/clerk-react";
 
 import DropdownMenu from "../components/UI/DropdownMenu";
 const Nav = () => {
@@ -66,12 +67,13 @@ const Nav = () => {
                 </a>
               </li> */}
               <li>
-              <SignedOut>
+                <Clerklogin />
+              {/* <SignedOut>
               <SignInButton className="mt-3 p-2" style={{border:"none",fontSize:"18px",backgroundColor:"transparent"}}  />
             </SignedOut>
             <SignedIn>
               <UserButton />
-            </SignedIn>
+            </SignedIn> */}
               </li>
             </ul>
             {/* <form className="d-flex" role="search">

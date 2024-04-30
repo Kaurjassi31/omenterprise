@@ -35,7 +35,7 @@ const Aboutus = () => {
         <div className="row">
         <h1>WHO WE ARE</h1>
         </div>
-        <div className="container">
+        <div className="container text-center">
             <h6><b>
 (15000+ Customer And Resellers Serving from 12+ Year)</b>
 </h6>
@@ -362,7 +362,7 @@ Om Enterprises Group is a leading company in A2P and P2P bulk SMS and digital ma
         </div>
     </div>
 </div> */}
-<div className="container"  style={{ backgroundColor: "#f8fcff" }}>
+{/* <div className="container"  style={{ backgroundColor: "#f8fcff" }}>
     <div className="sales mt-5 mb-5">
         <h4 className='mt-4 text-center'><b>SALES/PROJECT INQUIRIES </b></h4>
         <ul className='mx-5' style={{textDecoration:"none",listStyle:"none"}}>
@@ -385,7 +385,7 @@ Om Enterprises Group is a leading company in A2P and P2P bulk SMS and digital ma
 
 
     </div>
-</div>
+</div> */}
 
 
       <Footer />

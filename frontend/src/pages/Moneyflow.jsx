@@ -13,7 +13,7 @@ const Moneyflow = () => {
     <>
     
     <div className="container-fluid " style={{ backgroundColor: "#f8fcff" }}>
-        <h1 className="text-center" style={{ padding: "1%" }}>
+        <h1 className="text-center " style={{ padding: "1%" }}>
           👨‍💻 <b>Money Flow Matrix</b>
         </h1>
         <h6 className="text-center">
@@ -51,7 +51,7 @@ const Moneyflow = () => {
                         <h6>/month</h6>
                       </span>
                     </h2>
-                    <a href='account'>
+                    <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin'>
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-2"
@@ -60,7 +60,7 @@ const Moneyflow = () => {
                       BUY NOW
                     </button>
                     </a>
-                    <a href='account' style={{textDecoration:"none"}}>
+                    <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹47,999 / month
                       </p></a>
@@ -175,7 +175,7 @@ const Moneyflow = () => {
                         {" "}
                         <p className="mt-3 text-dark">Total Price 74,000/-</p>
                       </strike>
-                      <a href='account' style={{textDecoration:"none"}}>
+                      <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin'>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹47,999 / month
                       </p></a>
@@ -211,7 +211,7 @@ const Moneyflow = () => {
                         <h6>/month + G.S.T</h6>
                       </span>
                     </h2>
-                    <a href='account'>
+                    <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin'>
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-2"
@@ -219,7 +219,7 @@ const Moneyflow = () => {
                     >
                       BUY NOW
                     </button></a>
-                    <a href='account' style={{textDecoration:"none"}}>
+                    <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹65,999 / month
                       </p></a>
@@ -343,7 +343,7 @@ const Moneyflow = () => {
                         {" "}
                         <p className="mt-2 text-dark">Total Price 1,25,000/-</p>
                       </strike>
-                      <a href='account' style={{textDecoration:"none"}}>
+                      <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin'>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹65,999 / month
                       </p></a>
@@ -382,7 +382,7 @@ const Moneyflow = () => {
                         <h6>/month + TAX 18%</h6>
                       </span>
                     </h2>
-                    <a href='account'>
+                    <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin'>
                     <button
                       type="button"
                       class="btn btn-primary mb-2 mt-3"
@@ -390,7 +390,7 @@ const Moneyflow = () => {
                     >
                       BUY NOW
                     </button></a>
-                    <a href='account' style={{textDecoration:"none"}}>
+                    <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin' style={{textDecoration:"none"}}>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹1,99,999 / month
                       </p>
@@ -513,7 +513,7 @@ const Moneyflow = () => {
                         {" "}
                         <p className="mt-4 text-dark">Total Price 3,66,998/-</p>
                       </strike>
-                      <a href='account' style={{textDecoration:"none"}}>
+                      <a href='https://mighty-buzzard-99.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fclerklogin'>
                       <p className="mt-1 text-primary">
                         Buy In INR ₹1,99,999 / month
                       </p>

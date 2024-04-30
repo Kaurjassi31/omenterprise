@@ -3,6 +3,7 @@ import "../assets/css/hovercard.css";
 
 const Hovercard = () => {
   return (
+    <center>
     <div className="row mt-4 mx-auto">
       <h1
         className="mt-2"
@@ -60,6 +61,7 @@ const Hovercard = () => {
         </a>
       </div>
     </div>
+    </center>
   );
 };
 

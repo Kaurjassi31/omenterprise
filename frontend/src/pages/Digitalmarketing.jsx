@@ -75,8 +75,8 @@ const Digitalmarketing = () => {
               className="img-fluid"
             />
           </h1>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col mb-5" data-aos="fade-up">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <div class="card-body">
                 <center>
@@ -98,7 +98,7 @@ const Digitalmarketing = () => {
               </div>
             </div>
        
-            <div class="col mb-5" data-aos="fade-down">
+            <div class="col" data-aos="fade-down">
               <div class="card">
                 <div class="card-body">
                 <center>
@@ -119,7 +119,7 @@ const Digitalmarketing = () => {
                 </div>
               </div>
             </div>
-            <div class="col mb-5" data-aos="fade-up">
+            <div class="col" data-aos="fade-up">
               <div class="card">
                 <div class="card-body">
                 <center>

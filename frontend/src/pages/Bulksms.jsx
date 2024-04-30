@@ -96,11 +96,11 @@ const Bulksms = () => {
   </div>
 </div>
 
-      <div className="container-fluid "  style={{backgroundColor:"#f8fcff",color:"black"}} >
-        <h1 className=" text-center">Our Bulk SMS Services<img src={bulksms2} className="img-fluid mx-3" style={{height:"70px"}} /></h1>
-      <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
-        <div class="col" data-aos="fade-up">
-          <div class="card mt-5 mb-5">
+      <div className="container-fluid mb-5 "  style={{backgroundColor:"#f8fcff",color:"black"}} >
+        <h1 className=" text-center mb-2">Our Bulk SMS Services<img src={bulksms2} className="img-fluid mx-3 mb-4" style={{height:"60px"}} /></h1>
+      <div class="row row-cols-1 row-cols-md-4 mb-5 g-4 text-center">
+      <div class="col mt-3 mb-3" data-aos="fade-down">
+          <div class="card mt-2 ">
           <center>
                 <img
                   src={comments}
@@ -125,8 +125,8 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col" data-aos="fade-down">
-          <div class="card mt-5 mb-5">
+        <div class="col mt-3 mb-3" data-aos="fade-up">
+          <div class="card mt-2 ">
           <center>
                 <img
                   src={voice6}
@@ -147,8 +147,8 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col" data-aos="fade-up">
-          <div class="card mt-5 mb-5">
+        <div class="col mt-3 mb-3" data-aos="fade-down">
+          <div class="card mt-2 ">
           <center>
                 <img
                   src={smss}
@@ -170,9 +170,9 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
-        <div class="col" data-aos="fade-down">
+        <div class="col mt-3 mb-3" data-aos="fade-up">
        
-          <div class="card mt-5 mb-5">
+          <div class="card mt-2 ">
           <center>
                 <img
                   src={whtsapp}
@@ -193,6 +193,7 @@ const Bulksms = () => {
             </div>
           </div>
         </div>
+      
         </div>
       </div>
 

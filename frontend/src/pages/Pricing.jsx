@@ -129,19 +129,20 @@ const Pricing = () => {
 
     
     <div className="col-sm-4 plans mt-5 mb-5">
-    <form className=''>
+    <form className=''  action="https://formspree.io/f/xzbnopbw"
+  method="POST">
       <h4 className='mt-3 text-center'>GET FREE INSTANT CALLBACK</h4>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label mt-4"> Your Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="text" name='pname' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label"> Phone Number</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="text" name='pnumber' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label"> Email</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="text" name='pemail' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label"> Your Message/Enquery/feedback</label>

@@ -280,6 +280,16 @@ const Index = () => {
             <p className="text-light mt-1 mb-5">
               they provide.Highly recommended.
             </p>
+
+            {/* <p style={{width:"70%", color:"white"}}>
+            Great company to do business. We have worked with him on numerous projects-Bulk SMS,
+
+Digital Marketing, Whatsapp Promotions, etc. They don’t just do what they’re told to do; they
+
+really think about the product, code, and solution.Totally satisfied with the services
+
+they provide.Highly recommended.
+            </p> */}
            
           </center>
         </div>

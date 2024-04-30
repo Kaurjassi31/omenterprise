@@ -30,6 +30,8 @@ import WhatsappAPI from "./components/WhatsappAPI";
 import Careerform from "./pages/Careerform";
 import Login from './pages/Login';
 import Map from './components/Map';
+import Clerklogin from "./components/clerklogin";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   useEffect(() => {
@@ -69,6 +71,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/Careerform" element={<Careerform />} />
         <Route path="/Map" element={<Map />} />
+        <Route path="/clerklogin" element={<Clerklogin/>} />
+        <Route path="/Dashboard" element={<Dashboard/>} />
 
       </Routes>
       <WhatsappAPI/>

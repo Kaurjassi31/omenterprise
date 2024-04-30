@@ -11,15 +11,15 @@ const Round = () => {
             WE WORK WITH
           </h1>
           <div className="col-sm-1"></div>
-          <div className="col-sm-2 zoom-in-out roundd mt-1 mb-5 bg-info">
+          <div className="col-sm-2 mx-auto zoom-in-out roundd mt-1 mb-5 bg-info">
             <h2 className=" rounddtext">Startups</h2>
           </div>
           <div className="col-sm-2"></div>
-          <div className="col-sm-2 zoom-in-out roundd mt-1 mb-5 bg-info">
+          <div className="col-sm-2 mx-auto zoom-in-out roundd mt-1 mb-5 bg-info">
             <h2 className=" rounddtext">Agencies</h2>
           </div>
           <div className="col-sm-2"></div>
-          <div className="col-sm-2 zoom-in-out roundd mt-1 mb-5 bg-info">
+          <div className="col-sm-2 mx-auto zoom-in-out roundd mt-1 mb-5 bg-info">
             <h2 className=" rounddtext">Enterprises</h2>
           </div>
           <div className="col-sm-1"></div>
