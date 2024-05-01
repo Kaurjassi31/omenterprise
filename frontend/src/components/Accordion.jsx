@@ -11,7 +11,7 @@ const Accordion = () => {
         <div
           class="accordion mx-auto mt-4 mb-5"
           id="accordionExample"
-          style={{ width: "60%", marginBottom: "70px" }}
+          style={{ width: "61%", marginBottom: "70px" }}
         >
           <div class="accordion-item mt-2">
             <h2 class="accordion-header">
